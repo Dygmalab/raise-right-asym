@@ -1439,4 +1439,6 @@ $EndComp
 Connection ~ 10250 3450
 Connection ~ 10850 3750
 Connection ~ 10850 5600
+Text Notes 7600 6800 0    60   ~ 0
+36 keys for raise 60 right hand side
 $EndSCHEMATC
