@@ -506,10 +506,10 @@ F 4 "1759454" H 8700 2100 60  0001 C CNN "farnell #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR035
+L Earth #PWR037
 U 1 1 59AF6699
 P 9050 2250
-F 0 "#PWR035" H 9050 2000 50  0001 C CNN
+F 0 "#PWR037" H 9050 2000 50  0001 C CNN
 F 1 "Earth" H 9050 2100 50  0001 C CNN
 F 2 "" H 9050 2250 50  0000 C CNN
 F 3 "" H 9050 2250 50  0000 C CNN
@@ -517,10 +517,10 @@ F 3 "" H 9050 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR036
+L Earth #PWR038
 U 1 1 59AF6F30
 P 9500 4250
-F 0 "#PWR036" H 9500 4000 50  0001 C CNN
+F 0 "#PWR038" H 9500 4000 50  0001 C CNN
 F 1 "Earth" H 9500 4100 50  0001 C CNN
 F 2 "" H 9500 4250 50  0000 C CNN
 F 3 "" H 9500 4250 50  0000 C CNN
@@ -530,10 +530,10 @@ $EndComp
 Text GLabel 9500 2950 0    60   Input ~ 0
 SHUTDOWN
 $Comp
-L +5V #PWR037
+L +5V #PWR039
 U 1 1 59AFE176
 P 9050 1950
-F 0 "#PWR037" H 9050 1800 50  0001 C CNN
+F 0 "#PWR039" H 9050 1800 50  0001 C CNN
 F 1 "+5V" H 9065 2123 50  0000 C CNN
 F 2 "" H 9050 1950 50  0000 C CNN
 F 3 "" H 9050 1950 50  0000 C CNN
@@ -1140,88 +1140,55 @@ Wire Wire Line
 Wire Wire Line
 	11000 2950 10600 2950
 NoConn ~ 11000 3050
-$Comp
-L CONN_01X12 P3
-U 1 1 59D3F06A
-P 11200 2700
-F 0 "P3" H 11278 2741 50  0000 L CNN
-F 1 "CONN_01X12" H 11278 2650 50  0000 L CNN
-F 2 "fp:FPC_12" H 11200 2700 50  0001 C CNN
-F 3 "" H 11200 2700 50  0000 C CNN
-F 4 "2458999" H 11200 2700 60  0001 C CNN "farnell #"
-	1    11200 2700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 11000 3150
-NoConn ~ 11000 3250
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
-$Comp
-L rgbled rgb-i5
-U 1 1 59D7718B
-P 4750 5100
-F 0 "rgb-i5" H 4581 5239 60  0000 R CNN
-F 1 "rgbled" H 4581 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 4750 5100 60  0001 C CNN
-F 3 "" H 4750 5100 60  0001 C CNN
-	1    4750 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-j5
-U 1 1 59D77215
-P 5150 5100
-F 0 "rgb-j5" H 4981 5239 60  0000 R CNN
-F 1 "rgbled" H 4981 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 5150 5100 60  0001 C CNN
-F 3 "" H 5150 5100 60  0001 C CNN
-	1    5150 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-k5
-U 1 1 59D7729D
-P 5550 5100
-F 0 "rgb-k5" H 5381 5239 60  0000 R CNN
-F 1 "rgbled" H 5381 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 5550 5100 60  0001 C CNN
-F 3 "" H 5550 5100 60  0001 C CNN
-	1    5550 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-l5
-U 1 1 59D77327
-P 5950 5100
-F 0 "rgb-l5" H 5781 5239 60  0000 R CNN
-F 1 "rgbled" H 5781 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 5950 5100 60  0001 C CNN
-F 3 "" H 5950 5100 60  0001 C CNN
-	1    5950 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-o5
-U 1 1 59D77493
-P 7150 5100
-F 0 "rgb-o5" H 6981 5239 60  0000 R CNN
-F 1 "rgbled" H 6981 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 7150 5100 60  0001 C CNN
-F 3 "" H 7150 5100 60  0001 C CNN
-	1    7150 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-p5
-U 1 1 59D775AF
-P 7550 5100
-F 0 "rgb-p5" H 7381 5239 60  0000 R CNN
-F 1 "rgbled" H 7381 5133 60  0000 R CNN
-F 2 "fp:WL-SFRW-REV" H 7550 5100 60  0001 C CNN
-F 3 "" H 7550 5100 60  0001 C CNN
-	1    7550 5100
-	-1   0    0    -1  
-$EndComp
 Connection ~ 6950 4800
 Connection ~ 6950 5100
+Text GLabel 3850 6200 0    60   Input ~ 0
+cb4
+Text GLabel 3850 6300 0    60   Input ~ 0
+cb5
+Text GLabel 3850 6400 0    60   Input ~ 0
+cb6
+Text GLabel 3850 6650 0    60   Input ~ 0
+ca9
+Text GLabel 3850 6750 0    60   Input ~ 0
+cb1
+Text GLabel 3850 6850 0    60   Input ~ 0
+cb2
+Text Label 4400 6750 2    60   ~ 0
+CB1
+Text Label 4400 6850 2    60   ~ 0
+CB2
+Text Label 4400 6200 2    60   ~ 0
+CB4
+Text Label 4400 6300 2    60   ~ 0
+CB5
+Text Label 4400 6400 2    60   ~ 0
+CB6
+Text Label 4400 6650 2    60   ~ 0
+CA9
+Wire Wire Line
+	3850 6200 4400 6200
+Wire Wire Line
+	4400 6300 3850 6300
+Wire Wire Line
+	4400 6400 3850 6400
+Wire Wire Line
+	4400 6650 3850 6650
+Wire Wire Line
+	4400 6850 3850 6850
+Wire Wire Line
+	4400 6750 3850 6750
+$Comp
+L CONN_01X10 P3
+U 1 1 59D903C8
+P 11200 2600
+F 0 "P3" H 11278 2641 50  0000 L CNN
+F 1 "CONN_01X10" H 11278 2550 50  0000 L CNN
+F 2 "fp:FPC_10" H 11200 2600 50  0001 C CNN
+F 3 "" H 11200 2600 50  0000 C CNN
+	1    11200 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
