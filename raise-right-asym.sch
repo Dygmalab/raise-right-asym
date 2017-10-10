@@ -118,11 +118,7 @@ $EndComp
 Wire Wire Line
 	1150 4350 1150 4450
 Wire Wire Line
-	650  1600 900  1600
-Wire Wire Line
-	900  1600 1100 1600
-Wire Wire Line
-	1100 1600 1150 1600
+	650  1600 1150 1600
 Connection ~ 1100 1600
 Connection ~ 900  1600
 Wire Wire Line
@@ -239,7 +235,7 @@ U 1 1 591D5DCC
 P 2100 3000
 F 0 "IC1" H 2100 4757 50  0000 C CNN
 F 1 "ATTINY88-A" H 2100 4666 50  0000 C CNN
-F 2 "Housings_QFP:LQFP-32_5x5mm_Pitch0.5mm" H 2100 4575 50  0001 C CIN
+F 2 "fp:QFN-32_EP_5x5_Pitch0.5mm" H 2100 4575 50  0001 C CIN
 F 3 "" H 2100 3000 50  0000 C CNN
 F 4 "1704570" H 2100 3000 60  0001 C CNN "farnell #"
 	1    2100 3000
@@ -294,15 +290,7 @@ $EndComp
 Connection ~ 5400 2050
 Connection ~ 5400 2700
 Wire Wire Line
-	4800 1350 4800 1750
-Wire Wire Line
-	4800 1750 4800 2400
-Wire Wire Line
-	4800 2400 4800 3050
-Wire Wire Line
-	4800 3050 4800 3600
-Wire Wire Line
-	4800 3600 4800 4250
+	4800 1350 4800 4250
 Connection ~ 4800 1750
 $Comp
 L SW_PUSH SW3
@@ -329,19 +317,7 @@ $EndComp
 Connection ~ 5400 3350
 Connection ~ 4800 2400
 Wire Wire Line
-	4300 3350 5400 3350
-Wire Wire Line
-	5400 3350 6200 3350
-Wire Wire Line
-	6200 3350 7000 3350
-Wire Wire Line
-	7000 3350 7800 3350
-Wire Wire Line
-	7800 3350 8600 3350
-Wire Wire Line
-	8600 3350 9400 3350
-Wire Wire Line
-	9400 3350 10200 3350
+	4300 3350 10200 3350
 Text Notes 4800 900  0    118  ~ 0
 switch matrix
 $Comp
@@ -394,59 +370,13 @@ Connection ~ 4800 3600
 Connection ~ 4800 4250
 Connection ~ 4800 3050
 Wire Wire Line
-	4300 4550 5400 4550
+	4300 4550 11000 4550
 Wire Wire Line
-	5400 4550 6200 4550
+	4300 3900 9400 3900
 Wire Wire Line
-	6200 4550 7000 4550
+	4300 2700 11000 2700
 Wire Wire Line
-	7000 4550 7800 4550
-Wire Wire Line
-	7800 4550 8600 4550
-Wire Wire Line
-	8600 4550 11000 4550
-Wire Wire Line
-	4300 3900 5400 3900
-Wire Wire Line
-	5400 3900 6200 3900
-Wire Wire Line
-	6200 3900 7000 3900
-Wire Wire Line
-	7000 3900 7800 3900
-Wire Wire Line
-	7800 3900 8600 3900
-Wire Wire Line
-	8600 3900 9400 3900
-Wire Wire Line
-	4300 2700 5400 2700
-Wire Wire Line
-	5400 2700 6200 2700
-Wire Wire Line
-	6200 2700 7000 2700
-Wire Wire Line
-	7000 2700 7800 2700
-Wire Wire Line
-	7800 2700 8600 2700
-Wire Wire Line
-	8600 2700 9400 2700
-Wire Wire Line
-	9400 2700 10200 2700
-Wire Wire Line
-	10200 2700 11000 2700
-Wire Wire Line
-	4300 2050 5400 2050
-Wire Wire Line
-	5400 2050 6200 2050
-Wire Wire Line
-	6200 2050 7000 2050
-Wire Wire Line
-	7000 2050 7800 2050
-Wire Wire Line
-	7800 2050 8600 2050
-Wire Wire Line
-	8600 2050 9400 2050
-Wire Wire Line
-	9400 2050 10200 2050
+	4300 2050 10200 2050
 $Comp
 L SW_PUSH SW6
 U 1 1 59959E78
@@ -494,15 +424,7 @@ $EndComp
 Connection ~ 6200 2050
 Connection ~ 6200 2700
 Wire Wire Line
-	5600 1350 5600 1750
-Wire Wire Line
-	5600 1750 5600 2400
-Wire Wire Line
-	5600 2400 5600 3050
-Wire Wire Line
-	5600 3050 5600 3600
-Wire Wire Line
-	5600 3600 5600 4250
+	5600 1350 5600 4250
 Connection ~ 5600 1750
 $Comp
 L SW_PUSH SW8
@@ -624,15 +546,7 @@ $EndComp
 Connection ~ 7000 2050
 Connection ~ 7000 2700
 Wire Wire Line
-	6400 1350 6400 1750
-Wire Wire Line
-	6400 1750 6400 2400
-Wire Wire Line
-	6400 2400 6400 3050
-Wire Wire Line
-	6400 3050 6400 3600
-Wire Wire Line
-	6400 3600 6400 4250
+	6400 1350 6400 4250
 Connection ~ 6400 1750
 $Comp
 L SW_PUSH SW13
@@ -754,15 +668,7 @@ $EndComp
 Connection ~ 7800 2050
 Connection ~ 7800 2700
 Wire Wire Line
-	7200 1350 7200 1750
-Wire Wire Line
-	7200 1750 7200 2400
-Wire Wire Line
-	7200 2400 7200 3050
-Wire Wire Line
-	7200 3050 7200 3600
-Wire Wire Line
-	7200 3600 7200 4250
+	7200 1350 7200 4250
 Connection ~ 7200 1750
 $Comp
 L SW_PUSH SW18
@@ -884,15 +790,7 @@ $EndComp
 Connection ~ 8600 2050
 Connection ~ 8600 2700
 Wire Wire Line
-	8000 1350 8000 1750
-Wire Wire Line
-	8000 1750 8000 2400
-Wire Wire Line
-	8000 2400 8000 3050
-Wire Wire Line
-	8000 3050 8000 3600
-Wire Wire Line
-	8000 3600 8000 4250
+	8000 1350 8000 4250
 Connection ~ 8000 1750
 $Comp
 L SW_PUSH SW23
@@ -1014,13 +912,7 @@ $EndComp
 Connection ~ 9400 2050
 Connection ~ 9400 2700
 Wire Wire Line
-	8800 1350 8800 1750
-Wire Wire Line
-	8800 1750 8800 2400
-Wire Wire Line
-	8800 2400 8800 3050
-Wire Wire Line
-	8800 3050 8800 3600
+	8800 1350 8800 3600
 Connection ~ 8800 1750
 $Comp
 L SW_PUSH SW28
@@ -1095,11 +987,7 @@ F 3 "" H 10200 1900 50  0000 C CNN
 $EndComp
 Connection ~ 10200 2050
 Wire Wire Line
-	9600 1350 9600 1750
-Wire Wire Line
-	9600 1750 9600 2400
-Wire Wire Line
-	9600 2400 9600 3050
+	9600 1350 9600 3050
 Connection ~ 9600 1750
 Text Label 4300 2050 2    60   ~ 0
 row0
@@ -1370,13 +1258,9 @@ F 3 "" H 7050 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 5750 4850 5750
+	4750 5750 5250 5750
 Wire Wire Line
-	4850 5750 5250 5750
-Wire Wire Line
-	6300 5750 6600 5750
-Wire Wire Line
-	6600 5750 6700 5750
+	6300 5750 6700 5750
 $Comp
 L +5V #PWR017
 U 1 1 59D15D8D
@@ -1476,15 +1360,9 @@ F 4 "2073929" H 2800 7200 60  0001 C CNN "farnell #"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 6600 2200 6600
+	2000 6600 2900 6600
 Wire Wire Line
-	2200 6600 2800 6600
-Wire Wire Line
-	2800 6600 2900 6600
-Wire Wire Line
-	3300 6600 3550 6600
-Wire Wire Line
-	3550 6600 4000 6600
+	3300 6600 4000 6600
 Wire Wire Line
 	3100 6900 3100 7000
 $Comp
@@ -1513,9 +1391,7 @@ Wire Wire Line
 	2800 6600 2800 6650
 Connection ~ 2800 6600
 Wire Wire Line
-	2800 6950 2800 7000
-Wire Wire Line
-	2800 7000 2800 7050
+	2800 6950 2800 7050
 Connection ~ 2800 7000
 Wire Wire Line
 	2800 7350 2800 7400
@@ -1842,11 +1718,7 @@ F 3 "" H 10200 3200 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10400 1350 10400 1750
-Wire Wire Line
-	10400 1750 10400 2400
-Wire Wire Line
-	10400 2400 10400 4250
+	10400 1350 10400 4250
 Text Label 10400 1350 0    60   ~ 0
 col7
 $Comp
@@ -1923,10 +1795,10 @@ Wire Wire Line
 Wire Wire Line
 	10400 5450 9850 5450
 $Comp
-L CONN_01X10 P12
+L CONN_01X10 lp1
 U 1 1 59D8E660
 P 10600 5500
-F 0 "P12" H 10678 5541 50  0000 L CNN
+F 0 "lp1" H 10678 5541 50  0000 L CNN
 F 1 "CONN_01X10" H 10678 5450 50  0000 L CNN
 F 2 "fp:FPC_10" H 10600 5500 50  0001 C CNN
 F 3 "" H 10600 5500 50  0000 C CNN
@@ -1975,6 +1847,17 @@ F 1 "Earth" H 2350 5650 50  0001 C CNN
 F 2 "" H 2350 5800 50  0000 C CNN
 F 3 "" H 2350 5800 50  0000 C CNN
 	1    2350 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W2
+U 1 1 59DCB845
+P 3100 7000
+F 0 "W2" V 3054 7188 50  0000 L CNN
+F 1 "TEST_1P" V 3145 7188 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3300 7000 50  0001 C CNN
+F 3 "" H 3300 7000 50  0000 C CNN
+	1    3100 7000
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
