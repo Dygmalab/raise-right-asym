@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:raise-right-asym-rescue
 LIBS:power
 LIBS:device
@@ -33,7 +33,7 @@ LIBS:ws2812b
 LIBS:tca4311a
 LIBS:rgbled
 LIBS:raise-right-asym-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1236,4 +1236,15 @@ F 3 "" H 5950 5100 60  0001 C CNN
 $EndComp
 Text Notes 4650 6250 0    60   ~ 0
 4 lights for the LP
+$Comp
+L Earth #PWR023
+U 1 1 5A01BB11
+P 10050 5200
+F 0 "#PWR023" H 10050 4950 50  0001 C CNN
+F 1 "Earth" H 10050 5050 50  0001 C CNN
+F 2 "" H 10050 5200 50  0000 C CNN
+F 3 "" H 10050 5200 50  0000 C CNN
+	1    10050 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
