@@ -170,7 +170,6 @@ Wire Wire Line
 	1700 5850 1700 5700
 Text Notes 800  6950 0    60   ~ 0
 programming header
-NoConn ~ 3050 4450
 Text Label 3050 3200 0    60   ~ 0
 row3
 Text Label 3050 2050 0    60   ~ 0
@@ -1813,4 +1812,6 @@ Text GLabel 9850 5350 0    60   Input ~ 0
 ca8
 Wire Wire Line
 	9850 5350 10400 5350
+Text Label 3050 4450 0    60   ~ 0
+col7
 $EndSCHEMATC
