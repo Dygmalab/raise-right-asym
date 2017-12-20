@@ -374,7 +374,7 @@ U 1 1 59AEE152
 P 5950 4200
 F 0 "rgb-l4" H 5782 4339 60  0000 R CNN
 F 1 "rgbled" H 5782 4233 60  0000 R CNN
-F 2 "fp:3528-4p-rev" H 5950 4200 60  0001 C CNN
+F 2 "fp:3528-4p" H 5950 4200 60  0001 C CNN
 F 3 "" H 5950 4200 60  0001 C CNN
 	1    5950 4200
 	1    0    0    -1  
@@ -428,9 +428,11 @@ Text Notes 9200 850  0    60   ~ 0
 Text Notes 9150 1300 0    60   ~ 0
 5 rows = 70RGBs\nbut 16 are on another board,  54 on this one\nconnected with ca1-ca9
 $Comp
-L sled1735 U58
+L sled1735-RESCUE-raise-right-asym U58
 U 1 1 59AF4F98
 P 9850 2250
+AR Path="/59AF4F98" Ref="U58"  Part="1" 
+AR Path="/59D12F0F/59AF4F98" Ref="U58"  Part="1" 
 F 0 "U58" H 10050 2987 60  0000 C CNN
 F 1 "sled1735" H 10050 2881 60  0000 C CNN
 F 2 "fp:QFN-56_EP_4.5x6.5_Pitch0.4mm" H 9850 2250 60  0001 C CNN
@@ -618,8 +620,6 @@ Connection ~ 6150 4600
 Wire Wire Line
 	6550 1200 6550 4900
 Connection ~ 6550 4900
-Wire Wire Line
-	6950 1200 6950 5400
 Connection ~ 6950 5200
 Wire Wire Line
 	7350 1200 7350 5500
@@ -1045,7 +1045,7 @@ U 1 1 59D2CA15
 P 1950 5100
 F 0 "rgb-b5" H 1781 5239 60  0000 R CNN
 F 1 "rgbled" H 1781 5133 60  0000 R CNN
-F 2 "fp:3528-4p-rev" H 1950 5100 60  0001 C CNN
+F 2 "fp:3528-4p" H 1950 5100 60  0001 C CNN
 F 3 "" H 1950 5100 60  0001 C CNN
 	1    1950 5100
 	-1   0    0    -1  
@@ -1114,7 +1114,7 @@ F 1 "rgbled" H 6981 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 7150 5100 60  0001 C CNN
 F 3 "" H 7150 5100 60  0001 C CNN
 	1    7150 5100
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 3400 7550 3400
@@ -1144,8 +1144,6 @@ Wire Wire Line
 NoConn ~ 11000 3050
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
-Connection ~ 6950 4800
-Connection ~ 6950 5100
 Text GLabel 3850 6200 0    60   Input ~ 0
 cb4
 Text GLabel 3850 6300 0    60   Input ~ 0
@@ -1203,14 +1201,10 @@ F 1 "rgbled" H 7381 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 7550 5100 60  0001 C CNN
 F 3 "" H 7550 5100 60  0001 C CNN
 	1    7550 5100
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4400 4750 4400 6050
-Wire Notes Line
 	4200 6050 5150 6050
-Wire Notes Line
-	4750 6050 4750 4750
 Wire Notes Line
 	5150 6050 5150 4750
 Wire Notes Line
@@ -1235,7 +1229,7 @@ F 3 "" H 5950 5100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Notes 4650 6250 0    60   ~ 0
-4 lights for the LP
+2 lights for the LP
 $Comp
 L Earth #PWR023
 U 1 1 5A01BB11
@@ -1246,5 +1240,29 @@ F 2 "" H 10050 5200 50  0000 C CNN
 F 3 "" H 10050 5200 50  0000 C CNN
 	1    10050 5200
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 1200 6950 5200
+$Comp
+L rgbled rgb-h5
+U 1 1 5A2FEAB6
+P 4350 5100
+F 0 "rgb-h5" H 4181 5239 60  0000 R CNN
+F 1 "rgbled" H 4181 5133 60  0000 R CNN
+F 2 "fp:3528-4p" H 4350 5100 60  0001 C CNN
+F 3 "" H 4350 5100 60  0001 C CNN
+	1    4350 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-i5
+U 1 1 5A3172C3
+P 4750 5100
+F 0 "rgb-i5" H 4581 5239 60  0000 R CNN
+F 1 "rgbled" H 4581 5133 60  0000 R CNN
+F 2 "fp:3528-4p" H 4750 5100 60  0001 C CNN
+F 3 "" H 4750 5100 60  0001 C CNN
+	1    4750 5100
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
