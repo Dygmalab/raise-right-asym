@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:ws2812b
 LIBS:tca4311a
-LIBS:rgbled
 LIBS:raise-right-asym-cache
 EELAYER 26 0
 EELAYER END
@@ -99,10 +98,11 @@ L C C2
 U 1 1 591D9ED3
 P 900 1750
 F 0 "C2" H 1015 1796 50  0000 L CNN
-F 1 "1u" H 1015 1705 50  0000 L CNN
+F 1 "1uF, ceramic, 6v, 10%, x5r" H 1015 1705 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 938 1600 50  0001 C CNN
 F 3 "" H 900 1750 50  0000 C CNN
 F 4 "1759422" H 900 1750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    900  1750
 	1    0    0    -1  
 $EndComp
@@ -111,10 +111,11 @@ L C C1
 U 1 1 591D9F55
 P 650 1750
 F 0 "C1" H 765 1796 50  0000 L CNN
-F 1 "0.1u" H 765 1705 50  0000 L CNN
+F 1 "0.1uF, ceramic, 6v, 10%, x5r" H 765 1705 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 688 1600 50  0001 C CNN
 F 3 "" H 650 1750 50  0000 C CNN
 F 4 "1759167" H 650 1750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    650  1750
 	1    0    0    -1  
 $EndComp
@@ -146,10 +147,11 @@ L R R2
 U 1 1 591EB8A2
 P 4650 5300
 F 0 "R2" H 4720 5346 50  0000 L CNN
-F 1 "10k" H 4720 5255 50  0000 L CNN
+F 1 "10k, 125mW, 5%" H 4720 5255 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 4580 5300 50  0001 C CNN
 F 3 "" H 4650 5300 50  0000 C CNN
 F 4 "2447553" H 4650 5300 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    4650 5300
 	1    0    0    -1  
 $EndComp
@@ -189,6 +191,8 @@ F 1 "ATTINY88-A" H 2100 4666 50  0000 C CNN
 F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2100 4575 50  0001 C CIN
 F 3 "" H 2100 3000 50  0000 C CNN
 F 4 "1704570" H 2100 3000 60  0001 C CNN "farnell #"
+F 5 "microchip" H 0   0   60  0001 C CNN "supplier"
+F 6 "attiny88mu" H 0   0   60  0001 C CNN "supplier PN"
 	1    2100 3000
 	1    0    0    -1  
 $EndComp
@@ -202,6 +206,8 @@ F 0 "SW1" H 5100 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 5100 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5100 1750 50  0001 C CNN
 F 3 "" H 5100 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5100 1750
 	1    0    0    -1  
 $EndComp
@@ -213,7 +219,9 @@ F 0 "SW2" H 5100 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 5100 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5100 2400 50  0001 C CNN
 F 3 "" H 5100 2400 50  0000 C CNN
-F 4 "2454043" H 5100 2400 60  0001 C CNN "farnell #"
+F 4 "" H 5100 2400 60  0001 C CNN "farnell #"
+F 5 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 6 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5100 2400
 	1    0    0    -1  
 $EndComp
@@ -222,10 +230,11 @@ L D D1
 U 1 1 59958E33
 P 5400 1900
 F 0 "D1" V 5446 1822 50  0000 R CNN
-F 1 "D" V 5355 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 5355 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 5400 1900 50  0001 C CNN
 F 3 "" H 5400 1900 50  0000 C CNN
 F 4 "2454043" H 5400 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5400 1900
 	0    -1   -1   0   
 $EndComp
@@ -234,10 +243,11 @@ L D D2
 U 1 1 59958E34
 P 5400 2550
 F 0 "D2" V 5446 2472 50  0000 R CNN
-F 1 "D" V 5355 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 5355 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 5400 2550 50  0001 C CNN
 F 3 "" H 5400 2550 50  0000 C CNN
 F 4 "2454043" H 5400 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5400 2550
 	0    -1   -1   0   
 $EndComp
@@ -254,6 +264,8 @@ F 0 "SW3" H 5100 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 5100 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5100 3050 50  0001 C CNN
 F 3 "" H 5100 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5100 3050
 	1    0    0    -1  
 $EndComp
@@ -262,10 +274,11 @@ L D D3
 U 1 1 59958E39
 P 5400 3200
 F 0 "D3" V 5446 3122 50  0000 R CNN
-F 1 "D" V 5355 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 5355 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 5400 3200 50  0001 C CNN
 F 3 "" H 5400 3200 50  0000 C CNN
 F 4 "2454043" H 5400 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5400 3200
 	0    -1   -1   0   
 $EndComp
@@ -283,6 +296,8 @@ F 0 "SW4" H 5100 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 5100 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5100 3600 50  0001 C CNN
 F 3 "" H 5100 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5100 3600
 	1    0    0    -1  
 $EndComp
@@ -294,6 +309,8 @@ F 0 "SW5" H 5100 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 5100 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5100 4250 50  0001 C CNN
 F 3 "" H 5100 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5100 4250
 	1    0    0    -1  
 $EndComp
@@ -302,10 +319,11 @@ L D D4
 U 1 1 599598A5
 P 5400 3750
 F 0 "D4" V 5446 3672 50  0000 R CNN
-F 1 "D" V 5355 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 5355 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 5400 3750 50  0001 C CNN
 F 3 "" H 5400 3750 50  0000 C CNN
 F 4 "2454043" H 5400 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5400 3750
 	0    -1   -1   0   
 $EndComp
@@ -314,10 +332,11 @@ L D D5
 U 1 1 599598AB
 P 5400 4400
 F 0 "D5" V 5446 4322 50  0000 R CNN
-F 1 "D" V 5355 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 5355 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 5400 4400 50  0001 C CNN
 F 3 "" H 5400 4400 50  0000 C CNN
 F 4 "2454043" H 5400 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5400 4400
 	0    -1   -1   0   
 $EndComp
@@ -342,6 +361,8 @@ F 0 "SW6" H 5900 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 5900 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5900 1750 50  0001 C CNN
 F 3 "" H 5900 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5900 1750
 	1    0    0    -1  
 $EndComp
@@ -353,6 +374,8 @@ F 0 "SW7" H 5900 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 5900 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5900 2400 50  0001 C CNN
 F 3 "" H 5900 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5900 2400
 	1    0    0    -1  
 $EndComp
@@ -361,10 +384,11 @@ L D D6
 U 1 1 59959E84
 P 6200 1900
 F 0 "D6" V 6246 1822 50  0000 R CNN
-F 1 "D" V 6155 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6155 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 6200 1900 50  0001 C CNN
 F 3 "" H 6200 1900 50  0000 C CNN
 F 4 "2454043" H 6200 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6200 1900
 	0    -1   -1   0   
 $EndComp
@@ -373,10 +397,11 @@ L D D7
 U 1 1 59959E8A
 P 6200 2550
 F 0 "D7" V 6246 2472 50  0000 R CNN
-F 1 "D" V 6155 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6155 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 6200 2550 50  0001 C CNN
 F 3 "" H 6200 2550 50  0000 C CNN
 F 4 "2454043" H 6200 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6200 2550
 	0    -1   -1   0   
 $EndComp
@@ -393,6 +418,8 @@ F 0 "SW8" H 5900 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 5900 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5900 3050 50  0001 C CNN
 F 3 "" H 5900 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5900 3050
 	1    0    0    -1  
 $EndComp
@@ -401,10 +428,11 @@ L D D8
 U 1 1 59959E9E
 P 6200 3200
 F 0 "D8" V 6246 3122 50  0000 R CNN
-F 1 "D" V 6155 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6155 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 6200 3200 50  0001 C CNN
 F 3 "" H 6200 3200 50  0000 C CNN
 F 4 "2454043" H 6200 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6200 3200
 	0    -1   -1   0   
 $EndComp
@@ -418,6 +446,8 @@ F 0 "SW9" H 5900 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 5900 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5900 3600 50  0001 C CNN
 F 3 "" H 5900 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5900 3600
 	1    0    0    -1  
 $EndComp
@@ -429,6 +459,8 @@ F 0 "SW10" H 5900 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 5900 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 5900 4250 50  0001 C CNN
 F 3 "" H 5900 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    5900 4250
 	1    0    0    -1  
 $EndComp
@@ -437,10 +469,11 @@ L D D9
 U 1 1 59959EB4
 P 6200 3750
 F 0 "D9" V 6246 3672 50  0000 R CNN
-F 1 "D" V 6155 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6155 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 6200 3750 50  0001 C CNN
 F 3 "" H 6200 3750 50  0000 C CNN
 F 4 "2454043" H 6200 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6200 3750
 	0    -1   -1   0   
 $EndComp
@@ -449,10 +482,11 @@ L D D10
 U 1 1 59959EBA
 P 6200 4400
 F 0 "D10" V 6246 4322 50  0000 R CNN
-F 1 "D" V 6155 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6155 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 6200 4400 50  0001 C CNN
 F 3 "" H 6200 4400 50  0000 C CNN
 F 4 "2454043" H 6200 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    6200 4400
 	0    -1   -1   0   
 $EndComp
@@ -469,6 +503,8 @@ F 0 "SW11" H 6700 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 6700 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 6700 1750 50  0001 C CNN
 F 3 "" H 6700 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    6700 1750
 	1    0    0    -1  
 $EndComp
@@ -480,6 +516,8 @@ F 0 "SW12" H 6700 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 6700 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 6700 2400 50  0001 C CNN
 F 3 "" H 6700 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    6700 2400
 	1    0    0    -1  
 $EndComp
@@ -488,10 +526,11 @@ L D D11
 U 1 1 5995A900
 P 7000 1900
 F 0 "D11" V 7046 1822 50  0000 R CNN
-F 1 "D" V 6955 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6955 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7000 1900 50  0001 C CNN
 F 3 "" H 7000 1900 50  0000 C CNN
 F 4 "2454043" H 7000 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7000 1900
 	0    -1   -1   0   
 $EndComp
@@ -500,10 +539,11 @@ L D D12
 U 1 1 5995A906
 P 7000 2550
 F 0 "D12" V 7046 2472 50  0000 R CNN
-F 1 "D" V 6955 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6955 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7000 2550 50  0001 C CNN
 F 3 "" H 7000 2550 50  0000 C CNN
 F 4 "2454043" H 7000 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7000 2550
 	0    -1   -1   0   
 $EndComp
@@ -520,6 +560,8 @@ F 0 "SW13" H 6700 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 6700 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 6700 3050 50  0001 C CNN
 F 3 "" H 6700 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    6700 3050
 	1    0    0    -1  
 $EndComp
@@ -528,10 +570,11 @@ L D D13
 U 1 1 5995A91A
 P 7000 3200
 F 0 "D13" V 7046 3122 50  0000 R CNN
-F 1 "D" V 6955 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6955 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7000 3200 50  0001 C CNN
 F 3 "" H 7000 3200 50  0000 C CNN
 F 4 "2454043" H 7000 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7000 3200
 	0    -1   -1   0   
 $EndComp
@@ -545,6 +588,8 @@ F 0 "SW14" H 6700 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 6700 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 6700 3600 50  0001 C CNN
 F 3 "" H 6700 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    6700 3600
 	1    0    0    -1  
 $EndComp
@@ -556,6 +601,8 @@ F 0 "SW15" H 6700 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 6700 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 6700 4250 50  0001 C CNN
 F 3 "" H 6700 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    6700 4250
 	1    0    0    -1  
 $EndComp
@@ -564,10 +611,11 @@ L D D14
 U 1 1 5995A930
 P 7000 3750
 F 0 "D14" V 7046 3672 50  0000 R CNN
-F 1 "D" V 6955 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6955 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7000 3750 50  0001 C CNN
 F 3 "" H 7000 3750 50  0000 C CNN
 F 4 "2454043" H 7000 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7000 3750
 	0    -1   -1   0   
 $EndComp
@@ -576,10 +624,11 @@ L D D15
 U 1 1 5995A936
 P 7000 4400
 F 0 "D15" V 7046 4322 50  0000 R CNN
-F 1 "D" V 6955 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 6955 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7000 4400 50  0001 C CNN
 F 3 "" H 7000 4400 50  0000 C CNN
 F 4 "2454043" H 7000 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7000 4400
 	0    -1   -1   0   
 $EndComp
@@ -596,6 +645,8 @@ F 0 "SW16" H 7500 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 7500 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 7500 1750 50  0001 C CNN
 F 3 "" H 7500 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    7500 1750
 	1    0    0    -1  
 $EndComp
@@ -607,6 +658,8 @@ F 0 "SW17" H 7500 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 7500 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 7500 2400 50  0001 C CNN
 F 3 "" H 7500 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    7500 2400
 	1    0    0    -1  
 $EndComp
@@ -615,10 +668,11 @@ L D D16
 U 1 1 5995AC27
 P 7800 1900
 F 0 "D16" V 7846 1822 50  0000 R CNN
-F 1 "D" V 7755 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 7755 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7800 1900 50  0001 C CNN
 F 3 "" H 7800 1900 50  0000 C CNN
 F 4 "2454043" H 7800 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7800 1900
 	0    -1   -1   0   
 $EndComp
@@ -627,10 +681,11 @@ L D D17
 U 1 1 5995AC2D
 P 7800 2550
 F 0 "D17" V 7846 2472 50  0000 R CNN
-F 1 "D" V 7755 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 7755 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7800 2550 50  0001 C CNN
 F 3 "" H 7800 2550 50  0000 C CNN
 F 4 "2454043" H 7800 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7800 2550
 	0    -1   -1   0   
 $EndComp
@@ -647,6 +702,8 @@ F 0 "SW18" H 7500 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 7500 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 7500 3050 50  0001 C CNN
 F 3 "" H 7500 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    7500 3050
 	1    0    0    -1  
 $EndComp
@@ -655,10 +712,11 @@ L D D18
 U 1 1 5995AC41
 P 7800 3200
 F 0 "D18" V 7846 3122 50  0000 R CNN
-F 1 "D" V 7755 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 7755 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7800 3200 50  0001 C CNN
 F 3 "" H 7800 3200 50  0000 C CNN
 F 4 "2454043" H 7800 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7800 3200
 	0    -1   -1   0   
 $EndComp
@@ -672,6 +730,8 @@ F 0 "SW19" H 7500 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 7500 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 7500 3600 50  0001 C CNN
 F 3 "" H 7500 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    7500 3600
 	1    0    0    -1  
 $EndComp
@@ -683,6 +743,8 @@ F 0 "SW20" H 7500 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 7500 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 7500 4250 50  0001 C CNN
 F 3 "" H 7500 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    7500 4250
 	1    0    0    -1  
 $EndComp
@@ -691,10 +753,11 @@ L D D19
 U 1 1 5995AC57
 P 7800 3750
 F 0 "D19" V 7846 3672 50  0000 R CNN
-F 1 "D" V 7755 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 7755 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7800 3750 50  0001 C CNN
 F 3 "" H 7800 3750 50  0000 C CNN
 F 4 "2454043" H 7800 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7800 3750
 	0    -1   -1   0   
 $EndComp
@@ -703,10 +766,11 @@ L D D20
 U 1 1 5995AC5D
 P 7800 4400
 F 0 "D20" V 7846 4322 50  0000 R CNN
-F 1 "D" V 7755 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 7755 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 7800 4400 50  0001 C CNN
 F 3 "" H 7800 4400 50  0000 C CNN
 F 4 "2454043" H 7800 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    7800 4400
 	0    -1   -1   0   
 $EndComp
@@ -723,6 +787,8 @@ F 0 "SW21" H 8300 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 8300 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 8300 1750 50  0001 C CNN
 F 3 "" H 8300 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    8300 1750
 	1    0    0    -1  
 $EndComp
@@ -734,6 +800,8 @@ F 0 "SW22" H 8300 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 8300 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 8300 2400 50  0001 C CNN
 F 3 "" H 8300 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    8300 2400
 	1    0    0    -1  
 $EndComp
@@ -742,10 +810,11 @@ L D D21
 U 1 1 5995AC7E
 P 8600 1900
 F 0 "D21" V 8646 1822 50  0000 R CNN
-F 1 "D" V 8555 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 8555 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 8600 1900 50  0001 C CNN
 F 3 "" H 8600 1900 50  0000 C CNN
 F 4 "2454043" H 8600 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    8600 1900
 	0    -1   -1   0   
 $EndComp
@@ -754,10 +823,11 @@ L D D22
 U 1 1 5995AC84
 P 8600 2550
 F 0 "D22" V 8646 2472 50  0000 R CNN
-F 1 "D" V 8555 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 8555 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 8600 2550 50  0001 C CNN
 F 3 "" H 8600 2550 50  0000 C CNN
 F 4 "2454043" H 8600 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    8600 2550
 	0    -1   -1   0   
 $EndComp
@@ -774,6 +844,8 @@ F 0 "SW23" H 8300 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 8300 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 8300 3050 50  0001 C CNN
 F 3 "" H 8300 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    8300 3050
 	1    0    0    -1  
 $EndComp
@@ -782,10 +854,11 @@ L D D23
 U 1 1 5995AC98
 P 8600 3200
 F 0 "D23" V 8646 3122 50  0000 R CNN
-F 1 "D" V 8555 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 8555 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 8600 3200 50  0001 C CNN
 F 3 "" H 8600 3200 50  0000 C CNN
 F 4 "2454043" H 8600 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    8600 3200
 	0    -1   -1   0   
 $EndComp
@@ -799,6 +872,8 @@ F 0 "SW24" H 8300 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 8300 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 8300 3600 50  0001 C CNN
 F 3 "" H 8300 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    8300 3600
 	1    0    0    -1  
 $EndComp
@@ -810,6 +885,8 @@ F 0 "SW25" H 8300 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 8300 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 8300 4250 50  0001 C CNN
 F 3 "" H 8300 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    8300 4250
 	1    0    0    -1  
 $EndComp
@@ -818,10 +895,11 @@ L D D24
 U 1 1 5995ACAE
 P 8600 3750
 F 0 "D24" V 8646 3672 50  0000 R CNN
-F 1 "D" V 8555 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 8555 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 8600 3750 50  0001 C CNN
 F 3 "" H 8600 3750 50  0000 C CNN
 F 4 "2454043" H 8600 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    8600 3750
 	0    -1   -1   0   
 $EndComp
@@ -830,10 +908,11 @@ L D D25
 U 1 1 5995ACB4
 P 8600 4400
 F 0 "D25" V 8646 4322 50  0000 R CNN
-F 1 "D" V 8555 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 8555 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 8600 4400 50  0001 C CNN
 F 3 "" H 8600 4400 50  0000 C CNN
 F 4 "2454043" H 8600 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    8600 4400
 	0    -1   -1   0   
 $EndComp
@@ -850,6 +929,8 @@ F 0 "SW26" H 9100 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 9100 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9100 1750 50  0001 C CNN
 F 3 "" H 9100 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9100 1750
 	1    0    0    -1  
 $EndComp
@@ -861,6 +942,8 @@ F 0 "SW27" H 9100 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 9100 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9100 2400 50  0001 C CNN
 F 3 "" H 9100 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9100 2400
 	1    0    0    -1  
 $EndComp
@@ -869,10 +952,11 @@ L D D26
 U 1 1 5995AE8D
 P 9400 1900
 F 0 "D26" V 9446 1822 50  0000 R CNN
-F 1 "D" V 9355 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 9355 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 9400 1900 50  0001 C CNN
 F 3 "" H 9400 1900 50  0000 C CNN
 F 4 "2454043" H 9400 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    9400 1900
 	0    -1   -1   0   
 $EndComp
@@ -881,10 +965,11 @@ L D D27
 U 1 1 5995AE93
 P 9400 2550
 F 0 "D27" V 9446 2472 50  0000 R CNN
-F 1 "D" V 9355 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 9355 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 9400 2550 50  0001 C CNN
 F 3 "" H 9400 2550 50  0000 C CNN
 F 4 "2454043" H 9400 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    9400 2550
 	0    -1   -1   0   
 $EndComp
@@ -901,6 +986,8 @@ F 0 "SW28" H 9100 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 9100 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9100 3050 50  0001 C CNN
 F 3 "" H 9100 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9100 3050
 	1    0    0    -1  
 $EndComp
@@ -909,10 +996,11 @@ L D D28
 U 1 1 5995AEA7
 P 9400 3200
 F 0 "D28" V 9446 3122 50  0000 R CNN
-F 1 "D" V 9355 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 9355 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 9400 3200 50  0001 C CNN
 F 3 "" H 9400 3200 50  0000 C CNN
 F 4 "2454043" H 9400 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    9400 3200
 	0    -1   -1   0   
 $EndComp
@@ -926,6 +1014,8 @@ F 0 "SW29" H 9100 3855 50  0000 C CNN
 F 1 "SW_PUSH" H 9100 3764 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9100 3600 50  0001 C CNN
 F 3 "" H 9100 3600 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9100 3600
 	1    0    0    -1  
 $EndComp
@@ -934,10 +1024,11 @@ L D D29
 U 1 1 5995AEBD
 P 9400 3750
 F 0 "D29" V 9446 3672 50  0000 R CNN
-F 1 "D" V 9355 3672 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 9355 3672 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 9400 3750 50  0001 C CNN
 F 3 "" H 9400 3750 50  0000 C CNN
 F 4 "2454043" H 9400 3750 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    9400 3750
 	0    -1   -1   0   
 $EndComp
@@ -952,6 +1043,8 @@ F 0 "SW30" H 9900 2005 50  0000 C CNN
 F 1 "SW_PUSH" H 9900 1914 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9900 1750 50  0001 C CNN
 F 3 "" H 9900 1750 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9900 1750
 	1    0    0    -1  
 $EndComp
@@ -960,10 +1053,11 @@ L D D30
 U 1 1 5995B0E2
 P 10200 1900
 F 0 "D30" V 10246 1822 50  0000 R CNN
-F 1 "D" V 10155 1822 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 10155 1822 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 10200 1900 50  0001 C CNN
 F 3 "" H 10200 1900 50  0000 C CNN
 F 4 "2454043" H 10200 1900 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    10200 1900
 	0    -1   -1   0   
 $EndComp
@@ -1030,6 +1124,7 @@ F 1 "CONN_02X03" H 1150 7250 50  0000 C CNN
 F 2 "Connectors:Tag-Connect_TC2030-IDC-NL" H 1150 6250 60  0001 C CNN
 F 3 "" H 1150 6250 60  0000 C CNN
 F 4 "dnp" H 1150 7450 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 7450
 	1    0    0    -1  
 $EndComp
@@ -1096,10 +1191,11 @@ L C C5
 U 1 1 59D15DBC
 P 2800 6800
 F 0 "C5" H 2915 6846 50  0000 L CNN
-F 1 "10u" H 2915 6755 50  0000 L CNN
+F 1 "10uF, ceramic, 6v, 10%, x5r" H 2915 6755 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 2838 6650 50  0001 C CNN
 F 3 "" H 2800 6800 50  0000 C CNN
 F 4 "2611940" H 2800 6800 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    2800 6800
 	1    0    0    -1  
 $EndComp
@@ -1108,10 +1204,11 @@ L R R6
 U 1 1 59D15DC4
 P 2800 7200
 F 0 "R6" H 2870 7246 50  0000 L CNN
-F 1 "4.7k" H 2870 7155 50  0000 L CNN
+F 1 "4.7k, 125mW, 1%" H 2870 7155 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 2730 7200 50  0001 C CNN
 F 3 "" H 2800 7200 50  0000 C CNN
 F 4 "2073784" H 2800 7200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    2800 7200
 	1    0    0    -1  
 $EndComp
@@ -1174,10 +1271,12 @@ L CP C8
 U 1 1 59D15E07
 P 4000 6850
 F 0 "C8" H 4118 6896 50  0000 L CNN
-F 1 "CP" H 4118 6805 50  0000 L CNN
+F 1 "47uF, 6.3v, 10%, tantalum" H 4118 6805 50  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeC_EIA-6032_Reflow" H 4038 6700 50  0001 C CNN
 F 3 "" H 4000 6850 50  0000 C CNN
 F 4 "197051RL" H 4000 6850 60  0001 C CNN "farnell #"
+F 5 "avx" H 0   0   60  0001 C CNN "supplier"
+F 6 "TAJC476K006RNJ " H 0   0   60  0001 C CNN "supplier PN"
 	1    4000 6850
 	1    0    0    -1  
 $EndComp
@@ -1210,10 +1309,12 @@ L USB_OTG-RESCUE-raise-right-asym P4
 U 1 1 59D16A8E
 P 5300 6950
 F 0 "P4" V 5423 7138 50  0000 L CNN
-F 1 "USB_OTG" V 5332 7138 50  0000 L CNN
+F 1 "USB C type 2.0 SMT 16pin" V 5332 7138 50  0000 L CNN
 F 2 "fp:micro_usb_contact" V 5250 6850 50  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/1051640001_sd.pdf" V 4650 6850 50  0000 C CNN
 F 4 "2614947" H 5300 6950 60  0001 C CNN "farnell #"
+F 5 "contact technology corp" H 0   0   60  0001 C CNN "supplier"
+F 6 "sbc-160s-202-s338" H 0   0   60  0001 C CNN "supplier PN"
 	1    5300 6950
 	0    -1   -1   0   
 $EndComp
@@ -1264,6 +1365,7 @@ F 1 "CONN_01X05" H 3678 1450 50  0000 L CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 3600 1500 50  0001 C CNN
 F 3 "" H 3600 1500 50  0000 C CNN
 F 4 "dnp" H 3600 1500 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    3600 1500
 	1    0    0    -1  
 $EndComp
@@ -1299,10 +1401,11 @@ L R R7
 U 1 1 59D3AEF6
 P 5600 5250
 F 0 "R7" H 5670 5296 50  0000 L CNN
-F 1 "10k" H 5670 5205 50  0000 L CNN
+F 1 "10k, 125mW, 5%" H 5670 5205 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 5530 5250 50  0001 C CNN
 F 3 "" H 5600 5250 50  0000 C CNN
 F 4 "2447553" H 5600 5250 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    5600 5250
 	1    0    0    -1  
 $EndComp
@@ -1326,6 +1429,7 @@ F 1 "CONN_01X01" H 1228 5150 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 5200 50  0001 C CNN
 F 3 "" H 1150 5200 50  0000 C CNN
 F 4 "dnp" H 1150 5200 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5200
 	1    0    0    -1  
 $EndComp
@@ -1338,6 +1442,7 @@ F 1 "CONN_01X01" H 1228 5300 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 5350 50  0001 C CNN
 F 3 "" H 1150 5350 50  0000 C CNN
 F 4 "dnp" H 1150 5350 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5350
 	1    0    0    -1  
 $EndComp
@@ -1350,6 +1455,7 @@ F 1 "CONN_01X01" H 1228 5450 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 5500 50  0001 C CNN
 F 3 "" H 1150 5500 50  0000 C CNN
 F 4 "dnp" H 1150 5500 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5500
 	1    0    0    -1  
 $EndComp
@@ -1367,6 +1473,8 @@ F 0 "SW31" H 9900 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 9900 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9900 2400 50  0001 C CNN
 F 3 "" H 9900 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9900 2400
 	1    0    0    -1  
 $EndComp
@@ -1375,10 +1483,11 @@ L D D31
 U 1 1 59D7C836
 P 10200 2550
 F 0 "D31" V 10246 2472 50  0000 R CNN
-F 1 "D" V 10155 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 10155 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 10200 2550 50  0001 C CNN
 F 3 "" H 10200 2550 50  0000 C CNN
 F 4 "2454043" H 10200 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    10200 2550
 	0    -1   -1   0   
 $EndComp
@@ -1390,6 +1499,8 @@ F 0 "SW32" H 9900 3305 50  0000 C CNN
 F 1 "SW_PUSH" H 9900 3214 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 9900 3050 50  0001 C CNN
 F 3 "" H 9900 3050 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    9900 3050
 	1    0    0    -1  
 $EndComp
@@ -1398,10 +1509,11 @@ L D D32
 U 1 1 59D7C98C
 P 10200 3200
 F 0 "D32" V 10246 3122 50  0000 R CNN
-F 1 "D" V 10155 3122 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 10155 3122 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 10200 3200 50  0001 C CNN
 F 3 "" H 10200 3200 50  0000 C CNN
 F 4 "2454043" H 10200 3200 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    10200 3200
 	0    -1   -1   0   
 $EndComp
@@ -1417,6 +1529,8 @@ F 0 "SW33" H 10700 2655 50  0000 C CNN
 F 1 "SW_PUSH" H 10700 2564 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 10700 2400 50  0001 C CNN
 F 3 "" H 10700 2400 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    10700 2400
 	1    0    0    -1  
 $EndComp
@@ -1425,10 +1539,11 @@ L D D33
 U 1 1 59D7CCD9
 P 11000 2550
 F 0 "D33" V 11046 2472 50  0000 R CNN
-F 1 "D" V 10955 2472 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 10955 2472 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 11000 2550 50  0001 C CNN
 F 3 "" H 11000 2550 50  0000 C CNN
 F 4 "2454043" H 11000 2550 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    11000 2550
 	0    -1   -1   0   
 $EndComp
@@ -1440,6 +1555,8 @@ F 0 "SW34" H 10700 4505 50  0000 C CNN
 F 1 "SW_PUSH" H 10700 4414 50  0000 C CNN
 F 2 "fp:kailhsocket-cherry" H 10700 4250 50  0001 C CNN
 F 3 "" H 10700 4250 50  0000 C CNN
+F 4 "kailh" H 0   0   60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H 0   0   60  0001 C CNN "supplier PN"
 	1    10700 4250
 	1    0    0    -1  
 $EndComp
@@ -1448,10 +1565,11 @@ L D D34
 U 1 1 59D7CCE5
 P 11000 4400
 F 0 "D34" V 11046 4322 50  0000 R CNN
-F 1 "D" V 10955 4322 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 10955 4322 50  0000 R CNN
 F 2 "Diodes_SMD:SOD-123" H 11000 4400 50  0001 C CNN
 F 3 "" H 11000 4400 50  0000 C CNN
 F 4 "2454043" H 11000 4400 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    11000 4400
 	0    -1   -1   0   
 $EndComp
@@ -1489,10 +1607,11 @@ L CONN_01X10 lp1
 U 1 1 59D8E660
 P 10600 5500
 F 0 "lp1" H 10678 5541 50  0000 L CNN
-F 1 "CONN_01X10" H 10678 5450 50  0000 L CNN
+F 1 "FPC 10 way connector, 0.5mm pitch, right angle, bottom contact" H 10678 5450 50  0000 L CNN
 F 2 "fp:FPC_10_2046" H 10600 5500 50  0001 C CNN
 F 3 "" H 10600 5500 50  0000 C CNN
 F 4 "1302345" H 10600 5500 60  0001 C CNN "farnell #"
+F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    10600 5500
 	1    0    0    -1  
 $EndComp
@@ -1505,6 +1624,7 @@ F 1 "CONN_01X01" H 1228 5600 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 5650 50  0001 C CNN
 F 3 "" H 1150 5650 50  0000 C CNN
 F 4 "dnp" H 1150 5650 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5650
 	1    0    0    -1  
 $EndComp
@@ -1517,6 +1637,7 @@ F 1 "CONN_01X01" H 1228 5750 50  0000 L CNN
 F 2 "fp:6.8mmhole" H 1150 5800 50  0001 C CNN
 F 3 "" H 1150 5800 50  0000 C CNN
 F 4 "dnp" H 1150 5800 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5800
 	1    0    0    -1  
 $EndComp
@@ -1529,6 +1650,7 @@ F 1 "TEST_1P" V 3145 7188 50  0000 L CNN
 F 2 "Measurement_Points:Measurement_Point_Square-TH_Small" H 3300 7000 50  0001 C CNN
 F 3 "" H 3300 7000 50  0000 C CNN
 F 4 "dnp" H 3100 7000 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    3100 7000
 	0    1    1    0   
 $EndComp
@@ -1552,6 +1674,8 @@ F 1 "Q_PMOS_GSD" V 3352 6700 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3300 6800 50  0001 C CNN
 F 3 "" H 3100 6700 50  0001 C CNN
 F 4 "2061419" H 3100 6700 60  0001 C CNN "farnell #"
+F 5 "diodes inc" H 0   0   60  0001 C CNN "supplier"
+F 6 "DMP2035U" H 0   0   60  0001 C CNN "supplier PN"
 	1    3100 6700
 	0    1    -1   0   
 $EndComp
@@ -1572,6 +1696,7 @@ F 1 "CONN_01X01" H 1228 5900 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 5950 50  0001 C CNN
 F 3 "" H 1150 5950 50  0000 C CNN
 F 4 "dnp" H 1150 5950 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 5950
 	1    0    0    -1  
 $EndComp
@@ -1584,6 +1709,7 @@ F 1 "CONN_01X01" H 1228 6050 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5.5mm" H 1150 6100 50  0001 C CNN
 F 3 "" H 1150 6100 50  0000 C CNN
 F 4 "dnp" H 1150 6100 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    1150 6100
 	1    0    0    -1  
 $EndComp
@@ -1598,6 +1724,7 @@ F 1 "CONN_01X01" H 2278 5100 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5mm" H 2200 5150 50  0001 C CNN
 F 3 "" H 2200 5150 50  0000 C CNN
 F 4 "dnp" H 2200 5150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    2200 5150
 	1    0    0    -1  
 $EndComp
@@ -1610,6 +1737,7 @@ F 1 "CONN_01X01" H 2278 5250 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5mm" H 2200 5300 50  0001 C CNN
 F 3 "" H 2200 5300 50  0000 C CNN
 F 4 "dnp" H 2200 5300 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    2200 5300
 	1    0    0    -1  
 $EndComp
@@ -1622,6 +1750,7 @@ F 1 "CONN_01X01" H 2278 5400 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5mm" H 2200 5450 50  0001 C CNN
 F 3 "" H 2200 5450 50  0000 C CNN
 F 4 "dnp" H 2200 5450 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    2200 5450
 	1    0    0    -1  
 $EndComp
@@ -1637,6 +1766,7 @@ F 1 "CONN_01X01" H 2278 5550 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5mm" H 2200 5600 50  0001 C CNN
 F 3 "" H 2200 5600 50  0000 C CNN
 F 4 "dnp" H 2200 5600 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    2200 5600
 	1    0    0    -1  
 $EndComp
@@ -1649,6 +1779,7 @@ F 1 "CONN_01X01" H 2278 5700 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_5mm" H 2200 5750 50  0001 C CNN
 F 3 "" H 2200 5750 50  0000 C CNN
 F 4 "dnp" H 2200 5750 60  0001 C CNN "farnell #"
+F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    2200 5750
 	1    0    0    -1  
 $EndComp
