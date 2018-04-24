@@ -31,6 +31,9 @@ LIBS:contrib
 LIBS:valves
 LIBS:ws2812b
 LIBS:tca4311a
+LIBS:rgbled
+LIBS:usb_c_16pin
+LIBS:ss39et
 LIBS:raise-right-asym-cache
 EELAYER 26 0
 EELAYER END
@@ -456,14 +459,14 @@ $EndComp
 Text Notes 9200 850  0    60   ~ 0
 14 leds per row
 Text Notes 9150 1300 0    60   ~ 0
-5 rows = 70RGBs\nbut 16 are on another board,  54 on this one\nconnected with ca1-ca9
+5 rows = 70RGBs max\n2 are on the low profile board
 $Comp
 L sled1735-RESCUE-raise-right-asym U58
 U 1 1 59AF4F98
 P 9850 2250
 AR Path="/59AF4F98" Ref="U58"  Part="1" 
-AR Path="/59D12F0F/59AF4F98" Ref="U58"  Part="1" 
-F 0 "U58" H 10050 2987 60  0000 C CNN
+AR Path="/59D12F0F/59AF4F98" Ref="U1"  Part="1" 
+F 0 "U1" H 10050 2987 60  0000 C CNN
 F 1 "sled1735" H 10050 2881 60  0000 C CNN
 F 2 "fp:QFN-56_EP_4.5x6.5_Pitch0.4mm" H 9850 2250 60  0001 C CNN
 F 3 "" H 9850 2250 60  0001 C CNN
@@ -520,47 +523,37 @@ SLED_CS
 Text GLabel 9500 2850 0    60   Input ~ 0
 MISO
 $Comp
-L C C7
-U 1 1 59AF6688
-P 9050 2100
-F 0 "C7" H 9165 2146 50  0000 L CNN
-F 1 "0.1uF, ceramic, 6v, 10%, x5r" H 9165 2055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 9088 1950 50  0001 C CNN
-F 3 "" H 9050 2100 50  0000 C CNN
-F 4 "1759167" H 9050 2100 60  0001 C CNN "farnell #"
-F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
-	1    9050 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C6
+L C C3
 U 1 1 59AF668F
 P 8700 2100
-F 0 "C6" H 8815 2146 50  0000 L CNN
+F 0 "C3" H 8815 2146 50  0000 L CNN
 F 1 "1uF, ceramic, 6v, 10%, x5r" H 8815 2055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 8738 1950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 8738 1950 50  0001 C CNN
 F 3 "" H 8700 2100 50  0000 C CNN
-F 4 "1759422" H 8700 2100 60  0001 C CNN "farnell #"
+F 4 "1865556" H 8700 2100 60  0001 C CNN "farnell #"
 F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 6 "Value" H 8700 2100 60  0001 C CNN "supplier PN"
+F 7 "Value" H 8700 2100 60  0001 C CNN "MOQ"
+F 8 "Value" H 8700 2100 60  0001 C CNN "leadtime"
 	1    8700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR031
+L Earth #PWR026
 U 1 1 59AF6699
-P 9050 2250
-F 0 "#PWR031" H 9050 2000 50  0001 C CNN
-F 1 "Earth" H 9050 2100 50  0001 C CNN
-F 2 "" H 9050 2250 50  0000 C CNN
-F 3 "" H 9050 2250 50  0000 C CNN
-	1    9050 2250
+P 8700 2250
+F 0 "#PWR026" H 8700 2000 50  0001 C CNN
+F 1 "Earth" H 8700 2100 50  0001 C CNN
+F 2 "" H 8700 2250 50  0000 C CNN
+F 3 "" H 8700 2250 50  0000 C CNN
+	1    8700 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR032
+L Earth #PWR028
 U 1 1 59AF6F30
 P 9500 4250
-F 0 "#PWR032" H 9500 4000 50  0001 C CNN
+F 0 "#PWR028" H 9500 4000 50  0001 C CNN
 F 1 "Earth" H 9500 4100 50  0001 C CNN
 F 2 "" H 9500 4250 50  0000 C CNN
 F 3 "" H 9500 4250 50  0000 C CNN
@@ -570,10 +563,10 @@ $EndComp
 Text GLabel 9500 2950 0    60   Input ~ 0
 SHUTDOWN
 $Comp
-L +5V #PWR033
+L +5V #PWR032
 U 1 1 59AFE176
 P 9050 1950
-F 0 "#PWR033" H 9050 1800 50  0001 C CNN
+F 0 "#PWR032" H 9050 1800 50  0001 C CNN
 F 1 "+5V" H 9065 2123 50  0000 C CNN
 F 2 "" H 9050 1950 50  0000 C CNN
 F 3 "" H 9050 1950 50  0000 C CNN
@@ -619,16 +612,16 @@ Wire Wire Line
 Wire Wire Line
 	1000 1900 7550 1900
 Wire Wire Line
-	2550 1900 2550 5400
+	2550 1200 2550 5400
 Connection ~ 2550 1900
 Wire Wire Line
-	2950 2200 2950 5400
+	2950 1200 2950 5400
 Connection ~ 2950 2200
 Wire Wire Line
-	3350 2500 3350 5400
+	3350 1200 3350 5400
 Connection ~ 3350 2500
 Wire Wire Line
-	3750 2800 3750 5400
+	3750 1200 3750 5400
 Connection ~ 3750 2800
 Connection ~ 4150 3100
 Wire Wire Line
@@ -879,13 +872,10 @@ Wire Wire Line
 	8700 1950 9500 1950
 Connection ~ 9050 1950
 Wire Wire Line
-	8700 2250 9050 2250
-Wire Wire Line
 	9500 3950 9500 4250
 Connection ~ 9500 4050
 Connection ~ 9500 4150
 Connection ~ 9500 4250
-Connection ~ 9050 2250
 Connection ~ 3750 3900
 Connection ~ 1550 4600
 Connection ~ 1950 4600
@@ -1172,29 +1162,10 @@ $EndComp
 Wire Wire Line
 	1000 3400 7550 3400
 Wire Wire Line
-	4150 3100 4150 5400
+	4150 1200 4150 5400
 Wire Wire Line
 	4950 1200 4950 5400
 NoConn ~ 9500 3650
-Wire Wire Line
-	10600 2150 11000 2150
-Wire Wire Line
-	10600 2250 11000 2250
-Wire Wire Line
-	10600 2350 11000 2350
-Wire Wire Line
-	10600 2450 11000 2450
-Wire Wire Line
-	10600 2550 11000 2550
-Wire Wire Line
-	10600 2650 11000 2650
-Wire Wire Line
-	11000 2750 10600 2750
-Wire Wire Line
-	10600 2850 11000 2850
-Wire Wire Line
-	11000 2950 10600 2950
-NoConn ~ 11000 3050
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
 Text GLabel 3850 6200 0    60   Input ~ 0
@@ -1203,8 +1174,6 @@ Text GLabel 3850 6300 0    60   Input ~ 0
 cb5
 Text GLabel 3850 6400 0    60   Input ~ 0
 cb6
-Text GLabel 3850 6550 0    60   Input ~ 0
-ca8
 Text GLabel 3850 6750 0    60   Input ~ 0
 cb1
 Text GLabel 3850 6850 0    60   Input ~ 0
@@ -1219,8 +1188,6 @@ Text Label 4400 6300 2    60   ~ 0
 CB5
 Text Label 4400 6400 2    60   ~ 0
 CB6
-Text Label 4400 6550 2    60   ~ 0
-CA8
 Wire Wire Line
 	3850 6200 4400 6200
 Wire Wire Line
@@ -1228,24 +1195,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 6400 3850 6400
 Wire Wire Line
-	4400 6550 3850 6550
-Wire Wire Line
 	4400 6850 3850 6850
 Wire Wire Line
 	4400 6750 3850 6750
-$Comp
-L CONN_01X10 palm1
-U 1 1 59D903C8
-P 11200 2600
-F 0 "palm1" H 11278 2641 50  0000 L CNN
-F 1 "FPC 10 way connector, 0.5mm pitch, right angle, bottom contact" H 11278 2550 50  0000 L CNN
-F 2 "fp:FPC_10_2046" H 11200 2600 50  0001 C CNN
-F 3 "" H 11200 2600 50  0000 C CNN
-F 4 "1302345" H 11200 2600 60  0001 C CNN "farnell #"
-F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
-	1    11200 2600
-	1    0    0    -1  
-$EndComp
 $Comp
 L rgbled rgb-p5
 U 1 1 5A019065
@@ -1266,12 +1218,6 @@ Wire Notes Line
 	5600 4750 5600 6050
 Wire Notes Line
 	5600 6050 5100 6050
-Text GLabel 3850 6650 0    60   Input ~ 0
-ca9
-Text Label 4400 6650 2    60   ~ 0
-CA9
-Wire Wire Line
-	4400 6650 3850 6650
 $Comp
 L rgbled rgb-l5
 U 1 1 5A019B13
@@ -1285,12 +1231,12 @@ F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 	-1   0    0    -1  
 $EndComp
 Text Notes 4650 6250 0    60   ~ 0
-2 lights for the LP
+2 lights for the LP: j5, k5
 $Comp
-L Earth #PWR023
+L Earth #PWR033
 U 1 1 5A01BB11
 P 10050 5200
-F 0 "#PWR023" H 10050 4950 50  0001 C CNN
+F 0 "#PWR033" H 10050 4950 50  0001 C CNN
 F 1 "Earth" H 10050 5050 50  0001 C CNN
 F 2 "" H 10050 5200 50  0000 C CNN
 F 3 "" H 10050 5200 50  0000 C CNN
@@ -1322,5 +1268,328 @@ F 3 "" H 4750 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    4750 5100
 	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-c1
+U 1 1 5ADF27A1
+P 2350 1500
+F 0 "rgb-c1" H 2182 1639 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2182 1533 60  0000 R CNN
+F 2 "fp:3528-4p" H 2350 1500 60  0001 C CNN
+F 3 "" H 2350 1500 60  0001 C CNN
+F 4 "" H 2350 1500 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    2350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-d1
+U 1 1 5ADF27AA
+P 2750 1500
+F 0 "rgb-d1" H 2825 2087 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2825 1981 60  0000 C CNN
+F 2 "fp:3528-4p" H 2750 1500 60  0001 C CNN
+F 3 "" H 2750 1500 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-e1
+U 1 1 5ADF27B7
+P 3150 1500
+F 0 "rgb-e1" H 3225 2087 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3225 1981 60  0000 C CNN
+F 2 "fp:3528-4p" H 3150 1500 60  0001 C CNN
+F 3 "" H 3150 1500 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-f1
+U 1 1 5ADF27BF
+P 3550 1500
+F 0 "rgb-f1" H 3625 2087 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 1981 60  0000 C CNN
+F 2 "fp:3528-4p" H 3550 1500 60  0001 C CNN
+F 3 "" H 3550 1500 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-c2
+U 1 1 5ADF27C7
+P 2350 2400
+F 0 "rgb-c2" H 2181 2539 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 2433 60  0000 R CNN
+F 2 "fp:3528-4p" H 2350 2400 60  0001 C CNN
+F 3 "" H 2350 2400 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    2350 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-b2
+U 1 1 5ADF27D0
+P 1950 2400
+F 0 "rgb-b2" H 1781 2539 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 2433 60  0000 R CNN
+F 2 "fp:3528-4p" H 1950 2400 60  0001 C CNN
+F 3 "" H 1950 2400 60  0001 C CNN
+F 4 "" H 1950 2400 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    1950 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-a2
+U 1 1 5ADF27D9
+P 1550 2400
+F 0 "rgb-a2" H 1381 2539 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 2433 60  0000 R CNN
+F 2 "fp:3528-4p" H 1550 2400 60  0001 C CNN
+F 3 "" H 1550 2400 60  0001 C CNN
+F 4 "" H 1550 2400 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    1550 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-f2
+U 1 1 5ADF27E1
+P 3550 2400
+F 0 "rgb-f2" H 3625 2987 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 2881 60  0000 C CNN
+F 2 "fp:3528-4p" H 3550 2400 60  0001 C CNN
+F 3 "" H 3550 2400 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3550 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-g2
+U 1 1 5ADF27E9
+P 3950 2400
+F 0 "rgb-g2" H 4025 2987 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 2881 60  0000 C CNN
+F 2 "fp:3528-4p" H 3950 2400 60  0001 C CNN
+F 3 "" H 3950 2400 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-a3
+U 1 1 5ADF27F2
+P 1550 3300
+F 0 "rgb-a3" H 1381 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 1550 3300 60  0001 C CNN
+F 3 "" H 1550 3300 60  0001 C CNN
+F 4 "" H 1550 3300 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    1550 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-b3
+U 1 1 5ADF27FB
+P 1950 3300
+F 0 "rgb-b3" H 1781 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 1950 3300 60  0001 C CNN
+F 3 "" H 1950 3300 60  0001 C CNN
+F 4 "" H 1950 3300 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    1950 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-c3
+U 1 1 5ADF2803
+P 2350 3300
+F 0 "rgb-c3" H 2181 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 2350 3300 60  0001 C CNN
+F 3 "" H 2350 3300 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    2350 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-d3
+U 1 1 5ADF280C
+P 2750 3300
+F 0 "rgb-d3" H 2581 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 2750 3300 60  0001 C CNN
+F 3 "" H 2750 3300 60  0001 C CNN
+F 4 "" H 2750 3300 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    2750 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-e3
+U 1 1 5ADF2815
+P 3150 3300
+F 0 "rgb-e3" H 2981 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 3150 3300 60  0001 C CNN
+F 3 "" H 3150 3300 60  0001 C CNN
+F 4 "" H 3150 3300 60  0001 C CNN "farnell #"
+F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3150 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L rgbled rgb-f3
+U 1 1 5ADF281D
+P 3550 3300
+F 0 "rgb-f3" H 3381 3439 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 3333 60  0000 R CNN
+F 2 "fp:3528-4p" H 3550 3300 60  0001 C CNN
+F 3 "" H 3550 3300 60  0001 C CNN
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+	1    3550 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1000 3950 1000
+Wire Wire Line
+	1750 1300 3950 1300
+Wire Wire Line
+	2150 1600 3950 1600
+Wire Wire Line
+	1550 2200 3950 2200
+Wire Wire Line
+	1550 2500 3950 2500
+Wire Wire Line
+	1550 3100 4150 3100
+Wire Wire Line
+	1550 2800 3750 2800
+Wire Wire Line
+	1550 3400 3550 3400
+Wire Wire Line
+	1550 1900 3950 1900
+Connection ~ 2550 1500
+Connection ~ 2550 1800
+Connection ~ 2950 1500
+Connection ~ 2950 1800
+Connection ~ 3350 1500
+Connection ~ 3350 1800
+Connection ~ 3750 1500
+Connection ~ 3750 1800
+Connection ~ 4150 1500
+Connection ~ 4150 1800
+Connection ~ 2350 1600
+Connection ~ 2350 1300
+Connection ~ 2350 1000
+Connection ~ 2750 1000
+Connection ~ 2750 1300
+Connection ~ 2750 1600
+Connection ~ 3150 1600
+Connection ~ 3150 1300
+Connection ~ 3150 1000
+Connection ~ 3550 1000
+Connection ~ 3550 1300
+Connection ~ 3550 1600
+Connection ~ 3950 1600
+Connection ~ 3950 1300
+Connection ~ 3950 1000
+Connection ~ 2150 2100
+Connection ~ 2150 2400
+Connection ~ 1750 2400
+Connection ~ 1350 2400
+Connection ~ 1350 2100
+Connection ~ 1550 1900
+Connection ~ 1950 1900
+Connection ~ 2350 1900
+Connection ~ 2350 2200
+Connection ~ 1950 2200
+Connection ~ 1550 2200
+Connection ~ 1550 2500
+Connection ~ 1950 2500
+Connection ~ 2350 2500
+Connection ~ 1350 2700
+Connection ~ 1750 2700
+Connection ~ 2150 2700
+Connection ~ 1350 3000
+Connection ~ 1350 3300
+Connection ~ 1350 3600
+Connection ~ 1750 3000
+Connection ~ 1750 3300
+Connection ~ 1750 3600
+Connection ~ 1550 3100
+Connection ~ 1550 3400
+Connection ~ 1950 3100
+Connection ~ 1950 3400
+Connection ~ 2350 3100
+Connection ~ 2350 3400
+Connection ~ 2750 3100
+Connection ~ 2750 3400
+Connection ~ 2550 3000
+Connection ~ 2550 3300
+Connection ~ 2550 3600
+Connection ~ 3150 3100
+Connection ~ 3150 3400
+Connection ~ 3350 3000
+Connection ~ 3350 3300
+Connection ~ 3350 3600
+Connection ~ 3550 3100
+Connection ~ 3550 3400
+Connection ~ 3550 1900
+Connection ~ 3550 2200
+Connection ~ 3550 2500
+Connection ~ 3750 2100
+Connection ~ 3750 2400
+Connection ~ 3750 2700
+Connection ~ 3950 1900
+Connection ~ 3950 2200
+Connection ~ 3950 2500
+Connection ~ 2950 3600
+Connection ~ 2150 3600
+Connection ~ 2150 3300
+Connection ~ 2150 3000
+Connection ~ 3150 2800
+Connection ~ 2750 2800
+Connection ~ 2950 3000
+Connection ~ 2350 2800
+Connection ~ 1550 2800
+Connection ~ 1750 2100
+Connection ~ 4150 2100
+Connection ~ 4150 2400
+Connection ~ 4150 2700
+Connection ~ 2950 3300
+Connection ~ 1950 2800
+Connection ~ 3550 2800
+Wire Wire Line
+	1350 2100 1350 3600
+Wire Wire Line
+	1750 2100 1750 3600
+Wire Wire Line
+	2150 2100 2150 3600
+Wire Wire Line
+	3350 2500 3350 3600
+Wire Wire Line
+	2950 2200 2950 3600
+Wire Wire Line
+	2550 1900 2550 3600
+$Comp
+L rgbled rgb-g1
+U 1 1 5ADF2F1B
+P 3950 1500
+F 0 "rgb-g1" H 4025 2087 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 1981 60  0000 C CNN
+F 2 "fp:3528-4p" H 3950 1500 60  0001 C CNN
+F 3 "" H 3950 1500 60  0001 C CNN
+F 4 "any/open" H -3900 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3950 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 1500 60  0001 C CNN "leadtime"
+	1    3950 1500
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
