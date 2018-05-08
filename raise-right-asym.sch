@@ -269,7 +269,7 @@ F 3 "" H 5050 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
 	1    5050 2750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L D D3
@@ -2040,4 +2040,40 @@ F 3 "" H 3600 900 50  0000 C CNN
 $EndComp
 Text Label 3600 1000 2    60   ~ 0
 hall
+$Comp
+L SW_PUSH SWISO33
+U 1 1 5AE3302A
+P 10650 1950
+F 0 "SWISO33" H 10650 2205 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 2114 50  0000 C CNN
+F 2 "fp:kailhsocket-cherry" H 10650 1950 50  0001 C CNN
+F 3 "" H 10650 1950 50  0000 C CNN
+F 4 "kailh" H -50 -450 60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H -50 -450 60  0001 C CNN "supplier PN"
+F 6 "Value" H 10650 1950 60  0001 C CNN "MOQ"
+F 7 "Value" H 10650 1950 60  0001 C CNN "leadtime"
+	1    10650 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 10350 1950
+Wire Wire Line
+	10950 1950 10950 2100
+$Comp
+L SW_PUSH SWISO3
+U 1 1 5AE3364E
+P 5050 2650
+F 0 "SWISO3" H 5050 2905 50  0000 C CNN
+F 1 "SW_PUSH" H 5050 2814 50  0000 C CNN
+F 2 "fp:kailhsocket-cherry" H 5050 2650 50  0001 C CNN
+F 3 "" H 5050 2650 50  0000 C CNN
+F 4 "kailh" H -50 -400 60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H -50 -400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5050 2650 60  0001 C CNN "MOQ"
+F 7 "Value" H 5050 2650 60  0001 C CNN "leadtime"
+	1    5050 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 2650
+Wire Wire Line
+	5350 2650 5350 2750
 $EndSCHEMATC
