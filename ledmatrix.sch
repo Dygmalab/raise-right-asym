@@ -84,375 +84,467 @@ CB6
 Text Label 1000 5800 2    60   ~ 0
 CB8
 $Comp
-L rgbled rgb-h1
+L rgbled rgb6
 U 1 1 59AEC853
 P 4350 1500
-F 0 "rgb-h1" H 4425 2087 60  0000 C CNN
+F 0 "rgb6" H 4425 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4425 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 4350 1500 60  0001 C CNN
 F 3 "" H 4350 1500 60  0001 C CNN
-F 4 "" H 4350 1500 60  0001 C CNN "farnell #"
-F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4350 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 1500 60  0001 C CNN "leadtime"
 	1    4350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-i1
+L rgbled rgb7
 U 1 1 59AEC889
 P 4750 1500
-F 0 "rgb-i1" H 4825 2087 60  0000 C CNN
+F 0 "rgb7" H 4825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4825 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 4750 1500 60  0001 C CNN
 F 3 "" H 4750 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4750 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 1500 60  0001 C CNN "leadtime"
 	1    4750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-j1
+L rgbled rgb8
 U 1 1 59AEC8B9
 P 5150 1500
-F 0 "rgb-j1" H 5225 2087 60  0000 C CNN
+F 0 "rgb8" H 5225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5225 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 5150 1500 60  0001 C CNN
 F 3 "" H 5150 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5150 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5150 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 5150 1500 60  0001 C CNN "leadtime"
 	1    5150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-k1
+L rgbled rgb9
 U 1 1 59AEC8EB
 P 5550 1500
-F 0 "rgb-k1" H 5625 2087 60  0000 C CNN
+F 0 "rgb9" H 5550 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5625 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 5550 1500 60  0001 C CNN
 F 3 "" H 5550 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5550 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5550 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 5550 1500 60  0001 C CNN "leadtime"
 	1    5550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-l1
+L rgbled rgb10
 U 1 1 59AEC91F
 P 5950 1500
-F 0 "rgb-l1" H 6025 2087 60  0000 C CNN
+F 0 "rgb10" H 6025 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6025 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 5950 1500 60  0001 C CNN
 F 3 "" H 5950 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5950 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5950 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 5950 1500 60  0001 C CNN "leadtime"
 	1    5950 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-m1
+L rgbled rgb11
 U 1 1 59AEC95D
 P 6350 1500
-F 0 "rgb-m1" H 6425 2087 60  0000 C CNN
+F 0 "rgb11" H 6425 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6425 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 6350 1500 60  0001 C CNN
 F 3 "" H 6350 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6350 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6350 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 6350 1500 60  0001 C CNN "leadtime"
 	1    6350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-n1
+L rgbled rgb12
 U 1 1 59AEC995
 P 6750 1500
-F 0 "rgb-n1" H 6825 2087 60  0000 C CNN
+F 0 "rgb12" H 6825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6825 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 6750 1500 60  0001 C CNN
 F 3 "" H 6750 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6750 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6750 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 6750 1500 60  0001 C CNN "leadtime"
 	1    6750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-o1
+L rgbled rgb13
 U 1 1 59AECA0A
 P 7150 1500
-F 0 "rgb-o1" H 7225 2087 60  0000 C CNN
+F 0 "rgb13" H 7225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7225 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 7150 1500 60  0001 C CNN
 F 3 "" H 7150 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7150 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7150 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 7150 1500 60  0001 C CNN "leadtime"
 	1    7150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-p1
+L rgbled rgb14
 U 1 1 59AECA80
 P 7550 1500
-F 0 "rgb-p1" H 7625 2087 60  0000 C CNN
+F 0 "rgb14" H 7625 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7625 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 7550 1500 60  0001 C CNN
 F 3 "" H 7550 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7550 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7550 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 7550 1500 60  0001 C CNN "leadtime"
 	1    7550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-h2
+L rgbled rgb20
 U 1 1 59AED45D
 P 4350 2400
-F 0 "rgb-h2" H 4425 2987 60  0000 C CNN
+F 0 "rgb20" H 4425 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4425 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 4350 2400 60  0001 C CNN
 F 3 "" H 4350 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4350 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 2400 60  0001 C CNN "leadtime"
 	1    4350 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-i2
+L rgbled rgb21
 U 1 1 59AED4A7
 P 4750 2400
-F 0 "rgb-i2" H 4825 2987 60  0000 C CNN
+F 0 "rgb21" H 4825 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4825 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 4750 2400 60  0001 C CNN
 F 3 "" H 4750 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4750 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 2400 60  0001 C CNN "leadtime"
 	1    4750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-j2
+L rgbled rgb22
 U 1 1 59AED4EF
 P 5150 2400
-F 0 "rgb-j2" H 5225 2987 60  0000 C CNN
+F 0 "rgb22" H 5225 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5225 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 5150 2400 60  0001 C CNN
 F 3 "" H 5150 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5150 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5150 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 5150 2400 60  0001 C CNN "leadtime"
 	1    5150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-k2
+L rgbled rgb23
 U 1 1 59AED539
 P 5550 2400
-F 0 "rgb-k2" H 5625 2987 60  0000 C CNN
+F 0 "rgb23" H 5625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5625 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 5550 2400 60  0001 C CNN
 F 3 "" H 5550 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 5550 2400 60  0001 C CNN "leadtime"
 	1    5550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-l2
+L rgbled rgb24
 U 1 1 59AED661
 P 5950 2400
-F 0 "rgb-l2" H 6025 2987 60  0000 C CNN
+F 0 "rgb24" H 6025 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6025 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 5950 2400 60  0001 C CNN
 F 3 "" H 5950 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5950 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5950 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 5950 2400 60  0001 C CNN "leadtime"
 	1    5950 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-m2
+L rgbled rgb25
 U 1 1 59AED6AF
 P 6350 2400
-F 0 "rgb-m2" H 6425 2987 60  0000 C CNN
+F 0 "rgb25" H 6425 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6425 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 6350 2400 60  0001 C CNN
 F 3 "" H 6350 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6350 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6350 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 6350 2400 60  0001 C CNN "leadtime"
 	1    6350 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-n2
+L rgbled rgb26
 U 1 1 59AED705
 P 6750 2400
-F 0 "rgb-n2" H 6825 2987 60  0000 C CNN
+F 0 "rgb26" H 6825 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6825 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 6750 2400 60  0001 C CNN
 F 3 "" H 6750 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6750 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6750 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 6750 2400 60  0001 C CNN "leadtime"
 	1    6750 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-o2
+L rgbled rgb27
 U 1 1 59AED75B
 P 7150 2400
-F 0 "rgb-o2" H 7225 2987 60  0000 C CNN
+F 0 "rgb27" H 7225 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7225 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 7150 2400 60  0001 C CNN
 F 3 "" H 7150 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7150 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7150 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 7150 2400 60  0001 C CNN "leadtime"
 	1    7150 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-p2
+L rgbled rgb28
 U 1 1 59AED7B3
 P 7550 2400
-F 0 "rgb-p2" H 7625 2987 60  0000 C CNN
+F 0 "rgb28" H 7625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7625 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 7550 2400 60  0001 C CNN
 F 3 "" H 7550 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 7550 2400 60  0001 C CNN "leadtime"
 	1    7550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-i3
+L rgbled rgb35
 U 1 1 59AEDBED
 P 4750 3300
-F 0 "rgb-i3" H 4582 3439 60  0000 R CNN
+F 0 "rgb35" H 4582 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4582 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 4750 3300 60  0001 C CNN
 F 3 "" H 4750 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4750 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 3300 60  0001 C CNN "leadtime"
 	1    4750 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-j3
+L rgbled rgb36
 U 1 1 59AEDC55
 P 5150 3300
-F 0 "rgb-j3" H 4982 3439 60  0000 R CNN
+F 0 "rgb36" H 4982 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4982 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 5150 3300 60  0001 C CNN
 F 3 "" H 5150 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5150 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5150 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 5150 3300 60  0001 C CNN "leadtime"
 	1    5150 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-k3
+L rgbled rgb37
 U 1 1 59AEDE4B
 P 5550 3300
-F 0 "rgb-k3" H 5382 3439 60  0000 R CNN
+F 0 "rgb37" H 5382 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5382 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 5550 3300 60  0001 C CNN
 F 3 "" H 5550 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5550 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5550 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 5550 3300 60  0001 C CNN "leadtime"
 	1    5550 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-l3
+L rgbled rgb38
 U 1 1 59AEDF2E
 P 5950 3300
-F 0 "rgb-l3" H 5782 3439 60  0000 R CNN
+F 0 "rgb38" H 5782 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5782 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 5950 3300 60  0001 C CNN
 F 3 "" H 5950 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5950 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5950 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 5950 3300 60  0001 C CNN "leadtime"
 	1    5950 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-m3
+L rgbled rgb39
 U 1 1 59AEDF96
 P 6350 3300
-F 0 "rgb-m3" H 6182 3439 60  0000 R CNN
+F 0 "rgb39" H 6182 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6182 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 6350 3300 60  0001 C CNN
 F 3 "" H 6350 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6350 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6350 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 6350 3300 60  0001 C CNN "leadtime"
 	1    6350 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-n3
+L rgbled rgb40
 U 1 1 59AEE000
 P 6750 3300
-F 0 "rgb-n3" H 6582 3439 60  0000 R CNN
+F 0 "rgb40" H 6582 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6582 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 6750 3300 60  0001 C CNN
 F 3 "" H 6750 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6750 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6750 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 6750 3300 60  0001 C CNN "leadtime"
 	1    6750 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-o3
+L rgbled rgb41
 U 1 1 59AEE06C
 P 7150 3300
-F 0 "rgb-o3" H 6982 3439 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6982 3333 60  0000 R CNN
-F 2 "fp:3528-4p" H 7150 3300 60  0001 C CNN
-F 3 "" H 7150 3300 60  0001 C CNN
+F 0 "rgb41" V 7350 3000 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7150 4050 60  0000 C CNN
+F 2 "fp:3528-4p" V 7150 3350 60  0001 C CNN
+F 3 "" V 7150 3350 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7150 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7150 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 7150 3300 60  0001 C CNN "leadtime"
 	1    7150 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-p3
+L rgbled rgb42
 U 1 1 59AEE0E2
 P 7550 3300
-F 0 "rgb-p3" H 7382 3439 60  0000 R CNN
+F 0 "rgb42" H 7382 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7382 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 7550 3300 60  0001 C CNN
 F 3 "" H 7550 3300 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7550 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7550 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 7550 3300 60  0001 C CNN "leadtime"
 	1    7550 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-l4
+L rgbled rgb52
 U 1 1 59AEE152
 P 5950 4200
-F 0 "rgb-l4" H 5782 4339 60  0000 R CNN
+F 0 "rgb52" H 5782 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5782 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 5950 4200 60  0001 C CNN
 F 3 "" H 5950 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 5950 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5950 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 5950 4200 60  0001 C CNN "leadtime"
 	1    5950 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-m4
+L rgbled rgb53
 U 1 1 59AEE216
 P 6350 4200
-F 0 "rgb-m4" H 6182 4339 60  0000 R CNN
+F 0 "rgb53" H 6182 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6182 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 6350 4200 60  0001 C CNN
 F 3 "" H 6350 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6350 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6350 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 6350 4200 60  0001 C CNN "leadtime"
 	1    6350 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-n4
+L rgbled rgb54
 U 1 1 59AEE28E
 P 6750 4200
-F 0 "rgb-n4" H 6582 4339 60  0000 R CNN
+F 0 "rgb54" H 6582 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6582 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 6750 4200 60  0001 C CNN
 F 3 "" H 6750 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 6750 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 6750 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 6750 4200 60  0001 C CNN "leadtime"
 	1    6750 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-o4
+L rgbled rgb55
 U 1 1 59AEE304
 P 7150 4200
-F 0 "rgb-o4" H 6982 4339 60  0000 R CNN
+F 0 "rgb55" H 6982 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6982 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 7150 4200 60  0001 C CNN
 F 3 "" H 7150 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7150 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7150 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 7150 4200 60  0001 C CNN "leadtime"
 	1    7150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-p4
+L rgbled rgb56
 U 1 1 59AEE37C
 P 7550 4200
-F 0 "rgb-p4" H 7382 4339 60  0000 R CNN
+F 0 "rgb56" H 7382 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7382 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 7550 4200 60  0001 C CNN
 F 3 "" H 7550 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 7550 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 7550 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 7550 4200 60  0001 C CNN "leadtime"
 	1    7550 4200
 	1    0    0    -1  
 $EndComp
@@ -461,12 +553,10 @@ Text Notes 9200 850  0    60   ~ 0
 Text Notes 9150 1300 0    60   ~ 0
 5 rows = 70RGBs max\n2 are on the low profile board
 $Comp
-L sled1735-RESCUE-raise-right-asym U58
+L sled1735-RESCUE-raise-right-asym U2
 U 1 1 59AF4F98
 P 9850 2250
-AR Path="/59AF4F98" Ref="U58"  Part="1" 
-AR Path="/59D12F0F/59AF4F98" Ref="U1"  Part="1" 
-F 0 "U1" H 10050 2987 60  0000 C CNN
+F 0 "U2" H 10050 2987 60  0000 C CNN
 F 1 "sled1735" H 10050 2881 60  0000 C CNN
 F 2 "fp:QFN-56_EP_4.5x6.5_Pitch0.4mm" H 9850 2250 60  0001 C CNN
 F 3 "" H 9850 2250 60  0001 C CNN
@@ -523,10 +613,10 @@ SLED_CS
 Text GLabel 9500 2850 0    60   Input ~ 0
 MISO
 $Comp
-L C C3
+L C C5
 U 1 1 59AF668F
 P 8700 2100
-F 0 "C3" H 8815 2146 50  0000 L CNN
+F 0 "C5" H 8815 2146 50  0000 L CNN
 F 1 "1uF, ceramic, 6v, 10%, x5r" H 8815 2055 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8738 1950 50  0001 C CNN
 F 3 "" H 8700 2100 50  0000 C CNN
@@ -539,10 +629,10 @@ F 8 "Value" H 8700 2100 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR026
+L Earth #PWR033
 U 1 1 59AF6699
 P 8700 2250
-F 0 "#PWR026" H 8700 2000 50  0001 C CNN
+F 0 "#PWR033" H 8700 2000 50  0001 C CNN
 F 1 "Earth" H 8700 2100 50  0001 C CNN
 F 2 "" H 8700 2250 50  0000 C CNN
 F 3 "" H 8700 2250 50  0000 C CNN
@@ -550,10 +640,10 @@ F 3 "" H 8700 2250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Earth #PWR028
+L Earth #PWR034
 U 1 1 59AF6F30
 P 9500 4250
-F 0 "#PWR028" H 9500 4000 50  0001 C CNN
+F 0 "#PWR034" H 9500 4000 50  0001 C CNN
 F 1 "Earth" H 9500 4100 50  0001 C CNN
 F 2 "" H 9500 4250 50  0000 C CNN
 F 3 "" H 9500 4250 50  0000 C CNN
@@ -956,208 +1046,244 @@ Connection ~ 7150 4600
 Connection ~ 7150 4900
 Connection ~ 7150 5200
 $Comp
-L rgbled rgb-i4
+L rgbled rgb51
 U 1 1 59D2C906
 P 4750 4200
-F 0 "rgb-i4" H 4581 4339 60  0000 R CNN
+F 0 "rgb51" H 4581 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4581 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 4750 4200 60  0001 C CNN
 F 3 "" H 4750 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4750 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 4200 60  0001 C CNN "leadtime"
 	1    4750 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-h4
+L rgbled rgb50
 U 1 1 59D2C90C
 P 4350 4200
-F 0 "rgb-h4" H 4181 4339 60  0000 R CNN
+F 0 "rgb50" H 4181 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4181 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 4350 4200 60  0001 C CNN
 F 3 "" H 4350 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4350 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 4200 60  0001 C CNN "leadtime"
 	1    4350 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-g4
+L rgbled rgb49
 U 1 1 59D2C912
 P 3950 4200
-F 0 "rgb-g4" H 3781 4339 60  0000 R CNN
+F 0 "rgb49" H 3781 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3781 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 3950 4200 60  0001 C CNN
 F 3 "" H 3950 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3950 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 4200 60  0001 C CNN "leadtime"
 	1    3950 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-f4
+L rgbled rgb48
 U 1 1 59D2C918
 P 3550 4200
-F 0 "rgb-f4" H 3381 4339 60  0000 R CNN
+F 0 "rgb48" H 3381 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 3550 4200 60  0001 C CNN
 F 3 "" H 3550 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3550 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 4200 60  0001 C CNN "leadtime"
 	1    3550 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-e4
+L rgbled rgb47
 U 1 1 59D2C91E
 P 3150 4200
-F 0 "rgb-e4" H 2981 4339 60  0000 R CNN
+F 0 "rgb47" H 2981 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 3150 4200 60  0001 C CNN
 F 3 "" H 3150 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3150 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 4200 60  0001 C CNN "leadtime"
 	1    3150 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-d4
+L rgbled rgb46
 U 1 1 59D2C924
 P 2750 4200
-F 0 "rgb-d4" H 2581 4339 60  0000 R CNN
+F 0 "rgb46" H 2581 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 2750 4200 60  0001 C CNN
 F 3 "" H 2750 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 2750 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 4200 60  0001 C CNN "leadtime"
 	1    2750 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c4
+L rgbled rgb45
 U 1 1 59D2C92A
 P 2350 4200
-F 0 "rgb-c4" H 2181 4339 60  0000 R CNN
+F 0 "rgb45" H 2181 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 2350 4200 60  0001 C CNN
 F 3 "" H 2350 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 2350 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 4200 60  0001 C CNN "leadtime"
 	1    2350 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-b4
+L rgbled rgb44
 U 1 1 59D2C930
 P 1950 4200
-F 0 "rgb-b4" H 1781 4339 60  0000 R CNN
+F 0 "rgb44" H 1781 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 1950 4200 60  0001 C CNN
 F 3 "" H 1950 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 1950 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 4200 60  0001 C CNN "leadtime"
 	1    1950 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-a4
+L rgbled rgb43
 U 1 1 59D2C936
 P 1550 4200
-F 0 "rgb-a4" H 1381 4339 60  0000 R CNN
+F 0 "rgb43" H 1381 4339 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 4233 60  0000 R CNN
 F 2 "fp:3528-4p" H 1550 4200 60  0001 C CNN
 F 3 "" H 1550 4200 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 1550 4200 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 4200 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 4200 60  0001 C CNN "leadtime"
 	1    1550 4200
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-a5
+L rgbled rgb57
 U 1 1 59D2CA0F
 P 1550 5100
-F 0 "rgb-a5" H 1381 5239 60  0000 R CNN
+F 0 "rgb57" H 1381 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 1550 5100 60  0001 C CNN
 F 3 "" H 1550 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 1550 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 5100 60  0001 C CNN "leadtime"
 	1    1550 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-b5
+L rgbled rgb58
 U 1 1 59D2CA15
 P 1950 5100
-F 0 "rgb-b5" H 1781 5239 60  0000 R CNN
+F 0 "rgb58" H 1781 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 1950 5100 60  0001 C CNN
 F 3 "" H 1950 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 1950 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 5100 60  0001 C CNN "leadtime"
 	1    1950 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c5
+L rgbled rgb59
 U 1 1 59D2CA1B
 P 2350 5100
-F 0 "rgb-c5" H 2181 5239 60  0000 R CNN
+F 0 "rgb59" H 2181 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 2350 5100 60  0001 C CNN
 F 3 "" H 2350 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 2350 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 5100 60  0001 C CNN "leadtime"
 	1    2350 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-d5
+L rgbled rgb60
 U 1 1 59D2CA21
 P 2750 5100
-F 0 "rgb-d5" H 2581 5239 60  0000 R CNN
+F 0 "rgb60" H 2581 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 2750 5100 60  0001 C CNN
 F 3 "" H 2750 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 2750 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 5100 60  0001 C CNN "leadtime"
 	1    2750 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-e5
+L rgbled rgb61
 U 1 1 59D2CA27
 P 3150 5100
-F 0 "rgb-e5" H 2981 5239 60  0000 R CNN
+F 0 "rgb61" H 2981 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 3150 5100 60  0001 C CNN
 F 3 "" H 3150 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3150 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 5100 60  0001 C CNN "leadtime"
 	1    3150 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-f5
+L rgbled rgb62
 U 1 1 59D2CA2D
 P 3550 5100
-F 0 "rgb-f5" H 3381 5239 60  0000 R CNN
+F 0 "rgb62" H 3381 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 3550 5100 60  0001 C CNN
 F 3 "" H 3550 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3550 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 5100 60  0001 C CNN "leadtime"
 	1    3550 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-g5
+L rgbled rgb63
 U 1 1 59D2CA33
 P 3950 5100
-F 0 "rgb-g5" H 3781 5239 60  0000 R CNN
+F 0 "rgb63" H 3781 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3781 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 3950 5100 60  0001 C CNN
 F 3 "" H 3950 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 3950 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 5100 60  0001 C CNN "leadtime"
 	1    3950 5100
 	-1   0    0    -1  
-$EndComp
-$Comp
-L rgbled rgb-o5
-U 1 1 59D2CA39
-P 7150 5100
-F 0 "rgb-o5" H 6981 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6981 5133 60  0000 R CNN
-F 2 "fp:3528-4p" H 7150 5100 60  0001 C CNN
-F 3 "" H 7150 5100 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-	1    7150 5100
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1000 3400 7550 3400
@@ -1175,13 +1301,13 @@ cb5
 Text GLabel 3850 6400 0    60   Input ~ 0
 cb6
 Text GLabel 3850 6750 0    60   Input ~ 0
-cb1
+cb7
 Text GLabel 3850 6850 0    60   Input ~ 0
-cb2
+cb8
 Text Label 4400 6750 2    60   ~ 0
-CB1
+CB7
 Text Label 4400 6850 2    60   ~ 0
-CB2
+CB8
 Text Label 4400 6200 2    60   ~ 0
 CB4
 Text Label 4400 6300 2    60   ~ 0
@@ -1198,45 +1324,21 @@ Wire Wire Line
 	4400 6850 3850 6850
 Wire Wire Line
 	4400 6750 3850 6750
-$Comp
-L rgbled rgb-p5
-U 1 1 5A019065
-P 7550 5100
-F 0 "rgb-p5" H 7381 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7381 5133 60  0000 R CNN
-F 2 "fp:3528-4p" H 7550 5100 60  0001 C CNN
-F 3 "" H 7550 5100 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-	1    7550 5100
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
-	4200 6050 5150 6050
+	6150 6050 7100 6050
 Wire Notes Line
-	5150 6050 5150 4750
+	7100 6050 7100 4750
 Wire Notes Line
-	5600 4750 5600 6050
+	7550 4750 7550 6050
 Wire Notes Line
-	5600 6050 5100 6050
-$Comp
-L rgbled rgb-l5
-U 1 1 5A019B13
-P 5950 5100
-F 0 "rgb-l5" H 5781 5239 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5781 5133 60  0000 R CNN
-F 2 "fp:3528-4p" H 5950 5100 60  0001 C CNN
-F 3 "" H 5950 5100 60  0001 C CNN
-F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
-	1    5950 5100
-	-1   0    0    -1  
-$EndComp
+	7550 6050 7050 6050
 Text Notes 4650 6250 0    60   ~ 0
-2 lights for the LP: j5, k5
+2 lights for the LP:o5,p5\n
 $Comp
-L Earth #PWR033
+L Earth #PWR035
 U 1 1 5A01BB11
 P 10050 5200
-F 0 "#PWR033" H 10050 4950 50  0001 C CNN
+F 0 "#PWR035" H 10050 4950 50  0001 C CNN
 F 1 "Earth" H 10050 5050 50  0001 C CNN
 F 2 "" H 10050 5200 50  0000 C CNN
 F 3 "" H 10050 5200 50  0000 C CNN
@@ -1246,213 +1348,257 @@ $EndComp
 Wire Wire Line
 	6950 1200 6950 5200
 $Comp
-L rgbled rgb-h5
+L rgbled rgb64
 U 1 1 5A2FEAB6
 P 4350 5100
-F 0 "rgb-h5" H 4181 5239 60  0000 R CNN
+F 0 "rgb64" H 4181 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4181 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 4350 5100 60  0001 C CNN
 F 3 "" H 4350 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4350 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4350 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 4350 5100 60  0001 C CNN "leadtime"
 	1    4350 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-i5
+L rgbled rgb65
 U 1 1 5A3172C3
 P 4750 5100
-F 0 "rgb-i5" H 4581 5239 60  0000 R CNN
+F 0 "rgb65" H 4581 5239 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4581 5133 60  0000 R CNN
 F 2 "fp:3528-4p" H 4750 5100 60  0001 C CNN
 F 3 "" H 4750 5100 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
+F 5 "Value" H 4750 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4750 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 4750 5100 60  0001 C CNN "leadtime"
 	1    4750 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c1
+L rgbled rgb1
 U 1 1 5ADF27A1
 P 2350 1500
-F 0 "rgb-c1" H 2182 1639 60  0000 R CNN
+F 0 "rgb1" H 2350 2050 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2182 1533 60  0000 R CNN
 F 2 "fp:3528-4p" H 2350 1500 60  0001 C CNN
 F 3 "" H 2350 1500 60  0001 C CNN
-F 4 "" H 2350 1500 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 2350 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 1500 60  0001 C CNN "leadtime"
 	1    2350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-d1
+L rgbled rgb2
 U 1 1 5ADF27AA
 P 2750 1500
-F 0 "rgb-d1" H 2825 2087 60  0000 C CNN
+F 0 "rgb2" H 2825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2825 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 2750 1500 60  0001 C CNN
 F 3 "" H 2750 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 2750 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 1500 60  0001 C CNN "leadtime"
 	1    2750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-e1
+L rgbled rgb3
 U 1 1 5ADF27B7
 P 3150 1500
-F 0 "rgb-e1" H 3225 2087 60  0000 C CNN
+F 0 "rgb3" H 3225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3225 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 3150 1500 60  0001 C CNN
 F 3 "" H 3150 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3150 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 1500 60  0001 C CNN "leadtime"
 	1    3150 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-f1
+L rgbled rgb4
 U 1 1 5ADF27BF
 P 3550 1500
-F 0 "rgb-f1" H 3625 2087 60  0000 C CNN
+F 0 "rgb4" H 3625 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 3550 1500 60  0001 C CNN
 F 3 "" H 3550 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3550 1500 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 1500 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 1500 60  0001 C CNN "leadtime"
 	1    3550 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c2
+L rgbled rgb17
 U 1 1 5ADF27C7
 P 2350 2400
-F 0 "rgb-c2" H 2181 2539 60  0000 R CNN
+F 0 "rgb17" H 2181 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 2433 60  0000 R CNN
 F 2 "fp:3528-4p" H 2350 2400 60  0001 C CNN
 F 3 "" H 2350 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 2350 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 2400 60  0001 C CNN "leadtime"
 	1    2350 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-b2
+L rgbled rgb16
 U 1 1 5ADF27D0
 P 1950 2400
-F 0 "rgb-b2" H 1781 2539 60  0000 R CNN
+F 0 "rgb16" H 1781 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 2433 60  0000 R CNN
 F 2 "fp:3528-4p" H 1950 2400 60  0001 C CNN
 F 3 "" H 1950 2400 60  0001 C CNN
-F 4 "" H 1950 2400 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 1950 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 2400 60  0001 C CNN "leadtime"
 	1    1950 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-a2
+L rgbled rgb15
 U 1 1 5ADF27D9
 P 1550 2400
-F 0 "rgb-a2" H 1381 2539 60  0000 R CNN
+F 0 "rgb15" H 1381 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 2433 60  0000 R CNN
 F 2 "fp:3528-4p" H 1550 2400 60  0001 C CNN
 F 3 "" H 1550 2400 60  0001 C CNN
-F 4 "" H 1550 2400 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 1550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 2400 60  0001 C CNN "leadtime"
 	1    1550 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-f2
+L rgbled rgb18
 U 1 1 5ADF27E1
 P 3550 2400
-F 0 "rgb-f2" H 3625 2987 60  0000 C CNN
+F 0 "rgb18" H 3625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 3550 2400 60  0001 C CNN
 F 3 "" H 3550 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3550 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 2400 60  0001 C CNN "leadtime"
 	1    3550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-g2
+L rgbled rgb19
 U 1 1 5ADF27E9
 P 3950 2400
-F 0 "rgb-g2" H 4025 2987 60  0000 C CNN
+F 0 "rgb19" H 4025 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 2881 60  0000 C CNN
 F 2 "fp:3528-4p" H 3950 2400 60  0001 C CNN
 F 3 "" H 3950 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3950 2400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3950 2400 60  0001 C CNN "MOQ"
+F 7 "Value" H 3950 2400 60  0001 C CNN "leadtime"
 	1    3950 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-a3
+L rgbled rgb29
 U 1 1 5ADF27F2
 P 1550 3300
-F 0 "rgb-a3" H 1381 3439 60  0000 R CNN
+F 0 "rgb29" H 1381 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 1550 3300 60  0001 C CNN
 F 3 "" H 1550 3300 60  0001 C CNN
-F 4 "" H 1550 3300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 1550 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1550 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 1550 3300 60  0001 C CNN "leadtime"
 	1    1550 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-b3
+L rgbled rgb30
 U 1 1 5ADF27FB
 P 1950 3300
-F 0 "rgb-b3" H 1781 3439 60  0000 R CNN
+F 0 "rgb30" H 1781 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 1950 3300 60  0001 C CNN
 F 3 "" H 1950 3300 60  0001 C CNN
-F 4 "" H 1950 3300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 1950 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 1950 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 1950 3300 60  0001 C CNN "leadtime"
 	1    1950 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-c3
+L rgbled rgb31
 U 1 1 5ADF2803
 P 2350 3300
-F 0 "rgb-c3" H 2181 3439 60  0000 R CNN
+F 0 "rgb31" H 2181 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 2350 3300 60  0001 C CNN
 F 3 "" H 2350 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 2350 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2350 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 2350 3300 60  0001 C CNN "leadtime"
 	1    2350 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-d3
+L rgbled rgb32
 U 1 1 5ADF280C
 P 2750 3300
-F 0 "rgb-d3" H 2581 3439 60  0000 R CNN
+F 0 "rgb32" H 2581 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 2750 3300 60  0001 C CNN
 F 3 "" H 2750 3300 60  0001 C CNN
-F 4 "" H 2750 3300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 2750 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2750 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 2750 3300 60  0001 C CNN "leadtime"
 	1    2750 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-e3
+L rgbled rgb33
 U 1 1 5ADF2815
 P 3150 3300
-F 0 "rgb-e3" H 2981 3439 60  0000 R CNN
+F 0 "rgb33" H 2981 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 3150 3300 60  0001 C CNN
 F 3 "" H 3150 3300 60  0001 C CNN
-F 4 "" H 3150 3300 60  0001 C CNN "farnell #"
-F 5 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3150 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3150 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 3150 3300 60  0001 C CNN "leadtime"
 	1    3150 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-f3
+L rgbled rgb34
 U 1 1 5ADF281D
 P 3550 3300
-F 0 "rgb-f3" H 3381 3439 60  0000 R CNN
+F 0 "rgb34" H 3381 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 3333 60  0000 R CNN
 F 2 "fp:3528-4p" H 3550 3300 60  0001 C CNN
 F 3 "" H 3550 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
+F 5 "Value" H 3550 3300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 3550 3300 60  0001 C CNN "MOQ"
+F 7 "Value" H 3550 3300 60  0001 C CNN "leadtime"
 	1    3550 3300
 	-1   0    0    -1  
 $EndComp
@@ -1578,10 +1724,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 1900 2550 3600
 $Comp
-L rgbled rgb-g1
+L rgbled rgb5
 U 1 1 5ADF2F1B
 P 3950 1500
-F 0 "rgb-g1" H 4025 2087 60  0000 C CNN
+F 0 "rgb5" H 4025 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 1981 60  0000 C CNN
 F 2 "fp:3528-4p" H 3950 1500 60  0001 C CNN
 F 3 "" H 3950 1500 60  0001 C CNN
@@ -1593,69 +1739,98 @@ F 7 "Value" H 3950 1500 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-ISO-a2
+L rgbled rgb-ISO-8
 U 1 1 5AE302CF
-P 1650 2450
-F 0 "rgb-ISO-a2" H 1481 2589 60  0000 R CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1481 2483 60  0000 R CNN
-F 2 "fp:3528-4p" H 1650 2450 60  0001 C CNN
-F 3 "" H 1650 2450 60  0001 C CNN
-F 4 "any/open" H -4200 -1000 60  0001 C CNN "supplier"
-F 5 "Value" H 1650 2450 60  0001 C CNN "supplier PN"
-F 6 "Value" H 1650 2450 60  0001 C CNN "MOQ"
-F 7 "Value" H 1650 2450 60  0001 C CNN "leadtime"
-	1    1650 2450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1950 1650 1900
-Connection ~ 1650 1900
-Wire Wire Line
-	1450 2150 1350 2150
-Connection ~ 1350 2150
-Wire Wire Line
-	1650 2250 1650 2200
-Connection ~ 1650 2200
-Wire Wire Line
-	1450 2450 1350 2450
-Connection ~ 1350 2450
-Wire Wire Line
-	1650 2550 1650 2500
-Connection ~ 1650 2500
-Wire Wire Line
-	1450 2750 1350 2750
-Connection ~ 1350 2750
-$Comp
-L rgbled rgb-ISO-j2
-U 1 1 5AE31270
-P 5100 2450
-F 0 "rgb-ISO-j2" H 5175 3037 60  0000 C CNN
-F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5175 2931 60  0000 C CNN
-F 2 "fp:3528-4p" H 5100 2450 60  0001 C CNN
-F 3 "" H 5100 2450 60  0001 C CNN
-F 4 "any/open" H -50 50  60  0001 C CNN "supplier"
-F 5 "Value" H 5100 2450 60  0001 C CNN "supplier PN"
-F 6 "Value" H 5100 2450 60  0001 C CNN "MOQ"
-F 7 "Value" H 5100 2450 60  0001 C CNN "leadtime"
-	1    5100 2450
+P 5100 1550
+F 0 "rgb-ISO-8" H 4931 1689 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4931 1583 60  0000 R CNN
+F 2 "fp:3528-4p" H 5100 1550 60  0001 C CNN
+F 3 "" H 5100 1550 60  0001 C CNN
+F 4 "any/open" H -750 -1900 60  0001 C CNN "supplier"
+F 5 "Value" H 5100 1550 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5100 1550 60  0001 C CNN "MOQ"
+F 7 "Value" H 5100 1550 60  0001 C CNN "leadtime"
+	1    5100 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5300 2150 5350 2150
+Connection ~ 1650 1900
+Connection ~ 1650 2200
+Connection ~ 1650 2500
+Connection ~ 1350 2750
+$Comp
+L rgbled rgb-ISO-16
+U 1 1 5AE31270
+P 2000 2450
+F 0 "rgb-ISO-16" H 2075 3037 60  0000 C CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2075 2931 60  0000 C CNN
+F 2 "fp:3528-4p" H 2000 2450 60  0001 C CNN
+F 3 "" H 2000 2450 60  0001 C CNN
+F 4 "any/open" H -3150 50  60  0001 C CNN "supplier"
+F 5 "Value" H 2000 2450 60  0001 C CNN "supplier PN"
+F 6 "Value" H 2000 2450 60  0001 C CNN "MOQ"
+F 7 "Value" H 2000 2450 60  0001 C CNN "leadtime"
+	1    2000 2450
+	-1   0    0    -1  
+$EndComp
 Connection ~ 5350 2150
-Wire Wire Line
-	5300 2450 5350 2450
 Connection ~ 5350 2450
-Wire Wire Line
-	5300 2750 5350 2750
 Connection ~ 5350 2750
-Wire Wire Line
-	5100 2550 5100 2500
 Connection ~ 5100 2500
-Wire Wire Line
-	5100 2250 5100 2200
 Connection ~ 5100 2200
 Wire Wire Line
 	5100 1950 5100 1900
 Connection ~ 5100 1900
+$Comp
+L rgbled rgb66
+U 1 1 5AF2BFD8
+P 5150 5100
+F 0 "rgb66" H 4981 5239 60  0000 R CNN
+F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4981 5133 60  0000 R CNN
+F 2 "fp:3528-4p" H 5150 5100 60  0001 C CNN
+F 3 "" H 5150 5100 60  0001 C CNN
+F 4 "any/open" H 400 0   60  0001 C CNN "supplier"
+F 5 "Value" H 5150 5100 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5150 5100 60  0001 C CNN "MOQ"
+F 7 "Value" H 5150 5100 60  0001 C CNN "leadtime"
+	1    5150 5100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1250 5350 1250
+Connection ~ 5350 1250
+Wire Wire Line
+	5300 1550 5350 1550
+Connection ~ 5350 1550
+Wire Wire Line
+	5300 1850 5350 1850
+Connection ~ 5350 1850
+Wire Wire Line
+	5100 1050 5100 1000
+Connection ~ 5100 1000
+Wire Wire Line
+	5100 1350 5100 1300
+Connection ~ 5100 1300
+Wire Wire Line
+	5100 1650 5100 1600
+Connection ~ 5100 1600
+Wire Wire Line
+	1800 2150 1750 2150
+Connection ~ 1750 2150
+Wire Wire Line
+	1800 2450 1750 2450
+Connection ~ 1750 2450
+Wire Wire Line
+	1800 2750 1750 2750
+Connection ~ 1750 2750
+Wire Wire Line
+	2000 1950 2000 1900
+Connection ~ 2000 1900
+Wire Wire Line
+	2000 2250 2000 2200
+Connection ~ 2000 2200
+Wire Wire Line
+	2000 2550 2000 2500
+Connection ~ 2000 2500
+Connection ~ 1350 2450
+Connection ~ 1350 2150
 $EndSCHEMATC
