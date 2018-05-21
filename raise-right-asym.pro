@@ -1,4 +1,4 @@
-update=Tue 24 Apr 2018 14:01:58 CEST
+update=lun 21 may 2018 15:32:37 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,7 +39,7 @@ ERC_TestSimilarLabels=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=raise-right-asym-rescue
+LibName1=raise-right-asym-cache
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -69,8 +69,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=libs/ws2812b
-LibName32=libs/tca4311a
-LibName33=libs/rgbled
-LibName34=libs/usb_c_16pin
-LibName35=libs/ss39et
