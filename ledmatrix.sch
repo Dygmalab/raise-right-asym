@@ -1,40 +1,7 @@
 EESchema Schematic File Version 3
-LIBS:raise-right-asym-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ws2812b
-LIBS:tca4311a
-LIBS:rgbled
-LIBS:usb_c_16pin
-LIBS:ss39et
 LIBS:raise-right-asym-cache
+LIBS:power
+LIBS:74xx
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -89,7 +56,7 @@ U 1 1 59AEC853
 P 4350 1500
 F 0 "rgb6" H 4425 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4425 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 4350 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4350 1500 60  0001 C CNN
 F 3 "" H 4350 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 4350 1500 60  0001 C CNN "supplier PN"
@@ -104,7 +71,7 @@ U 1 1 59AEC889
 P 4750 1500
 F 0 "rgb7" H 4825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4825 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 4750 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4750 1500 60  0001 C CNN
 F 3 "" H 4750 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 4750 1500 60  0001 C CNN "supplier PN"
@@ -119,7 +86,7 @@ U 1 1 59AEC8B9
 P 5150 1500
 F 0 "rgb8" H 5225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5225 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5150 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5150 1500 60  0001 C CNN
 F 3 "" H 5150 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5150 1500 60  0001 C CNN "supplier PN"
@@ -134,7 +101,7 @@ U 1 1 59AEC8EB
 P 5550 1500
 F 0 "rgb9" H 5550 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5625 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5550 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5550 1500 60  0001 C CNN
 F 3 "" H 5550 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5550 1500 60  0001 C CNN "supplier PN"
@@ -149,7 +116,7 @@ U 1 1 59AEC91F
 P 5950 1500
 F 0 "rgb10" H 6025 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6025 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5950 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5950 1500 60  0001 C CNN
 F 3 "" H 5950 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5950 1500 60  0001 C CNN "supplier PN"
@@ -164,7 +131,7 @@ U 1 1 59AEC95D
 P 6350 1500
 F 0 "rgb11" H 6425 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6425 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 6350 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 6350 1500 60  0001 C CNN
 F 3 "" H 6350 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 6350 1500 60  0001 C CNN "supplier PN"
@@ -179,7 +146,7 @@ U 1 1 59AEC995
 P 6750 1500
 F 0 "rgb12" H 6825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6825 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 6750 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 6750 1500 60  0001 C CNN
 F 3 "" H 6750 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 6750 1500 60  0001 C CNN "supplier PN"
@@ -194,7 +161,7 @@ U 1 1 59AECA0A
 P 7150 1500
 F 0 "rgb13" H 7225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7225 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 7150 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 7150 1500 60  0001 C CNN
 F 3 "" H 7150 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 7150 1500 60  0001 C CNN "supplier PN"
@@ -209,7 +176,7 @@ U 1 1 59AECA80
 P 7550 1500
 F 0 "rgb14" H 7625 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7625 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 7550 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 7550 1500 60  0001 C CNN
 F 3 "" H 7550 1500 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 7550 1500 60  0001 C CNN "supplier PN"
@@ -224,7 +191,7 @@ U 1 1 59AED45D
 P 4350 2400
 F 0 "rgb20" H 4425 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4425 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 4350 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4350 2400 60  0001 C CNN
 F 3 "" H 4350 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 4350 2400 60  0001 C CNN "supplier PN"
@@ -239,7 +206,7 @@ U 1 1 59AED4A7
 P 4750 2400
 F 0 "rgb21" H 4825 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4825 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 4750 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 4750 2400 60  0001 C CNN
 F 3 "" H 4750 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 4750 2400 60  0001 C CNN "supplier PN"
@@ -254,7 +221,7 @@ U 1 1 59AED4EF
 P 5150 2400
 F 0 "rgb22" H 5225 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5225 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5150 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5150 2400 60  0001 C CNN
 F 3 "" H 5150 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5150 2400 60  0001 C CNN "supplier PN"
@@ -269,7 +236,7 @@ U 1 1 59AED539
 P 5550 2400
 F 0 "rgb23" H 5625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5625 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5550 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5550 2400 60  0001 C CNN
 F 3 "" H 5550 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5550 2400 60  0001 C CNN "supplier PN"
@@ -284,7 +251,7 @@ U 1 1 59AED661
 P 5950 2400
 F 0 "rgb24" H 6025 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6025 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 5950 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5950 2400 60  0001 C CNN
 F 3 "" H 5950 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 5950 2400 60  0001 C CNN "supplier PN"
@@ -299,7 +266,7 @@ U 1 1 59AED6AF
 P 6350 2400
 F 0 "rgb25" H 6425 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6425 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 6350 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 6350 2400 60  0001 C CNN
 F 3 "" H 6350 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 6350 2400 60  0001 C CNN "supplier PN"
@@ -314,7 +281,7 @@ U 1 1 59AED705
 P 6750 2400
 F 0 "rgb26" H 6825 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 6825 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 6750 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 6750 2400 60  0001 C CNN
 F 3 "" H 6750 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 6750 2400 60  0001 C CNN "supplier PN"
@@ -329,7 +296,7 @@ U 1 1 59AED75B
 P 7150 2400
 F 0 "rgb27" H 7225 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7225 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 7150 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 7150 2400 60  0001 C CNN
 F 3 "" H 7150 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 7150 2400 60  0001 C CNN "supplier PN"
@@ -344,7 +311,7 @@ U 1 1 59AED7B3
 P 7550 2400
 F 0 "rgb28" H 7625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 7625 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 7550 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 7550 2400 60  0001 C CNN
 F 3 "" H 7550 2400 60  0001 C CNN
 F 4 "any/open" H 0   0   60  0001 C CNN "supplier"
 F 5 "Value" H 7550 2400 60  0001 C CNN "supplier PN"
@@ -1383,7 +1350,7 @@ U 1 1 5ADF27A1
 P 2350 1500
 F 0 "rgb1" H 2350 2050 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2182 1533 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2350 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 1500 60  0001 C CNN
 F 3 "" H 2350 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 2350 1500 60  0001 C CNN "supplier PN"
@@ -1398,7 +1365,7 @@ U 1 1 5ADF27AA
 P 2750 1500
 F 0 "rgb2" H 2825 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2825 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 2750 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2750 1500 60  0001 C CNN
 F 3 "" H 2750 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 2750 1500 60  0001 C CNN "supplier PN"
@@ -1413,7 +1380,7 @@ U 1 1 5ADF27B7
 P 3150 1500
 F 0 "rgb3" H 3225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3225 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 3150 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3150 1500 60  0001 C CNN
 F 3 "" H 3150 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3150 1500 60  0001 C CNN "supplier PN"
@@ -1428,7 +1395,7 @@ U 1 1 5ADF27BF
 P 3550 1500
 F 0 "rgb4" H 3625 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 3550 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3550 1500 60  0001 C CNN
 F 3 "" H 3550 1500 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3550 1500 60  0001 C CNN "supplier PN"
@@ -1443,7 +1410,7 @@ U 1 1 5ADF27C7
 P 2350 2400
 F 0 "rgb17" H 2181 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2350 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 2400 60  0001 C CNN
 F 3 "" H 2350 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 2350 2400 60  0001 C CNN "supplier PN"
@@ -1458,7 +1425,7 @@ U 1 1 5ADF27D0
 P 1950 2400
 F 0 "rgb16" H 1781 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1950 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 1950 2400 60  0001 C CNN
 F 3 "" H 1950 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 1950 2400 60  0001 C CNN "supplier PN"
@@ -1473,7 +1440,7 @@ U 1 1 5ADF27D9
 P 1550 2400
 F 0 "rgb15" H 1381 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 2433 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1550 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 1550 2400 60  0001 C CNN
 F 3 "" H 1550 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 1550 2400 60  0001 C CNN "supplier PN"
@@ -1488,7 +1455,7 @@ U 1 1 5ADF27E1
 P 3550 2400
 F 0 "rgb18" H 3625 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3625 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 3550 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3550 2400 60  0001 C CNN
 F 3 "" H 3550 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3550 2400 60  0001 C CNN "supplier PN"
@@ -1503,7 +1470,7 @@ U 1 1 5ADF27E9
 P 3950 2400
 F 0 "rgb19" H 4025 2987 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 2881 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 3950 2400 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3950 2400 60  0001 C CNN
 F 3 "" H 3950 2400 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3950 2400 60  0001 C CNN "supplier PN"
@@ -1518,7 +1485,7 @@ U 1 1 5ADF27F2
 P 1550 3300
 F 0 "rgb29" H 1381 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1381 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1550 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 1550 3300 60  0001 C CNN
 F 3 "" H 1550 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 1550 3300 60  0001 C CNN "supplier PN"
@@ -1533,7 +1500,7 @@ U 1 1 5ADF27FB
 P 1950 3300
 F 0 "rgb30" H 1781 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 1950 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 1950 3300 60  0001 C CNN
 F 3 "" H 1950 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 1950 3300 60  0001 C CNN "supplier PN"
@@ -1548,7 +1515,7 @@ U 1 1 5ADF2803
 P 2350 3300
 F 0 "rgb31" H 2181 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2181 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2350 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2350 3300 60  0001 C CNN
 F 3 "" H 2350 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 2350 3300 60  0001 C CNN "supplier PN"
@@ -1563,7 +1530,7 @@ U 1 1 5ADF280C
 P 2750 3300
 F 0 "rgb32" H 2581 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2581 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 2750 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2750 3300 60  0001 C CNN
 F 3 "" H 2750 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 2750 3300 60  0001 C CNN "supplier PN"
@@ -1578,7 +1545,7 @@ U 1 1 5ADF2815
 P 3150 3300
 F 0 "rgb33" H 2981 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2981 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3150 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3150 3300 60  0001 C CNN
 F 3 "" H 3150 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3150 3300 60  0001 C CNN "supplier PN"
@@ -1593,7 +1560,7 @@ U 1 1 5ADF281D
 P 3550 3300
 F 0 "rgb34" H 3381 3439 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 3381 3333 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 3550 3300 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3550 3300 60  0001 C CNN
 F 3 "" H 3550 3300 60  0001 C CNN
 F 4 "any/open" H -4300 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3550 3300 60  0001 C CNN "supplier PN"
@@ -1729,7 +1696,7 @@ U 1 1 5ADF2F1B
 P 3950 1500
 F 0 "rgb5" H 4025 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4025 1981 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 3950 1500 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 3950 1500 60  0001 C CNN
 F 3 "" H 3950 1500 60  0001 C CNN
 F 4 "any/open" H -3900 -1050 60  0001 C CNN "supplier"
 F 5 "Value" H 3950 1500 60  0001 C CNN "supplier PN"
@@ -1744,7 +1711,7 @@ U 1 1 5AE302CF
 P 5100 1550
 F 0 "rgb-ISO-8" H 4931 1689 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4931 1583 60  0000 R CNN
-F 2 "raise_fp:3528-4p" H 5100 1550 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 5100 1550 60  0001 C CNN
 F 3 "" H 5100 1550 60  0001 C CNN
 F 4 "any/open" H -750 -1900 60  0001 C CNN "supplier"
 F 5 "Value" H 5100 1550 60  0001 C CNN "supplier PN"
@@ -1763,7 +1730,7 @@ U 1 1 5AE31270
 P 2000 2450
 F 0 "rgb-ISO-16" H 2075 3037 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2075 2931 60  0000 C CNN
-F 2 "raise_fp:3528-4p" H 2000 2450 60  0001 C CNN
+F 2 "raise_fp:3528-4p-rev" H 2000 2450 60  0001 C CNN
 F 3 "" H 2000 2450 60  0001 C CNN
 F 4 "any/open" H -3150 50  60  0001 C CNN "supplier"
 F 5 "Value" H 2000 2450 60  0001 C CNN "supplier PN"
