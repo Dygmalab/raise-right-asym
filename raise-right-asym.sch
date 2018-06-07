@@ -163,16 +163,17 @@ F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW8
+L SW_PUSH SW_ANSI_8
 U 1 1 59958E32
 P 5050 2100
-F 0 "SW8" H 5050 2355 50  0000 C CNN
+F 0 "SW_ANSI_8" H 5050 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 5050 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2100 50  0001 C CNN
 F 3 "" H 5050 2100 50  0000 C CNN
-F 4 "" H 5050 2100 60  0001 C CNN "farnell #"
-F 5 "kailh" H -50 -300 60  0001 C CNN "supplier"
-F 6 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
+F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5050 2100 60  0001 C CNN "MOQ"
+F 7 "Value" H 5050 2100 60  0001 C CNN "leadtime"
 	1    5050 2100
 	1    0    0    -1  
 $EndComp
@@ -203,15 +204,17 @@ F 5 "any/open" H -50 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW16
+L SW_PUSH SW_ANSI_16
 U 1 1 59958E38
 P 5050 2750
-F 0 "SW16" H 5150 2550 50  0000 C CNN
+F 0 "SW_ANSI_16" H 5150 2550 50  0000 C CNN
 F 1 "SW_PUSH" H 5000 2650 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2750 50  0001 C CNN
 F 3 "" H 5050 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
+F 6 "Value" H 5050 2750 60  0001 C CNN "MOQ"
+F 7 "Value" H 5050 2750 60  0001 C CNN "leadtime"
 	1    5050 2750
 	-1   0    0    -1  
 $EndComp
@@ -1798,10 +1801,10 @@ $EndComp
 Text Label 3600 1000 2    60   ~ 0
 hall
 $Comp
-L SW_PUSH SW_ISO_8
+L SW_PUSH SW8
 U 1 1 5AE3302A
 P 5050 1950
-F 0 "SW_ISO_8" H 5050 2205 50  0000 C CNN
+F 0 "SW8" H 5050 2205 50  0000 C CNN
 F 1 "SW_PUSH" H 5050 2114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 1950 50  0001 C CNN
 F 3 "" H 5050 1950 50  0000 C CNN
@@ -1813,10 +1816,10 @@ F 7 "Value" H 5050 1950 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW_ISO_16
+L SW_PUSH SW16
 U 1 1 5AE3364E
 P 5050 2650
-F 0 "SW_ISO_16" H 5050 2905 50  0000 C CNN
+F 0 "SW16" H 5050 2905 50  0000 C CNN
 F 1 "SW_PUSH" H 5050 2814 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2650 50  0001 C CNN
 F 3 "" H 5050 2650 50  0000 C CNN
