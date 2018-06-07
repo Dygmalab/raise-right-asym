@@ -1,7 +1,5 @@
 EESchema Schematic File Version 3
 LIBS:raise-right-asym-cache
-LIBS:power
-LIBS:74xx
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1706,10 +1704,10 @@ F 7 "Value" H 3950 1500 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb-ISO-8
+L rgbled rgb_ISO_8
 U 1 1 5AE302CF
 P 5100 1550
-F 0 "rgb-ISO-8" H 4931 1689 60  0000 R CNN
+F 0 "rgb_ISO_8" H 4931 1689 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 4931 1583 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 5100 1550 60  0001 C CNN
 F 3 "" H 5100 1550 60  0001 C CNN
@@ -1725,10 +1723,10 @@ Connection ~ 1650 2200
 Connection ~ 1650 2500
 Connection ~ 1350 2750
 $Comp
-L rgbled rgb-ISO-16
+L rgbled rgb_ISO_16
 U 1 1 5AE31270
 P 2000 2450
-F 0 "rgb-ISO-16" H 2075 3037 60  0000 C CNN
+F 0 "rgb_ISO_16" H 2075 3037 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 2075 2931 60  0000 C CNN
 F 2 "raise_fp:3528-4p-rev" H 2000 2450 60  0001 C CNN
 F 3 "" H 2000 2450 60  0001 C CNN
