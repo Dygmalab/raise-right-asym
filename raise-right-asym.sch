@@ -889,7 +889,7 @@ U 1 1 5995AEB1
 P 9050 3300
 F 0 "SW28" H 9050 3555 50  0000 C CNN
 F 1 "SW_PUSH" H 9050 3464 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 9050 3300 50  0001 C CNN
+F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9050 3300 50  0001 C CNN
 F 3 "" H 9050 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
@@ -915,7 +915,7 @@ U 1 1 5995B0D6
 P 9850 1450
 F 0 "SW7" H 9850 1705 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 1614 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 9850 1450 50  0001 C CNN
+F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9850 1450 50  0001 C CNN
 F 3 "" H 9850 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
@@ -1122,32 +1122,19 @@ sda
 Text GLabel 6900 5800 2    60   Input ~ 0
 scl
 NoConn ~ 3050 1900
-Text Notes 8600 3850 0    60   ~ 0
+Text Notes 9600 3950 0    60   ~ 0
 2 extra switches are on another PCB
-Text GLabel 1900 5000 2    60   Input ~ 0
-SHUTDOWN
 $Comp
 L R R1
 U 1 1 59D3AEF6
-P 1900 5150
-F 0 "R1" H 1970 5196 50  0000 L CNN
-F 1 "10k, 125mW, 5%" V 1700 4800 50  0000 L CNN
-F 2 "raise_fp:R_0603" V 1830 5150 50  0001 C CNN
-F 3 "" H 1900 5150 50  0000 C CNN
-F 4 "2447230" H 1900 5150 60  0001 C CNN "farnell #"
-F 5 "any/open" H -3700 -100 60  0001 C CNN "supplier"
-	1    1900 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Earth #PWR013
-U 1 1 59D3B0CC
-P 1900 5300
-F 0 "#PWR013" H 1900 5050 50  0001 C CNN
-F 1 "Earth" H 1900 5150 50  0001 C CNN
-F 2 "" H 1900 5300 50  0000 C CNN
-F 3 "" H 1900 5300 50  0000 C CNN
-	1    1900 5300
+P 1900 5200
+F 0 "R1" H 1970 5246 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 1700 4850 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 1830 5200 50  0001 C CNN
+F 3 "" H 1900 5200 50  0000 C CNN
+F 4 "2447230" H 1900 5200 60  0001 C CNN "farnell #"
+F 5 "any/open" H -3700 -50 60  0001 C CNN "supplier"
+	1    1900 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1233,7 +1220,7 @@ U 1 1 59D7C986
 P 9850 2750
 F 0 "SW22" H 9850 3005 50  0000 C CNN
 F 1 "SW_PUSH" H 9850 2914 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 9850 2750 50  0001 C CNN
+F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9850 2750 50  0001 C CNN
 F 3 "" H 9850 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
@@ -1261,7 +1248,7 @@ U 1 1 59D7CCD3
 P 10650 2100
 F 0 "SW15" H 10650 2355 50  0000 C CNN
 F 1 "SW_PUSH" H 10650 2264 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 10650 2100 50  0001 C CNN
+F 2 "raise_fp:kailhsocket-cherry-right-joint" H 10650 2100 50  0001 C CNN
 F 3 "" H 10650 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
 F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
@@ -1284,27 +1271,27 @@ $EndComp
 $Comp
 L SW_PUSH SW34
 U 1 1 59D7CCDF
-P 10650 3950
-F 0 "SW34" H 10650 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 10650 4114 50  0000 C CNN
-F 2 "raise_fp:kailhsocket-cherry" H 10650 3950 50  0001 C CNN
-F 3 "" H 10650 3950 50  0000 C CNN
-F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
-F 5 "CPG151101S11" H -50 -300 60  0001 C CNN "supplier PN"
-	1    10650 3950
+P 9050 3950
+F 0 "SW34" H 9050 4205 50  0000 C CNN
+F 1 "SW_PUSH" H 9050 4114 50  0000 C CNN
+F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9050 3950 50  0001 C CNN
+F 3 "" H 9050 3950 50  0000 C CNN
+F 4 "kailh" H -1650 -300 60  0001 C CNN "supplier"
+F 5 "CPG151101S11" H -1650 -300 60  0001 C CNN "supplier PN"
+	1    9050 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L D D34
 U 1 1 59D7CCE5
-P 10950 4100
-F 0 "D34" V 10996 4022 50  0000 R CNN
-F 1 "small signal diode, 100mA" V 10905 4022 50  0000 R CNN
-F 2 "raise_fp:D_SOD-123" H 10950 4100 50  0001 C CNN
-F 3 "" H 10950 4100 50  0000 C CNN
-F 4 "2454043" H 10950 4100 60  0001 C CNN "farnell #"
-F 5 "any/open" H -50 -300 60  0001 C CNN "supplier"
-	1    10950 4100
+P 9350 4100
+F 0 "D34" V 9396 4022 50  0000 R CNN
+F 1 "small signal diode, 100mA" V 9305 4022 50  0000 R CNN
+F 2 "raise_fp:D_SOD-123" H 9350 4100 50  0001 C CNN
+F 3 "" H 9350 4100 50  0000 C CNN
+F 4 "2454043" H 9350 4100 60  0001 C CNN "farnell #"
+F 5 "any/open" H -1650 -300 60  0001 C CNN "supplier"
+	1    9350 4100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1329,7 +1316,7 @@ U 1 1 59D8FBB7
 P 5050 5650
 F 0 "T1" H 5128 5691 50  0000 L CNN
 F 1 "CONN_01X01" H 5128 5600 50  0000 L CNN
-F 2 "raise_fp:MountingHole_5.5mm" H 5050 5650 50  0001 C CNN
+F 2 "raise_fp:MountingHole_4.3mm" H 5050 5650 50  0001 C CNN
 F 3 "" H 5050 5650 50  0000 C CNN
 F 4 "dnp" H 5050 5650 60  0001 C CNN "farnell #"
 F 5 "dnp" H 3900 -150 60  0001 C CNN "supplier"
@@ -1366,7 +1353,7 @@ U 1 1 5A32AD50
 P 5050 5800
 F 0 "T2" H 5128 5841 50  0000 L CNN
 F 1 "CONN_01X01" H 5128 5750 50  0000 L CNN
-F 2 "raise_fp:MountingHole_5.5mm" H 5050 5800 50  0001 C CNN
+F 2 "raise_fp:MountingHole_4.3mm" H 5050 5800 50  0001 C CNN
 F 3 "" H 5050 5800 50  0000 C CNN
 F 4 "dnp" H 5050 5800 60  0001 C CNN "farnell #"
 F 5 "dnp" H 3900 -150 60  0001 C CNN "supplier"
@@ -1382,7 +1369,7 @@ U 1 1 5A32AD56
 P 5050 5950
 F 0 "T3" H 5128 5991 50  0000 L CNN
 F 1 "CONN_01X01" H 5128 5900 50  0000 L CNN
-F 2 "raise_fp:MountingHole_5.5mm" H 5050 5950 50  0001 C CNN
+F 2 "raise_fp:MountingHole_4.3mm" H 5050 5950 50  0001 C CNN
 F 3 "" H 5050 5950 50  0000 C CNN
 F 4 "dnp" H 5050 5950 60  0001 C CNN "farnell #"
 F 5 "dnp" H 3900 -150 60  0001 C CNN "supplier"
@@ -1438,7 +1425,6 @@ F 3 "" H 4850 5400 50  0000 C CNN
 	1    4850 5400
 	0    1    1    0   
 $EndComp
-NoConn ~ 3050 2150
 Text Label 3400 1600 0    60   ~ 0
 cc
 Text Label 3400 1700 0    60   ~ 0
@@ -1689,7 +1675,7 @@ L Ferrite_Bead_Small L1
 U 1 1 5ADFCDC7
 P 7100 4750
 F 0 "L1" V 7100 4950 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 7250 5000 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 7100 5400 50  0000 C CNN
 F 2 "raise_fp:R_0603" V 7030 4750 50  0001 C CNN
 F 3 "" H 7100 4750 50  0001 C CNN
 F 4 "1515745" H 0   0   60  0001 C CNN "farnell #"
@@ -1861,7 +1847,7 @@ Connection ~ 4750 3300
 Connection ~ 4750 3950
 Connection ~ 4750 2750
 Wire Wire Line
-	4250 4250 10950 4250
+	4250 4250 9350 4250
 Wire Wire Line
 	4250 3600 9350 3600
 Wire Wire Line
@@ -1919,7 +1905,7 @@ Connection ~ 7950 2750
 Connection ~ 9350 1750
 Connection ~ 9350 2400
 Wire Wire Line
-	8750 1050 8750 3300
+	8750 1050 8750 3950
 Connection ~ 8750 1450
 Connection ~ 9350 3050
 Connection ~ 8750 2100
@@ -1957,13 +1943,9 @@ Wire Wire Line
 	3100 7000 2800 7000
 Wire Wire Line
 	4000 6600 4000 6700
-Wire Wire Line
-	10350 1050 10350 3950
-Connection ~ 10350 2100
 Connection ~ 10150 2400
 Connection ~ 9550 2750
 Connection ~ 9550 2100
-Connection ~ 10350 1450
 Wire Wire Line
 	900  5500 900  5350
 Wire Wire Line
@@ -1973,7 +1955,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 5700 6900 5800
 Wire Wire Line
-	6900 4900 6900 4700
+	6900 4700 6900 4900
 Wire Wire Line
 	6900 4750 7000 4750
 Connection ~ 6900 4750
@@ -1984,9 +1966,6 @@ Wire Wire Line
 	2500 7400 2500 7350
 Wire Wire Line
 	2500 7350 2800 7350
-Connection ~ 10350 1950
-Wire Wire Line
-	10950 1950 10950 2100
 Connection ~ 4750 2650
 Wire Wire Line
 	5350 2650 5350 2750
@@ -2042,10 +2021,8 @@ Text GLabel 10400 5050 0    60   Input ~ 0
 cb4
 Text Label 10400 5950 2    60   ~ 0
 row7
-Text Label 10400 5850 2    60   ~ 0
-col6
 Text Label 10400 5750 2    60   ~ 0
-col5
+col6
 $Comp
 L TEST TP8
 U 1 1 5AF2DBB7
@@ -2076,4 +2053,86 @@ Text Label 4300 6100 0    60   ~ 0
 pa2
 Text Label 7350 5250 0    60   ~ 0
 cc
+Text Label 6900 4900 0    60   ~ 0
+post_ferrite
+Connection ~ 9350 4250
+Wire Wire Line
+	10350 2100 10350 1050
+Text Label 10400 5850 2    60   ~ 0
+col7
+$Comp
+L CONN_01X01 F1
+U 1 1 5B23BDC0
+P 5050 6150
+F 0 "F1" H 5128 6191 50  0000 L CNN
+F 1 "CONN_01X01" H 5128 6100 50  0000 L CNN
+F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 5050 6150 50  0001 C CNN
+F 3 "" H 5050 6150 50  0000 C CNN
+F 4 "dnp" H 5050 6150 60  0001 C CNN "farnell #"
+F 5 "dnp" H 3900 200 60  0001 C CNN "supplier"
+F 6 "Value" H 5050 6150 60  0001 C CNN "supplier PN"
+F 7 "Value" H 5050 6150 60  0001 C CNN "MOQ"
+F 8 "Value" H 5050 6150 60  0001 C CNN "leadtime"
+	1    5050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 F2
+U 1 1 5B23BDCB
+P 5050 6300
+F 0 "F2" H 5128 6341 50  0000 L CNN
+F 1 "CONN_01X01" H 5128 6250 50  0000 L CNN
+F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 5050 6300 50  0001 C CNN
+F 3 "" H 5050 6300 50  0000 C CNN
+F 4 "dnp" H 5050 6300 60  0001 C CNN "farnell #"
+F 5 "dnp" H 3900 200 60  0001 C CNN "supplier"
+F 6 "Value" H 5050 6300 60  0001 C CNN "supplier PN"
+F 7 "Value" H 5050 6300 60  0001 C CNN "MOQ"
+F 8 "Value" H 5050 6300 60  0001 C CNN "leadtime"
+	1    5050 6300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4850 6150
+NoConn ~ 4850 6300
+Text Label 3050 2150 0    60   ~ 0
+ansi
+Text GLabel 2350 5000 2    60   Input ~ 0
+SHUTDOWN
+$Comp
+L R R6
+U 1 1 5B277E2E
+P 2350 5150
+F 0 "R6" H 2420 5196 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 2150 4800 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 2280 5150 50  0001 C CNN
+F 3 "" H 2350 5150 50  0000 C CNN
+F 4 "2447230" H 2350 5150 60  0001 C CNN "farnell #"
+F 5 "any/open" H -3250 -100 60  0001 C CNN "supplier"
+	1    2350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR013
+U 1 1 5B277E34
+P 2350 5300
+F 0 "#PWR013" H 2350 5050 50  0001 C CNN
+F 1 "Earth" H 2350 5150 50  0001 C CNN
+F 2 "" H 2350 5300 50  0000 C CNN
+F 3 "" H 2350 5300 50  0000 C CNN
+	1    2350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR036
+U 1 1 5B277F75
+P 1900 5050
+F 0 "#PWR036" H 1900 4900 50  0001 C CNN
+F 1 "+5V" H 1915 5223 50  0000 C CNN
+F 2 "" H 1900 5050 50  0000 C CNN
+F 3 "" H 1900 5050 50  0000 C CNN
+	1    1900 5050
+	1    0    0    -1  
+$EndComp
+Text Label 1900 5350 3    60   ~ 0
+ansi
 $EndSCHEMATC

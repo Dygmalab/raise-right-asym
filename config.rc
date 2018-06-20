@@ -4,6 +4,12 @@ mask_color = white
 silk_color = black
 material = FR4
 thickness = 1.6
+copper = 35um
+layers = 2
 
 [logo]
-logo = /home/matt/matt@dygma.com/Dygma/Media/Logo/Dygma_logo_color.png
+logo = /home/matt/matt@dygma.com/Dygma/Media/Logos/Dygma_logo_color.png
+
+[meta]
+name = raise-right-asym-pcb
+

@@ -1,4 +1,4 @@
-update=Fri 25 May 2018 15:44:02 CEST
+update=Thu 14 Jun 2018 11:04:36 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,11 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=raise-right-asym-cache
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,8 +40,3 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=raise-right-asym-cache
