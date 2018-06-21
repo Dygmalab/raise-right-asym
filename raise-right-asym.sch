@@ -989,7 +989,7 @@ U 1 1 59B16B51
 P 1150 7450
 F 0 "P8" H 1150 7650 50  0000 C CNN
 F 1 "CONN_02X03" H 1150 7250 50  0000 C CNN
-F 2 "raise_fp:Tag-Connect_TC2030-IDC-NL" H 1150 6250 60  0001 C CNN
+F 2 "raise_fp:icsp-2.54-smt" H 1150 6250 60  0001 C CNN
 F 3 "" H 1150 6250 60  0000 C CNN
 F 4 "dnp" H 1150 7450 60  0001 C CNN "farnell #"
 F 5 "dnp" H 0   0   60  0001 C CNN "supplier"
@@ -1929,7 +1929,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6900 3100 7000
 Wire Wire Line
-	2800 6600 2800 6650
+	2800 6300 2800 6650
 Connection ~ 2800 6600
 Wire Wire Line
 	2800 6950 2800 7050
@@ -2135,4 +2135,26 @@ F 3 "" H 1900 5050 50  0000 C CNN
 $EndComp
 Text Label 1900 5350 3    60   ~ 0
 ansi
+$Comp
+L R R7
+U 1 1 5B2B6980
+P 3100 6300
+F 0 "R7" H 3170 6346 50  0000 L CNN
+F 1 "0R" H 3170 6255 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 3030 6300 50  0001 C CNN
+F 3 "" H 3100 6300 50  0000 C CNN
+F 4 "dnp" H 3100 6300 60  0001 C CNN "farnell #"
+F 5 "dnp" H 300 -900 60  0001 C CNN "supplier"
+F 6 "Value" H 3100 6300 60  0001 C CNN "supplier PN"
+F 7 "Value" H 3100 6300 60  0001 C CNN "MOQ"
+F 8 "Value" H 3100 6300 60  0001 C CNN "leadtime"
+	1    3100 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 6300 2800 6300
+Wire Wire Line
+	3250 6300 3550 6300
+Wire Wire Line
+	3550 6300 3550 6600
 $EndSCHEMATC
