@@ -191,15 +191,18 @@ F 5 "any/open" H -50 -300 60  0001 C CNN "supplier"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D D8
+L D D_ANSI_ISO_8
 U 1 1 59958E34
 P 5350 2250
-F 0 "D8" V 5396 2172 50  0000 R CNN
+F 0 "D_ANSI_ISO_8" V 5396 2172 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5305 2172 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5350 2250 50  0001 C CNN
 F 3 "" H 5350 2250 50  0000 C CNN
 F 4 "2454043" H 5350 2250 60  0001 C CNN "farnell #"
 F 5 "any/open" H -50 -300 60  0001 C CNN "supplier"
+F 6 "Value" H 5350 2250 60  0001 C CNN "supplier PN"
+F 7 "Value" H 5350 2250 60  0001 C CNN "MOQ"
+F 8 "Value" H 5350 2250 60  0001 C CNN "leadtime"
 	1    5350 2250
 	0    -1   -1   0   
 $EndComp
@@ -219,15 +222,18 @@ F 7 "Value" H 5050 2750 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D D16
+L D D_ANSI_ISO_16
 U 1 1 59958E39
 P 5350 2900
-F 0 "D16" V 5396 2822 50  0000 R CNN
+F 0 "D_ANSI_ISO_16" V 5396 2822 50  0000 R CNN
 F 1 "small signal diode, 100mA" V 5305 2822 50  0000 R CNN
 F 2 "raise_fp:D_SOD-123" H 5350 2900 50  0001 C CNN
 F 3 "" H 5350 2900 50  0000 C CNN
 F 4 "2454043" H 5350 2900 60  0001 C CNN "farnell #"
 F 5 "any/open" H -50 -300 60  0001 C CNN "supplier"
+F 6 "Value" H 5350 2900 60  0001 C CNN "supplier PN"
+F 7 "Value" H 5350 2900 60  0001 C CNN "MOQ"
+F 8 "Value" H 5350 2900 60  0001 C CNN "leadtime"
 	1    5350 2900
 	0    -1   -1   0   
 $EndComp
@@ -1125,15 +1131,18 @@ NoConn ~ 3050 1900
 Text Notes 9600 3950 0    60   ~ 0
 2 extra switches are on another PCB
 $Comp
-L R R1
+L R R_ANSI_1
 U 1 1 59D3AEF6
 P 1900 5200
-F 0 "R1" H 1970 5246 50  0000 L CNN
+F 0 "R_ANSI_1" H 1970 5246 50  0000 L CNN
 F 1 "10k, 125mW, 5%" V 1700 4850 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1830 5200 50  0001 C CNN
 F 3 "" H 1900 5200 50  0000 C CNN
 F 4 "2447230" H 1900 5200 60  0001 C CNN "farnell #"
 F 5 "any/open" H -3700 -50 60  0001 C CNN "supplier"
+F 6 "Value" H 1900 5200 60  0001 C CNN "supplier PN"
+F 7 "Value" H 1900 5200 60  0001 C CNN "MOQ"
+F 8 "Value" H 1900 5200 60  0001 C CNN "leadtime"
 	1    1900 5200
 	1    0    0    -1  
 $EndComp
@@ -1456,7 +1465,7 @@ $EndComp
 Text Label 900  5500 0    60   ~ 0
 i2c_addr
 Text Notes 700  5850 0    60   ~ 0
-firmware pulls addr lines low,\nplace R to make high\n
+firmware pulls addr lines low,\nplace R to make high\nonly place on RHS\n\n
 $Comp
 L C C4
 U 1 1 5ADF91CD
@@ -1787,10 +1796,10 @@ $EndComp
 Text Label 3600 1000 2    60   ~ 0
 hall
 $Comp
-L SW_PUSH SW8
+L SW_PUSH SW_ISO_8
 U 1 1 5AE3302A
 P 5050 1950
-F 0 "SW8" H 5050 2205 50  0000 C CNN
+F 0 "SW_ISO_8" H 5050 2205 50  0000 C CNN
 F 1 "SW_PUSH" H 5050 2114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 1950 50  0001 C CNN
 F 3 "" H 5050 1950 50  0000 C CNN
@@ -1802,10 +1811,10 @@ F 7 "Value" H 5050 1950 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH SW16
+L SW_PUSH SW_ISO_16
 U 1 1 5AE3364E
 P 5050 2650
-F 0 "SW16" H 5050 2905 50  0000 C CNN
+F 0 "SW_ISO_16" H 5050 2905 50  0000 C CNN
 F 1 "SW_PUSH" H 5050 2814 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2650 50  0001 C CNN
 F 3 "" H 5050 2650 50  0000 C CNN

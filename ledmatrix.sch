@@ -79,10 +79,10 @@ F 7 "Value" H 4750 1500 60  0001 C CNN "leadtime"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb8
+L rgbled rgb_ISO_8
 U 1 1 59AEC8B9
 P 5150 1500
-F 0 "rgb8" H 5225 2087 60  0000 C CNN
+F 0 "rgb_ISO_8" H 5225 2087 60  0000 C CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 5225 1981 60  0000 C CNN
 F 2 "raise_fp:3528-4p-rev" H 5150 1500 60  0001 C CNN
 F 3 "" H 5150 1500 60  0001 C CNN
@@ -1418,10 +1418,10 @@ F 7 "Value" H 2350 2400 60  0001 C CNN "leadtime"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L rgbled rgb16
+L rgbled rgb_ISO_16
 U 1 1 5ADF27D0
 P 1950 2400
-F 0 "rgb16" H 1781 2539 60  0000 R CNN
+F 0 "rgb_ISO_16" H 1781 2539 60  0000 R CNN
 F 1 "4 pin RGB led, com anode, red: 500mcd 620nm. Green: 1000mcd 520nm. Blue: 500mcd 460nm." H 1781 2433 60  0000 R CNN
 F 2 "raise_fp:3528-4p-rev" H 1950 2400 60  0001 C CNN
 F 3 "" H 1950 2400 60  0001 C CNN
