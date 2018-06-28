@@ -1798,4 +1798,26 @@ Wire Wire Line
 Connection ~ 2000 2500
 Connection ~ 1350 2450
 Connection ~ 1350 2150
+Wire Notes Line
+	4650 2850 4650 3750
+Wire Notes Line
+	4650 3750 1450 3750
+Wire Notes Line
+	1450 3750 1450 5350
+Wire Notes Line
+	1450 5350 5600 5350
+Wire Notes Line
+	5600 5350 5600 4500
+Wire Notes Line
+	5600 4500 7650 4500
+Wire Notes Line
+	7650 4500 7650 2850
+Wire Notes Line
+	7650 2850 4650 2850
+Text Notes 5100 3950 0    60   ~ 0
+normal mount\nunderglow
+Text Notes 1500 1250 0    60   ~ 0
+reverse mount \nfor keys
+Text Notes 6950 4800 0    60   ~ 0
+reverse mount\nlow profile
 $EndSCHEMATC
