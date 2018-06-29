@@ -1,0 +1,13 @@
+s/FCC_header/RIGHT-FCC_header/g
+s/KaihlSocket/RIGHT-KaihlSocket/g
+s/LED_RGB_3528-4RGB/RIGHT-LED_RGB_3528-4RGB/g
+s/Pcb/RIGHT-Pcb/g
+s/sled1735/RIGHT-sled1735/g
+s/USB_C_Daye/RIGHT-USB_C_Daye/g
+s/KaihlSocket_LowProfile/RIGHT-KaihlSocket_LowProfile/g
+s/D_SOD_123/RIGHT-D_SOD_123/g
+s/SOT_23/RIGHT-SOT_23/g
+s/R_0603_1608/RIGHT-R_0603_1608/g
+s/C_1206/RIGHT-C_1206/g
+s/C_0603_1608/RIGHT-C_0603_1608/g
+s/TQFP_32/RIGHT-TQFP_32/g
