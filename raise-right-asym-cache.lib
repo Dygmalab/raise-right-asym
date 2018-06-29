@@ -221,11 +221,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Ferrite_Bead_Small
+# Ferrite_Bead
 #
-DEF Ferrite_Bead_Small L 0 0 N Y 1 F N
-F0 "L" 75 50 50 H V L CNN
-F1 "Ferrite_Bead_Small" 75 -50 50 H V L CNN
+DEF Ferrite_Bead L 0 0 N Y 1 F N
+F0 "L" -150 25 50 V V C CNN
+F1 "Ferrite_Bead" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -234,11 +234,11 @@ $FPLIST
  *Ferrite*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
+P 2 0 1 0 0 -50 0 -48 N
+P 2 0 1 0 0 50 0 51 N
+P 5 0 1 0 -109 16 -67 89 109 -12 66 -85 -109 16 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -418,11 +418,11 @@ X B- 6 0 -100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# sled1735-RESCUE-raise-right-asym
+# sled1735
 #
-DEF sled1735-RESCUE-raise-right-asym U 0 40 Y Y 1 F N
+DEF sled1735 U 0 40 Y Y 1 F N
 F0 "U" 200 650 60 H V C CNN
-F1 "sled1735-RESCUE-raise-right-asym" 150 0 60 H V C CNN
+F1 "sled1735" 150 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW

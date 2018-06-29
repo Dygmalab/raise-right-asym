@@ -1,4 +1,4 @@
-update=Thu 14 Jun 2018 11:04:36 CEST
+update=Fri 29 Jun 2018 11:49:04 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=raise-right-asym-cache
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,15 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=raise-right-asym-cache
+LibName2=raise_libs/attiny88-a
+LibName3=raise_libs/ferrite_bead
+LibName4=raise_libs/regulator
+LibName5=raise_libs/rgbled
+LibName6=raise_libs/sled1735
+LibName7=raise_libs/test-jig
+LibName8=raise_libs/usb_c_16pin

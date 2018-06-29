@@ -1,5 +1,12 @@
 EESchema Schematic File Version 3
 LIBS:raise-right-asym-cache
+LIBS:attiny88-a
+LIBS:ferrite_bead
+LIBS:regulator
+LIBS:rgbled
+LIBS:sled1735
+LIBS:test-jig
+LIBS:usb_c_16pin
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -154,7 +161,7 @@ L SW_PUSH SW1
 U 1 1 59958E31
 P 5050 1450
 F 0 "SW1" H 5050 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 1450 50  0001 C CNN
 F 3 "" H 5050 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -167,7 +174,7 @@ L SW_PUSH SW_ANSI_8
 U 1 1 59958E32
 P 5050 2100
 F 0 "SW_ANSI_8" H 5050 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2100 50  0001 C CNN
 F 3 "" H 5050 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -211,7 +218,7 @@ L SW_PUSH SW_ANSI_16
 U 1 1 59958E38
 P 5050 2750
 F 0 "SW_ANSI_16" H 5150 2550 50  0000 C CNN
-F 1 "SW_PUSH" H 5000 2650 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5000 2650 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2750 50  0001 C CNN
 F 3 "" H 5050 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -244,7 +251,7 @@ L SW_PUSH SW23
 U 1 1 59959899
 P 5050 3300
 F 0 "SW23" H 5050 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 3300 50  0001 C CNN
 F 3 "" H 5050 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -257,7 +264,7 @@ L SW_PUSH SW29
 U 1 1 5995989F
 P 5050 3950
 F 0 "SW29" H 5050 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 3950 50  0001 C CNN
 F 3 "" H 5050 3950 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -296,7 +303,7 @@ L SW_PUSH SW2
 U 1 1 59959E78
 P 5850 1450
 F 0 "SW2" H 5850 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 5850 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5850 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5850 1450 50  0001 C CNN
 F 3 "" H 5850 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -309,7 +316,7 @@ L SW_PUSH SW9
 U 1 1 59959E7E
 P 5850 2100
 F 0 "SW9" H 5850 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 5850 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5850 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5850 2100 50  0001 C CNN
 F 3 "" H 5850 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -348,7 +355,7 @@ L SW_PUSH SW17
 U 1 1 59959E98
 P 5850 2750
 F 0 "SW17" H 5850 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 5850 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5850 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5850 2750 50  0001 C CNN
 F 3 "" H 5850 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -374,7 +381,7 @@ L SW_PUSH SW24
 U 1 1 59959EA8
 P 5850 3300
 F 0 "SW24" H 5850 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 5850 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5850 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5850 3300 50  0001 C CNN
 F 3 "" H 5850 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -387,7 +394,7 @@ L SW_PUSH SW30
 U 1 1 59959EAE
 P 5850 3950
 F 0 "SW30" H 5850 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 5850 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5850 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5850 3950 50  0001 C CNN
 F 3 "" H 5850 3950 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -426,7 +433,7 @@ L SW_PUSH SW3
 U 1 1 5995A8F4
 P 6650 1450
 F 0 "SW3" H 6650 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 6650 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6650 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6650 1450 50  0001 C CNN
 F 3 "" H 6650 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -439,7 +446,7 @@ L SW_PUSH SW10
 U 1 1 5995A8FA
 P 6650 2100
 F 0 "SW10" H 6650 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 6650 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6650 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6650 2100 50  0001 C CNN
 F 3 "" H 6650 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -478,7 +485,7 @@ L SW_PUSH SW18
 U 1 1 5995A914
 P 6650 2750
 F 0 "SW18" H 6650 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 6650 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6650 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6650 2750 50  0001 C CNN
 F 3 "" H 6650 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -504,7 +511,7 @@ L SW_PUSH SW25
 U 1 1 5995A924
 P 6650 3300
 F 0 "SW25" H 6650 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 6650 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6650 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6650 3300 50  0001 C CNN
 F 3 "" H 6650 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -517,7 +524,7 @@ L SW_PUSH SW31
 U 1 1 5995A92A
 P 6650 3950
 F 0 "SW31" H 6650 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 6650 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 6650 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 6650 3950 50  0001 C CNN
 F 3 "" H 6650 3950 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -556,7 +563,7 @@ L SW_PUSH SW4
 U 1 1 5995AC1B
 P 7450 1450
 F 0 "SW4" H 7450 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 7450 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 7450 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7450 1450 50  0001 C CNN
 F 3 "" H 7450 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -569,7 +576,7 @@ L SW_PUSH SW11
 U 1 1 5995AC21
 P 7450 2100
 F 0 "SW11" H 7450 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 7450 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 7450 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7450 2100 50  0001 C CNN
 F 3 "" H 7450 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -608,7 +615,7 @@ L SW_PUSH SW19
 U 1 1 5995AC3B
 P 7450 2750
 F 0 "SW19" H 7450 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 7450 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 7450 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7450 2750 50  0001 C CNN
 F 3 "" H 7450 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -634,7 +641,7 @@ L SW_PUSH SW26
 U 1 1 5995AC4B
 P 7450 3300
 F 0 "SW26" H 7450 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 7450 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 7450 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7450 3300 50  0001 C CNN
 F 3 "" H 7450 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -647,7 +654,7 @@ L SW_PUSH SW32
 U 1 1 5995AC51
 P 7450 3950
 F 0 "SW32" H 7450 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 7450 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 7450 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 7450 3950 50  0001 C CNN
 F 3 "" H 7450 3950 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -686,7 +693,7 @@ L SW_PUSH SW5
 U 1 1 5995AC72
 P 8250 1450
 F 0 "SW5" H 8250 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 8250 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 8250 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8250 1450 50  0001 C CNN
 F 3 "" H 8250 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -699,7 +706,7 @@ L SW_PUSH SW12
 U 1 1 5995AC78
 P 8250 2100
 F 0 "SW12" H 8250 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 8250 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 8250 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8250 2100 50  0001 C CNN
 F 3 "" H 8250 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -738,7 +745,7 @@ L SW_PUSH SW20
 U 1 1 5995AC92
 P 8250 2750
 F 0 "SW20" H 8250 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 8250 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 8250 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8250 2750 50  0001 C CNN
 F 3 "" H 8250 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -764,7 +771,7 @@ L SW_PUSH SW27
 U 1 1 5995ACA2
 P 8250 3300
 F 0 "SW27" H 8250 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 8250 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 8250 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8250 3300 50  0001 C CNN
 F 3 "" H 8250 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -777,7 +784,7 @@ L SW_PUSH SW33
 U 1 1 5995ACA8
 P 8250 3950
 F 0 "SW33" H 8250 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 8250 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 8250 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 8250 3950 50  0001 C CNN
 F 3 "" H 8250 3950 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -816,7 +823,7 @@ L SW_PUSH SW6
 U 1 1 5995AE81
 P 9050 1450
 F 0 "SW6" H 9050 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9050 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9050 1450 50  0001 C CNN
 F 3 "" H 9050 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -829,7 +836,7 @@ L SW_PUSH SW13
 U 1 1 5995AE87
 P 9050 2100
 F 0 "SW13" H 9050 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9050 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9050 2100 50  0001 C CNN
 F 3 "" H 9050 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -868,7 +875,7 @@ L SW_PUSH SW21
 U 1 1 5995AEA1
 P 9050 2750
 F 0 "SW21" H 9050 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9050 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9050 2750 50  0001 C CNN
 F 3 "" H 9050 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -894,7 +901,7 @@ L SW_PUSH SW28
 U 1 1 5995AEB1
 P 9050 3300
 F 0 "SW28" H 9050 3555 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 3464 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9050 3464 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9050 3300 50  0001 C CNN
 F 3 "" H 9050 3300 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -920,7 +927,7 @@ L SW_PUSH SW7
 U 1 1 5995B0D6
 P 9850 1450
 F 0 "SW7" H 9850 1705 50  0000 C CNN
-F 1 "SW_PUSH" H 9850 1614 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9850 1614 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9850 1450 50  0001 C CNN
 F 3 "" H 9850 1450 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -1055,7 +1062,7 @@ L R R5
 U 1 1 59D15DC4
 P 2800 7200
 F 0 "R5" H 2870 7246 50  0000 L CNN
-F 1 "5.1k, 125mW, 1%" H 2870 7155 50  0000 L CNN
+F 1 "5.1k, 125mW, 5%" H 2870 7155 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 2730 7200 50  0001 C CNN
 F 3 "" H 2800 7200 50  0000 C CNN
 F 4 "2447404" H 2800 7200 60  0001 C CNN "farnell #"
@@ -1202,7 +1209,7 @@ L SW_PUSH SW14
 U 1 1 59D7C830
 P 9850 2100
 F 0 "SW14" H 9850 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 9850 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9850 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 9850 2100 50  0001 C CNN
 F 3 "" H 9850 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -1228,7 +1235,7 @@ L SW_PUSH SW22
 U 1 1 59D7C986
 P 9850 2750
 F 0 "SW22" H 9850 3005 50  0000 C CNN
-F 1 "SW_PUSH" H 9850 2914 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9850 2914 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9850 2750 50  0001 C CNN
 F 3 "" H 9850 2750 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -1256,7 +1263,7 @@ L SW_PUSH SW15
 U 1 1 59D7CCD3
 P 10650 2100
 F 0 "SW15" H 10650 2355 50  0000 C CNN
-F 1 "SW_PUSH" H 10650 2264 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 10650 2264 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry-right-joint" H 10650 2100 50  0001 C CNN
 F 3 "" H 10650 2100 50  0000 C CNN
 F 4 "kailh" H -50 -300 60  0001 C CNN "supplier"
@@ -1282,7 +1289,7 @@ L SW_PUSH SW34
 U 1 1 59D7CCDF
 P 9050 3950
 F 0 "SW34" H 9050 4205 50  0000 C CNN
-F 1 "SW_PUSH" H 9050 4114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 9050 4114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry-right-joint" H 9050 3950 50  0001 C CNN
 F 3 "" H 9050 3950 50  0000 C CNN
 F 4 "kailh" H -1650 -300 60  0001 C CNN "supplier"
@@ -1343,12 +1350,14 @@ L Q_PMOS_GSD Q1
 U 1 1 5A315925
 P 3100 6700
 F 0 "Q1" V 3443 6700 50  0000 C CNN
-F 1 "Q_PMOS_GSD" V 3352 6700 50  0000 C CNN
+F 1 "PMOS, -3.6A, 0.02R" V 3352 6700 50  0000 C CNN
 F 2 "raise_fp:SOT-23" H 3300 6800 50  0001 C CNN
 F 3 "" H 3100 6700 50  0001 C CNN
 F 4 "2061419" H 3100 6700 60  0001 C CNN "farnell #"
 F 5 "diodes inc" H 0   0   60  0001 C CNN "supplier"
 F 6 "DMP2035U" H 0   0   60  0001 C CNN "supplier PN"
+F 7 "Value" H 3100 6700 60  0001 C CNN "MOQ"
+F 8 "Value" H 3100 6700 60  0001 C CNN "leadtime"
 	1    3100 6700
 	0    1    -1   0   
 $EndComp
@@ -1490,6 +1499,10 @@ F 0 "TP1" V 4515 5694 50  0000 C CNN
 F 1 "TEST" V 4424 5694 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4300 5600 50  0001 C CNN
 F 3 "" H 4300 5600 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
+F 5 "Value" H 4300 5600 60  0001 C CNN "supplier PN"
+F 6 "Value" H 4300 5600 60  0001 C CNN "MOQ"
+F 7 "Value" H 4300 5600 60  0001 C CNN "leadtime"
 	1    4300 5600
 	0    -1   -1   0   
 $EndComp
@@ -1501,6 +1514,7 @@ F 0 "TP2" V 3915 5194 50  0000 C CNN
 F 1 "TEST" V 3824 5194 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 5100 50  0001 C CNN
 F 3 "" H 3700 5100 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3700 5100
 	0    -1   -1   0   
 $EndComp
@@ -1512,6 +1526,7 @@ F 0 "TP3" V 3915 5444 50  0000 C CNN
 F 1 "TEST" V 3824 5444 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 5350 50  0001 C CNN
 F 3 "" H 3700 5350 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3700 5350
 	0    -1   -1   0   
 $EndComp
@@ -1523,6 +1538,7 @@ F 0 "TP4" V 3915 5694 50  0000 C CNN
 F 1 "TEST" V 3824 5694 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 5600 50  0001 C CNN
 F 3 "" H 3700 5600 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3700 5600
 	0    -1   -1   0   
 $EndComp
@@ -1534,6 +1550,7 @@ F 0 "TP5" V 3915 5944 50  0000 C CNN
 F 1 "TEST" V 3824 5944 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 5850 50  0001 C CNN
 F 3 "" H 3700 5850 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3700 5850
 	0    -1   -1   0   
 $EndComp
@@ -1545,6 +1562,7 @@ F 0 "TP6" V 3915 6194 50  0000 C CNN
 F 1 "TEST" V 3824 6194 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3700 6100 50  0001 C CNN
 F 3 "" H 3700 6100 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3700 6100
 	0    -1   -1   0   
 $EndComp
@@ -1556,6 +1574,7 @@ F 0 "TP7" V 3054 7228 50  0000 L CNN
 F 1 "TEST" V 3145 7228 50  0000 L CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 3100 7000 50  0001 C CNN
 F 3 "" H 3100 7000 50  0001 C CNN
+F 4 "dnp" H 4300 5600 60  0001 C CNN "supplier"
 	1    3100 7000
 	0    1    1    0   
 $EndComp
@@ -1680,26 +1699,30 @@ $EndComp
 NoConn ~ 6900 7300
 NoConn ~ 6900 7200
 $Comp
-L Ferrite_Bead_Small L1
+L Ferrite_Bead L1
 U 1 1 5ADFCDC7
-P 7100 4750
-F 0 "L1" V 7100 4950 50  0000 C CNN
-F 1 "Ferrite_Bead_Small" V 7100 5400 50  0000 C CNN
-F 2 "raise_fp:R_0603" V 7030 4750 50  0001 C CNN
-F 3 "" H 7100 4750 50  0001 C CNN
-F 4 "1515745" H 0   0   60  0001 C CNN "farnell #"
-	1    7100 4750
+P 7150 4750
+F 0 "L1" V 7200 5150 50  0000 C CNN
+F 1 "470R at 100M, 1A" V 7000 5450 50  0000 C CNN
+F 2 "raise_fp:R_0603" V 7080 4750 50  0001 C CNN
+F 3 "" H 7150 4750 50  0001 C CNN
+F 4 "1515745" H 50  0   60  0001 C CNN "farnell #"
+F 5 "Murata" H 7150 4750 60  0001 C CNN "supplier"
+F 6 "BLM18PG471SN1D" H 7150 4750 60  0001 C CNN "supplier PN"
+F 7 "Value" H 7150 4750 60  0001 C CNN "MOQ"
+F 8 "Value" H 7150 4750 60  0001 C CNN "leadtime"
+	1    7150 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L +5VA #PWR06
 U 1 1 5ADFD056
-P 7200 4750
-F 0 "#PWR06" H 7200 4600 50  0001 C CNN
-F 1 "+5VA" H 7215 4923 50  0000 C CNN
-F 2 "" H 7200 4750 50  0000 C CNN
-F 3 "" H 7200 4750 50  0000 C CNN
-	1    7200 4750
+P 7300 4750
+F 0 "#PWR06" H 7300 4600 50  0001 C CNN
+F 1 "+5VA" H 7315 4923 50  0000 C CNN
+F 2 "" H 7300 4750 50  0000 C CNN
+F 3 "" H 7300 4750 50  0000 C CNN
+	1    7300 4750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1707,7 +1730,7 @@ L R R4
 U 1 1 5ADFD366
 P 7350 5400
 F 0 "R4" H 7420 5446 50  0000 L CNN
-F 1 "5.1k, 125mW, 1%" H 7420 5355 50  0000 L CNN
+F 1 "5.1k, 125mW, 5%" H 7420 5355 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 7280 5400 50  0001 C CNN
 F 3 "" H 7350 5400 50  0000 C CNN
 F 4 "2447404" H 7350 5400 60  0001 C CNN "farnell #"
@@ -1800,7 +1823,7 @@ L SW_PUSH SW_ISO_8
 U 1 1 5AE3302A
 P 5050 1950
 F 0 "SW_ISO_8" H 5050 2205 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 2114 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 2114 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 1950 50  0001 C CNN
 F 3 "" H 5050 1950 50  0000 C CNN
 F 4 "kailh" H -5650 -450 60  0001 C CNN "supplier"
@@ -1815,7 +1838,7 @@ L SW_PUSH SW_ISO_16
 U 1 1 5AE3364E
 P 5050 2650
 F 0 "SW_ISO_16" H 5050 2905 50  0000 C CNN
-F 1 "SW_PUSH" H 5050 2814 50  0000 C CNN
+F 1 "kailh hot plug sockets" H 5050 2814 50  0000 C CNN
 F 2 "raise_fp:kailhsocket-cherry" H 5050 2650 50  0001 C CNN
 F 3 "" H 5050 2650 50  0000 C CNN
 F 4 "kailh" H -50 -400 60  0001 C CNN "supplier"
@@ -2040,6 +2063,7 @@ F 0 "TP8" V 4515 5944 50  0000 C CNN
 F 1 "TEST" V 4424 5944 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4300 5850 50  0001 C CNN
 F 3 "" H 4300 5850 50  0001 C CNN
+F 4 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    4300 5850
 	0    -1   -1   0   
 $EndComp
@@ -2055,6 +2079,7 @@ F 0 "TP9" V 4515 6194 50  0000 C CNN
 F 1 "TEST" V 4424 6194 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 4300 6100 50  0001 C CNN
 F 3 "" H 4300 6100 50  0001 C CNN
+F 4 "dnp" H 0   0   60  0001 C CNN "supplier"
 	1    4300 6100
 	0    -1   -1   0   
 $EndComp
@@ -2166,4 +2191,5 @@ Wire Wire Line
 	3250 6300 3550 6300
 Wire Wire Line
 	3550 6300 3550 6600
+NoConn ~ -5600 4450
 $EndSCHEMATC
