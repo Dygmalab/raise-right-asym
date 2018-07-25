@@ -12,11 +12,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Raise Right Asym"
+Date "2018-07-09"
+Rev "4.5"
+Comp "Dygma"
+Comment1 "Matt Venn"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -639,8 +639,6 @@ Text Notes 1450 850  0    236  ~ 0
 A B C D E F G H I J K L M N O P
 Text Notes 8200 5450 2    197  ~ 0
 1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15
-Text Notes 7100 7050 0    157  ~ 0
-RAISE v3\nDYGMA
 Wire Wire Line
 	1000 1000 7550 1000
 Wire Wire Line

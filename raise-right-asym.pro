@@ -1,4 +1,4 @@
-update=Fri 29 Jun 2018 11:49:04 CEST
+update=Mon 09 Jul 2018 15:32:16 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -47,3 +37,13 @@ LibName5=raise_libs/rgbled
 LibName6=raise_libs/sled1735
 LibName7=raise_libs/test-jig
 LibName8=raise_libs/usb_c_16pin
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1

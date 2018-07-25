@@ -13,8 +13,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Raise Right Asym"
-Date "2018-04-24"
-Rev "4.3"
+Date "2018-07-09"
+Rev "4.5"
 Comp "Dygma"
 Comment1 "Matt Venn"
 Comment2 ""
