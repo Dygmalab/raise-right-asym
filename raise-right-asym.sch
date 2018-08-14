@@ -65,7 +65,6 @@ F 3 "" H 1100 1600 50  0000 C CNN
 	1    1100 1600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1150 1900
 Text Notes 1750 850  0    118  ~ 0
 attiny88
 $Comp
@@ -2192,4 +2191,8 @@ Wire Wire Line
 Wire Wire Line
 	3550 6300 3550 6600
 NoConn ~ -5600 4450
+Wire Wire Line
+	1150 1900 1100 1900
+Wire Wire Line
+	1100 1900 1100 1600
 $EndSCHEMATC
