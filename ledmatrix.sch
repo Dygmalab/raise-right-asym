@@ -7,6 +7,7 @@ LIBS:rgbled
 LIBS:sled1735
 LIBS:test-jig
 LIBS:usb_c_16pin
+LIBS:Device
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -522,7 +523,7 @@ F 7 "Value" H 7550 4200 60  0001 C CNN "leadtime"
 $EndComp
 Text Notes 9200 850  0    60   ~ 0
 14 leds per row
-Text Notes 9150 1300 0    60   ~ 0
+Text Notes 9200 1100 0    60   ~ 0
 5 rows = 70RGBs max\n2 are on the low profile board
 $Comp
 L sled1735 U2
@@ -1825,4 +1826,42 @@ Text Notes 1500 1250 0    60   ~ 0
 reverse mount \nfor keys
 Text Notes 6950 4800 0    60   ~ 0
 reverse mount\nlow profile
+$Comp
+L Earth #PWR022
+U 1 1 5B901616
+P 8700 1600
+F 0 "#PWR022" H 8700 1350 50  0001 C CNN
+F 1 "Earth" H 8700 1450 50  0001 C CNN
+F 2 "" H 8700 1600 50  0000 C CNN
+F 3 "" H 8700 1600 50  0000 C CNN
+	1    8700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C4
+U 1 1 5B901621
+P 8700 1450
+F 0 "C4" H 8815 1496 50  0000 L CNN
+F 1 "47uF, tantalum, 6.3v, 10%, ESR 1.6R" H 8850 1200 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 8738 1300 50  0001 C CNN
+F 3 "" H 8700 1450 50  0000 C CNN
+F 4 "2333037RL" H 8700 1450 60  0001 C CNN "farnell #"
+F 5 "AVX" H 5900 -5350 60  0001 C CNN "supplier"
+F 6 "TAJA476K006RNJ" H 8700 1450 60  0001 C CNN "supplier PN"
+F 7 "Value" H 8700 1450 60  0001 C CNN "MOQ"
+F 8 "Value" H 8700 1450 60  0001 C CNN "leadtime"
+	1    8700 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR037
+U 1 1 5B901B79
+P 8700 1300
+F 0 "#PWR037" H 8700 1150 50  0001 C CNN
+F 1 "+5V" H 8715 1473 50  0000 C CNN
+F 2 "" H 8700 1300 50  0000 C CNN
+F 3 "" H 8700 1300 50  0000 C CNN
+	1    8700 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

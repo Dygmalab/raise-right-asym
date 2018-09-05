@@ -7,6 +7,7 @@ LIBS:rgbled
 LIBS:sled1735
 LIBS:test-jig
 LIBS:usb_c_16pin
+LIBS:Device
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1108,17 +1109,6 @@ F 3 "" H 3550 6600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Earth #PWR022
-U 1 1 59D15E0F
-P 4000 7000
-F 0 "#PWR022" H 4000 6750 50  0001 C CNN
-F 1 "Earth" H 4000 6850 50  0001 C CNN
-F 2 "" H 4000 7000 50  0000 C CNN
-F 3 "" H 4000 7000 50  0000 C CNN
-	1    4000 7000
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG02
 U 1 1 59D15E15
 P 2200 6600
@@ -1474,22 +1464,6 @@ Text Label 900  5500 0    60   ~ 0
 i2c_addr
 Text Notes 700  5850 0    60   ~ 0
 firmware pulls addr lines low,\nplace R to make high\nonly place on RHS\n\n
-$Comp
-L C C4
-U 1 1 5ADF91CD
-P 4000 6850
-F 0 "C4" H 4115 6896 50  0000 L CNN
-F 1 "47uF, ceramic, 6v, 10%, x5r" H 4150 6600 50  0000 L CNN
-F 2 "raise_fp:C_1206" H 4038 6700 50  0001 C CNN
-F 3 "" H 4000 6850 50  0000 C CNN
-F 4 "1907522" H 4000 6850 60  0001 C CNN "farnell #"
-F 5 "any/open" H 1200 50  60  0001 C CNN "supplier"
-F 6 "Value" H 4000 6850 60  0001 C CNN "supplier PN"
-F 7 "Value" H 4000 6850 60  0001 C CNN "MOQ"
-F 8 "Value" H 4000 6850 60  0001 C CNN "leadtime"
-	1    4000 6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L TEST TP1
 U 1 1 5ADF95BC
@@ -1972,8 +1946,6 @@ Connection ~ 3550 6600
 Connection ~ 3100 7000
 Wire Wire Line
 	3100 7000 2800 7000
-Wire Wire Line
-	4000 6600 4000 6700
 Connection ~ 10150 2400
 Connection ~ 9550 2750
 Connection ~ 9550 2100
