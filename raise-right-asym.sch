@@ -1978,17 +1978,6 @@ Wire Wire Line
 Text Notes 10000 4850 0    60   ~ 0
 low profiles
 $Comp
-L Earth #PWR016
-U 1 1 5ADF52D2
-P 10400 5450
-F 0 "#PWR016" H 10400 5200 50  0001 C CNN
-F 1 "Earth" H 10400 5300 50  0001 C CNN
-F 2 "" H 10400 5450 50  0000 C CNN
-F 3 "" H 10400 5450 50  0000 C CNN
-	1    10400 5450
-	0    1    1    0   
-$EndComp
-$Comp
 L Earth #PWR014
 U 1 1 5ADF50F1
 P 10400 5350
@@ -2013,15 +2002,15 @@ F 5 "any/open" H 0   0   60  0001 C CNN "supplier"
 	1    0    0    -1  
 $EndComp
 Text GLabel 10400 5650 0    60   Input ~ 0
-cb8
+cb8-lp
 Text GLabel 10400 5550 0    60   Input ~ 0
-cb7
+cb7-lp
 Text GLabel 10400 5250 0    60   Input ~ 0
-cb6
+cb6-lp
 Text GLabel 10400 5150 0    60   Input ~ 0
-cb5
+cb5-lp
 Text GLabel 10400 5050 0    60   Input ~ 0
-cb4
+cb4-lp
 Text Label 10400 5950 2    60   ~ 0
 row7
 Text Label 10400 5750 2    60   ~ 0
@@ -2167,4 +2156,6 @@ Wire Wire Line
 	1150 1900 1100 1900
 Wire Wire Line
 	1100 1900 1100 1600
+Text GLabel 10400 5450 0    60   Input ~ 0
+cb3-lp
 $EndSCHEMATC

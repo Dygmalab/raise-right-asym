@@ -1266,15 +1266,15 @@ NoConn ~ 9500 3650
 Text Notes 2200 300  0    197  ~ 0
 common anode type 3 matrix
 Text GLabel 3850 6200 0    60   Input ~ 0
-cb4
+cb4-lp
 Text GLabel 3850 6300 0    60   Input ~ 0
-cb5
+cb5-lp
 Text GLabel 3850 6400 0    60   Input ~ 0
-cb6
+cb6-lp
 Text GLabel 3850 6750 0    60   Input ~ 0
-cb7
+cb7-lp
 Text GLabel 3850 6850 0    60   Input ~ 0
-cb8
+cb8-lp
 Text Label 4400 6750 2    60   ~ 0
 CB7
 Text Label 4400 6850 2    60   ~ 0
@@ -1296,7 +1296,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 6750 3850 6750
 Wire Notes Line
-	6150 6050 7100 6050
+	3150 6050 7100 6050
 Wire Notes Line
 	7100 6050 7100 4750
 Wire Notes Line
@@ -1304,7 +1304,7 @@ Wire Notes Line
 Wire Notes Line
 	7550 6050 7050 6050
 Text Notes 4650 6250 0    60   ~ 0
-2 lights for the LP:o5,p5\n
+3 LEDSs for the LP: l5, o5,p5\n
 $Comp
 L Earth #PWR035
 U 1 1 5A01BB11
@@ -1864,4 +1864,20 @@ F 3 "" H 8700 1300 50  0000 C CNN
 	1    8700 1300
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	5950 4750 5950 6050
+Text Notes 5700 4900 0    60   ~ 0
+normal mount\nunderglow\nlow profile
+Text GLabel 3850 6650 0    60   Input ~ 0
+cb3-lp
+Text Label 4400 6650 2    60   ~ 0
+CB3
+Wire Wire Line
+	3850 6650 4400 6650
+Wire Notes Line
+	6150 6050 6150 6950
+Wire Notes Line
+	6150 6950 3150 6950
+Wire Notes Line
+	3150 6950 3150 6050
 $EndSCHEMATC
