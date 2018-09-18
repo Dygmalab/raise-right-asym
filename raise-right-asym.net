@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise-right-asym.sch)
-    (date "Tue 11 Sep 2018 15:01:32 CEST")
+    (date "Tue 18 Sep 2018 16:35:01 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -663,7 +663,7 @@
       (tstamp 59D3AEF6))
     (comp (ref P1)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -675,7 +675,7 @@
       (tstamp 59D3CA62))
     (comp (ref P2)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
@@ -687,7 +687,7 @@
       (tstamp 59D3CB5E))
     (comp (ref P3)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp))
@@ -768,7 +768,7 @@
       (tstamp 59D7CCE5))
     (comp (ref P4)
       (value CONN_01X01)
-      (footprint raise_fp:MountingHole_2.7mm_Pad)
+      (footprint raise_fp:MountingHole_2.2mm_Pad)
       (fields
         (field (name "farnell #") dnp)
         (field (name supplier) dnp)
