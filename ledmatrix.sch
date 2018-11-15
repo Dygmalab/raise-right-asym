@@ -7,7 +7,6 @@ LIBS:rgbled
 LIBS:sled1735
 LIBS:test-jig
 LIBS:usb_c_16pin
-LIBS:Device
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1880,4 +1879,6 @@ Wire Notes Line
 	6150 6950 3150 6950
 Wire Notes Line
 	3150 6950 3150 6050
+Text Notes 5450 6350 0    60   ~ 0
+68, 69 & 70
 $EndSCHEMATC
