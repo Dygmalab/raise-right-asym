@@ -1,4 +1,4 @@
-update=Wed 05 Sep 2018 13:57:11 CEST
+update=Thu 22 Nov 2018 14:06:14 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -47,4 +47,3 @@ LibName5=raise_libs/rgbled
 LibName6=raise_libs/sled1735
 LibName7=raise_libs/test-jig
 LibName8=raise_libs/usb_c_16pin
-LibName9=Device
