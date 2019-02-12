@@ -7,6 +7,7 @@ LIBS:rgbled
 LIBS:sled1735
 LIBS:test-jig
 LIBS:usb_c_16pin
+LIBS:usblc6-4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

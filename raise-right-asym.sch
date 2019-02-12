@@ -7,6 +7,7 @@ LIBS:rgbled
 LIBS:sled1735
 LIBS:test-jig
 LIBS:usb_c_16pin
+LIBS:usblc6-4
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -2422,4 +2423,45 @@ U 59D12F0F
 F0 "leds" 60
 F1 "ledmatrix.sch" 60
 $EndSheet
+$Comp
+L usblc6-4 U3
+U 1 1 5C632C8B
+P 1100 6450
+F 0 "U3" H 1100 6797 60  0000 C CNN
+F 1 "usblc6-4" H 1100 6691 60  0000 C CNN
+F 2 "raise_fp:SOT-23-6" H 1100 6450 60  0001 C CNN
+F 3 "" H 1100 6450 60  0001 C CNN
+	1    1100 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 6350 2    60   Input ~ 0
+sda
+Text GLabel 1450 6550 2    60   Input ~ 0
+scl
+Text Label 750  6350 2    60   ~ 0
+cc
+Text Label 750  6550 2    60   ~ 0
+reset
+$Comp
+L +5V #PWR040
+U 1 1 5C63398B
+P 1450 6450
+F 0 "#PWR040" H 1450 6300 50  0001 C CNN
+F 1 "+5V" H 1450 6590 50  0000 C CNN
+F 2 "" H 1450 6450 60  0000 C CNN
+F 3 "" H 1450 6450 60  0000 C CNN
+	1    1450 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Earth #PWR041
+U 1 1 5C633B0A
+P 750 6450
+F 0 "#PWR041" H 750 6200 50  0001 C CNN
+F 1 "Earth" H 750 6300 50  0001 C CNN
+F 2 "" H 750 6450 60  0000 C CNN
+F 3 "" H 750 6450 60  0000 C CNN
+	1    750  6450
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
