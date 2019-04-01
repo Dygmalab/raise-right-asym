@@ -1,4 +1,4 @@
-update=Tue 12 Feb 2019 16:36:06 CET
+update=Mon 01 Apr 2019 11:58:14 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -48,3 +48,5 @@ LibName6=raise_libs/sled1735
 LibName7=raise_libs/test-jig
 LibName8=raise_libs/usb_c_16pin
 LibName9=raise_libs/usblc6-4
+LibName10=raise_libs/r_pack04
+LibName11=raise_libs/emi_filter_ll
