@@ -561,7 +561,7 @@ F 0 "C5" H 9215 2546 50  0000 L CNN
 F 1 "0.1uF, ceramic, 10v, 10%, x5r" H 8450 2100 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 9138 2350 50  0001 C CNN
 F 3 "" H 9100 2500 50  0000 C CNN
-F 4 "1865556" H 9100 2500 60  0001 C CNN "farnell #"
+F 4 "2896426" H 9100 2500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 400 400 60  0001 C CNN "supplier"
 F 6 "Value" H 9100 2500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9100 2500 60  0001 C CNN "MOQ"
@@ -2519,7 +2519,7 @@ F 0 "C20" H 9565 2546 50  0000 L CNN
 F 1 "0.1uF, ceramic, 10v, 10%, x5r" H 8450 2200 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 9488 2350 50  0001 C CNN
 F 3 "" H 9450 2500 50  0000 C CNN
-F 4 "1865556" H 9450 2500 60  0001 C CNN "farnell #"
+F 4 "2896426" H 9450 2500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 750 400 60  0001 C CNN "supplier"
 F 6 "Value" H 9450 2500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9450 2500 60  0001 C CNN "MOQ"
