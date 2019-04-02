@@ -398,10 +398,10 @@
     (at 142.8 60.7)
     (attr virtual)
     (fp_text reference V101_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -411,10 +411,10 @@
     (at 148.35 64.4)
     (attr virtual)
     (fp_text reference V101_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9877,10 +9877,10 @@
     (at 195.147999 57.888571)
     (attr virtual)
     (fp_text reference V126_19 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9890,10 +9890,10 @@
     (at 210.387999 57.888571)
     (attr virtual)
     (fp_text reference V132_19 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9903,10 +9903,10 @@
     (at 212.927999 57.888571)
     (attr virtual)
     (fp_text reference V133_19 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9916,10 +9916,10 @@
     (at 218.007999 57.888571)
     (attr virtual)
     (fp_text reference V135_19 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9929,10 +9929,10 @@
     (at 91.007999 60.428571)
     (attr virtual)
     (fp_text reference V85_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9942,10 +9942,10 @@
     (at 101.167999 60.428571)
     (attr virtual)
     (fp_text reference V89_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9955,10 +9955,10 @@
     (at 103.707999 60.428571)
     (attr virtual)
     (fp_text reference V90_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9968,10 +9968,10 @@
     (at 157.047999 60.428571)
     (attr virtual)
     (fp_text reference V111_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9981,10 +9981,10 @@
     (at 159.587999 60.428571)
     (attr virtual)
     (fp_text reference V112_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -9994,10 +9994,10 @@
     (at 162.127999 60.428571)
     (attr virtual)
     (fp_text reference V113_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10007,10 +10007,10 @@
     (at 177.367999 60.428571)
     (attr virtual)
     (fp_text reference V119_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10020,10 +10020,10 @@
     (at 179.907999 60.428571)
     (attr virtual)
     (fp_text reference V120_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10033,10 +10033,10 @@
     (at 182.447999 60.428571)
     (attr virtual)
     (fp_text reference V121_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10046,10 +10046,10 @@
     (at 184.987999 60.428571)
     (attr virtual)
     (fp_text reference V122_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10059,10 +10059,10 @@
     (at 190.067999 60.428571)
     (attr virtual)
     (fp_text reference V124_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10072,10 +10072,10 @@
     (at 192.607999 60.428571)
     (attr virtual)
     (fp_text reference V125_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10085,10 +10085,10 @@
     (at 197.687999 60.428571)
     (attr virtual)
     (fp_text reference V127_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10098,10 +10098,10 @@
     (at 205.307999 60.428571)
     (attr virtual)
     (fp_text reference V130_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10111,10 +10111,10 @@
     (at 207.847999 60.428571)
     (attr virtual)
     (fp_text reference V131_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10124,10 +10124,10 @@
     (at 212.927999 60.428571)
     (attr virtual)
     (fp_text reference V133_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10137,10 +10137,10 @@
     (at 218.007999 60.428571)
     (attr virtual)
     (fp_text reference V135_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10150,10 +10150,10 @@
     (at 91.007999 62.968571)
     (attr virtual)
     (fp_text reference V85_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10163,10 +10163,10 @@
     (at 162.127999 62.968571)
     (attr virtual)
     (fp_text reference V113_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10176,10 +10176,10 @@
     (at 167.207999 62.968571)
     (attr virtual)
     (fp_text reference V115_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10189,10 +10189,10 @@
     (at 177.367999 62.968571)
     (attr virtual)
     (fp_text reference V119_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10202,10 +10202,10 @@
     (at 184.987999 62.968571)
     (attr virtual)
     (fp_text reference V122_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10215,10 +10215,10 @@
     (at 190.067999 62.968571)
     (attr virtual)
     (fp_text reference V124_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10228,10 +10228,10 @@
     (at 192.607999 62.968571)
     (attr virtual)
     (fp_text reference V125_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10241,10 +10241,10 @@
     (at 205.307999 62.968571)
     (attr virtual)
     (fp_text reference V130_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10254,10 +10254,10 @@
     (at 212.927999 62.968571)
     (attr virtual)
     (fp_text reference V133_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10267,10 +10267,10 @@
     (at 218.007999 62.968571)
     (attr virtual)
     (fp_text reference V135_21 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10280,10 +10280,10 @@
     (at 167.207999 65.508571)
     (attr virtual)
     (fp_text reference V115_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10293,10 +10293,10 @@
     (at 172.287999 65.508571)
     (attr virtual)
     (fp_text reference V117_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10306,10 +10306,10 @@
     (at 174.827999 65.508571)
     (attr virtual)
     (fp_text reference V118_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10319,10 +10319,10 @@
     (at 202.767999 65.508571)
     (attr virtual)
     (fp_text reference V129_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10332,10 +10332,10 @@
     (at 212.927999 65.508571)
     (attr virtual)
     (fp_text reference V133_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10345,10 +10345,10 @@
     (at 218.007999 65.508571)
     (attr virtual)
     (fp_text reference V135_22 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10358,10 +10358,10 @@
     (at 98.627999 68.048571)
     (attr virtual)
     (fp_text reference V88_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10371,10 +10371,10 @@
     (at 101.167999 68.048571)
     (attr virtual)
     (fp_text reference V89_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10384,10 +10384,10 @@
     (at 174.827999 68.048571)
     (attr virtual)
     (fp_text reference V118_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10397,10 +10397,10 @@
     (at 177.367999 68.048571)
     (attr virtual)
     (fp_text reference V119_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10410,10 +10410,10 @@
     (at 192.607999 68.048571)
     (attr virtual)
     (fp_text reference V125_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10423,10 +10423,10 @@
     (at 202.767999 68.048571)
     (attr virtual)
     (fp_text reference V129_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10436,10 +10436,10 @@
     (at 205.307999 68.048571)
     (attr virtual)
     (fp_text reference V130_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10449,10 +10449,10 @@
     (at 207.847999 68.048571)
     (attr virtual)
     (fp_text reference V131_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10462,10 +10462,10 @@
     (at 210.387999 68.048571)
     (attr virtual)
     (fp_text reference V132_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10475,10 +10475,10 @@
     (at 212.927999 68.048571)
     (attr virtual)
     (fp_text reference V133_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10488,10 +10488,10 @@
     (at 218.007999 68.048571)
     (attr virtual)
     (fp_text reference V135_23 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10501,10 +10501,10 @@
     (at 91.007999 70.588571)
     (attr virtual)
     (fp_text reference V85_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10514,10 +10514,10 @@
     (at 192.607999 70.588571)
     (attr virtual)
     (fp_text reference V125_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10527,10 +10527,10 @@
     (at 200.227999 70.588571)
     (attr virtual)
     (fp_text reference V128_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10540,10 +10540,10 @@
     (at 202.767999 70.588571)
     (attr virtual)
     (fp_text reference V129_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10553,10 +10553,10 @@
     (at 205.307999 70.588571)
     (attr virtual)
     (fp_text reference V130_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10566,10 +10566,10 @@
     (at 207.847999 70.588571)
     (attr virtual)
     (fp_text reference V131_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10579,10 +10579,10 @@
     (at 212.927999 70.588571)
     (attr virtual)
     (fp_text reference V133_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10592,10 +10592,10 @@
     (at 218.007999 70.588571)
     (attr virtual)
     (fp_text reference V135_24 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10605,10 +10605,10 @@
     (at 182.447999 73.128571)
     (attr virtual)
     (fp_text reference V121_25 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10618,10 +10618,10 @@
     (at 200.227999 73.128571)
     (attr virtual)
     (fp_text reference V128_25 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10631,10 +10631,10 @@
     (at 169.747999 75.668571)
     (attr virtual)
     (fp_text reference V116_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10644,10 +10644,10 @@
     (at 172.287999 75.668571)
     (attr virtual)
     (fp_text reference V117_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10657,10 +10657,10 @@
     (at 174.827999 75.668571)
     (attr virtual)
     (fp_text reference V118_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10670,10 +10670,10 @@
     (at 177.367999 75.668571)
     (attr virtual)
     (fp_text reference V119_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10683,10 +10683,10 @@
     (at 200.227999 75.668571)
     (attr virtual)
     (fp_text reference V128_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10696,10 +10696,10 @@
     (at 212.927999 75.668571)
     (attr virtual)
     (fp_text reference V133_26 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10709,10 +10709,10 @@
     (at 192.607999 78.208571)
     (attr virtual)
     (fp_text reference V125_27 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10722,10 +10722,10 @@
     (at 195.147999 78.208571)
     (attr virtual)
     (fp_text reference V126_27 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10735,10 +10735,10 @@
     (at 202.767999 78.208571)
     (attr virtual)
     (fp_text reference V129_27 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10748,10 +10748,10 @@
     (at 212.927999 78.208571)
     (attr virtual)
     (fp_text reference V133_27 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10761,10 +10761,10 @@
     (at 192.607999 80.748571)
     (attr virtual)
     (fp_text reference V125_28 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10774,10 +10774,10 @@
     (at 210.387999 80.748571)
     (attr virtual)
     (fp_text reference V132_28 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10787,10 +10787,10 @@
     (at 159.587999 83.288571)
     (attr virtual)
     (fp_text reference V112_29 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10800,10 +10800,10 @@
     (at 192.607999 83.288571)
     (attr virtual)
     (fp_text reference V125_29 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10813,10 +10813,10 @@
     (at 197.687999 93.448571)
     (attr virtual)
     (fp_text reference V127_33 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10826,10 +10826,10 @@
     (at 215.467999 95.988571)
     (attr virtual)
     (fp_text reference V134_34 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10839,10 +10839,10 @@
     (at 202.767999 98.528571)
     (attr virtual)
     (fp_text reference V129_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10852,10 +10852,10 @@
     (at 205.307999 98.528571)
     (attr virtual)
     (fp_text reference V130_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10865,10 +10865,10 @@
     (at 207.847999 98.528571)
     (attr virtual)
     (fp_text reference V131_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10878,10 +10878,10 @@
     (at 212.927999 98.528571)
     (attr virtual)
     (fp_text reference V133_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10891,10 +10891,10 @@
     (at 215.467999 98.528571)
     (attr virtual)
     (fp_text reference V134_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10904,10 +10904,10 @@
     (at 162.127999 101.068571)
     (attr virtual)
     (fp_text reference V113_36 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10917,10 +10917,10 @@
     (at 212.927999 101.068571)
     (attr virtual)
     (fp_text reference V133_36 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10930,10 +10930,10 @@
     (at 200.227999 103.608571)
     (attr virtual)
     (fp_text reference V128_37 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10943,10 +10943,10 @@
     (at 212.927999 103.608571)
     (attr virtual)
     (fp_text reference V133_37 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10956,10 +10956,10 @@
     (at 187.527999 106.148571)
     (attr virtual)
     (fp_text reference V123_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10969,10 +10969,10 @@
     (at 200.227999 106.148571)
     (attr virtual)
     (fp_text reference V128_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10982,10 +10982,10 @@
     (at 202.767999 106.148571)
     (attr virtual)
     (fp_text reference V129_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -10995,10 +10995,10 @@
     (at 205.307999 106.148571)
     (attr virtual)
     (fp_text reference V130_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11008,10 +11008,10 @@
     (at 207.847999 106.148571)
     (attr virtual)
     (fp_text reference V131_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11021,10 +11021,10 @@
     (at 212.927999 106.148571)
     (attr virtual)
     (fp_text reference V133_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11034,10 +11034,10 @@
     (at 91.007999 108.688571)
     (attr virtual)
     (fp_text reference V85_39 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11047,10 +11047,10 @@
     (at 207.847999 108.688571)
     (attr virtual)
     (fp_text reference V131_39 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11060,10 +11060,10 @@
     (at 212.927999 108.688571)
     (attr virtual)
     (fp_text reference V133_39 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11073,10 +11073,10 @@
     (at 182.447999 111.228571)
     (attr virtual)
     (fp_text reference V121_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11086,10 +11086,10 @@
     (at 197.687999 111.228571)
     (attr virtual)
     (fp_text reference V127_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11099,10 +11099,10 @@
     (at 200.227999 111.228571)
     (attr virtual)
     (fp_text reference V128_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11112,10 +11112,10 @@
     (at 202.767999 111.228571)
     (attr virtual)
     (fp_text reference V129_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11125,10 +11125,10 @@
     (at 207.847999 111.228571)
     (attr virtual)
     (fp_text reference V131_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11138,10 +11138,10 @@
     (at 212.927999 111.228571)
     (attr virtual)
     (fp_text reference V133_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11151,10 +11151,10 @@
     (at 200.227999 113.768571)
     (attr virtual)
     (fp_text reference V128_41 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11164,10 +11164,10 @@
     (at 202.767999 113.768571)
     (attr virtual)
     (fp_text reference V129_41 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11177,10 +11177,10 @@
     (at 207.847999 113.768571)
     (attr virtual)
     (fp_text reference V131_41 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11190,10 +11190,10 @@
     (at 212.927999 113.768571)
     (attr virtual)
     (fp_text reference V133_41 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11203,10 +11203,10 @@
     (at 136.727999 116.308571)
     (attr virtual)
     (fp_text reference V103_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11216,10 +11216,10 @@
     (at 146.887999 116.308571)
     (attr virtual)
     (fp_text reference V107_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11229,10 +11229,10 @@
     (at 149.427999 116.308571)
     (attr virtual)
     (fp_text reference V108_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11242,10 +11242,10 @@
     (at 190.067999 116.308571)
     (attr virtual)
     (fp_text reference V124_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11255,10 +11255,10 @@
     (at 195.147999 116.308571)
     (attr virtual)
     (fp_text reference V126_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11268,10 +11268,10 @@
     (at 200.227999 116.308571)
     (attr virtual)
     (fp_text reference V128_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11281,10 +11281,10 @@
     (at 202.767999 116.308571)
     (attr virtual)
     (fp_text reference V129_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11294,10 +11294,10 @@
     (at 207.847999 116.308571)
     (attr virtual)
     (fp_text reference V131_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11307,10 +11307,10 @@
     (at 212.927999 116.308571)
     (attr virtual)
     (fp_text reference V133_42 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11320,10 +11320,10 @@
     (at 91.007999 118.848571)
     (attr virtual)
     (fp_text reference V85_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11333,10 +11333,10 @@
     (at 111.327999 118.848571)
     (attr virtual)
     (fp_text reference V93_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11346,10 +11346,10 @@
     (at 134.187999 118.848571)
     (attr virtual)
     (fp_text reference V102_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11359,10 +11359,10 @@
     (at 144.347999 118.848571)
     (attr virtual)
     (fp_text reference V106_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11372,10 +11372,10 @@
     (at 149.427999 118.848571)
     (attr virtual)
     (fp_text reference V108_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11385,10 +11385,10 @@
     (at 167.207999 118.848571)
     (attr virtual)
     (fp_text reference V115_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11398,10 +11398,10 @@
     (at 172.287999 118.848571)
     (attr virtual)
     (fp_text reference V117_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11411,10 +11411,10 @@
     (at 174.827999 118.848571)
     (attr virtual)
     (fp_text reference V118_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11424,10 +11424,10 @@
     (at 177.367999 118.848571)
     (attr virtual)
     (fp_text reference V119_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11437,10 +11437,10 @@
     (at 179.907999 118.848571)
     (attr virtual)
     (fp_text reference V120_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11450,10 +11450,10 @@
     (at 184.987999 118.848571)
     (attr virtual)
     (fp_text reference V122_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11463,10 +11463,10 @@
     (at 187.527999 118.848571)
     (attr virtual)
     (fp_text reference V123_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11476,10 +11476,10 @@
     (at 202.767999 118.848571)
     (attr virtual)
     (fp_text reference V129_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11489,10 +11489,10 @@
     (at 207.847999 118.848571)
     (attr virtual)
     (fp_text reference V131_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11502,10 +11502,10 @@
     (at 212.927999 118.848571)
     (attr virtual)
     (fp_text reference V133_43 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11515,10 +11515,10 @@
     (at 113.867999 121.388571)
     (attr virtual)
     (fp_text reference V94_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11528,10 +11528,10 @@
     (at 118.947999 121.388571)
     (attr virtual)
     (fp_text reference V96_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11541,10 +11541,10 @@
     (at 134.187999 121.388571)
     (attr virtual)
     (fp_text reference V102_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11554,10 +11554,10 @@
     (at 139.267999 121.388571)
     (attr virtual)
     (fp_text reference V104_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11567,10 +11567,10 @@
     (at 172.287999 121.388571)
     (attr virtual)
     (fp_text reference V117_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11580,10 +11580,10 @@
     (at 174.827999 121.388571)
     (attr virtual)
     (fp_text reference V118_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11593,10 +11593,10 @@
     (at 177.367999 121.388571)
     (attr virtual)
     (fp_text reference V119_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11606,10 +11606,10 @@
     (at 179.907999 121.388571)
     (attr virtual)
     (fp_text reference V120_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11619,10 +11619,10 @@
     (at 184.987999 121.388571)
     (attr virtual)
     (fp_text reference V122_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11632,10 +11632,10 @@
     (at 187.527999 121.388571)
     (attr virtual)
     (fp_text reference V123_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11645,10 +11645,10 @@
     (at 192.607999 121.388571)
     (attr virtual)
     (fp_text reference V125_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11658,10 +11658,10 @@
     (at 207.847999 121.388571)
     (attr virtual)
     (fp_text reference V131_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11671,10 +11671,10 @@
     (at 212.927999 121.388571)
     (attr virtual)
     (fp_text reference V133_44 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11684,10 +11684,10 @@
     (at 85.927999 123.928571)
     (attr virtual)
     (fp_text reference V83_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11697,10 +11697,10 @@
     (at 88.467999 123.928571)
     (attr virtual)
     (fp_text reference V84_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11710,10 +11710,10 @@
     (at 103.707999 123.928571)
     (attr virtual)
     (fp_text reference V90_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11723,10 +11723,10 @@
     (at 106.247999 123.928571)
     (attr virtual)
     (fp_text reference V91_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11736,10 +11736,10 @@
     (at 108.787999 123.928571)
     (attr virtual)
     (fp_text reference V92_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11749,10 +11749,10 @@
     (at 113.867999 123.928571)
     (attr virtual)
     (fp_text reference V94_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11762,10 +11762,10 @@
     (at 124.027999 123.928571)
     (attr virtual)
     (fp_text reference V98_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11775,10 +11775,10 @@
     (at 126.567999 123.928571)
     (attr virtual)
     (fp_text reference V99_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11788,10 +11788,10 @@
     (at 144.347999 123.928571)
     (attr virtual)
     (fp_text reference V106_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11801,10 +11801,10 @@
     (at 146.887999 123.928571)
     (attr virtual)
     (fp_text reference V107_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11814,10 +11814,10 @@
     (at 159.587999 123.928571)
     (attr virtual)
     (fp_text reference V112_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11827,10 +11827,10 @@
     (at 162.127999 123.928571)
     (attr virtual)
     (fp_text reference V113_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11840,10 +11840,10 @@
     (at 164.667999 123.928571)
     (attr virtual)
     (fp_text reference V114_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11853,10 +11853,10 @@
     (at 172.287999 123.928571)
     (attr virtual)
     (fp_text reference V117_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11866,10 +11866,10 @@
     (at 174.827999 123.928571)
     (attr virtual)
     (fp_text reference V118_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11879,10 +11879,10 @@
     (at 177.367999 123.928571)
     (attr virtual)
     (fp_text reference V119_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11892,10 +11892,10 @@
     (at 179.907999 123.928571)
     (attr virtual)
     (fp_text reference V120_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11905,10 +11905,10 @@
     (at 184.987999 123.928571)
     (attr virtual)
     (fp_text reference V122_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11918,10 +11918,10 @@
     (at 195.147999 123.928571)
     (attr virtual)
     (fp_text reference V126_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11931,10 +11931,10 @@
     (at 197.687999 123.928571)
     (attr virtual)
     (fp_text reference V127_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11944,10 +11944,10 @@
     (at 200.227999 123.928571)
     (attr virtual)
     (fp_text reference V128_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11957,10 +11957,10 @@
     (at 202.767999 123.928571)
     (attr virtual)
     (fp_text reference V129_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11970,10 +11970,10 @@
     (at 207.847999 123.928571)
     (attr virtual)
     (fp_text reference V131_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11983,10 +11983,10 @@
     (at 212.927999 123.928571)
     (attr virtual)
     (fp_text reference V133_45 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -11996,10 +11996,10 @@
     (at 88.467999 126.468571)
     (attr virtual)
     (fp_text reference V84_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12009,10 +12009,10 @@
     (at 98.627999 126.468571)
     (attr virtual)
     (fp_text reference V88_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12022,10 +12022,10 @@
     (at 101.167999 126.468571)
     (attr virtual)
     (fp_text reference V89_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12035,10 +12035,10 @@
     (at 103.707999 126.468571)
     (attr virtual)
     (fp_text reference V90_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12048,10 +12048,10 @@
     (at 106.247999 126.468571)
     (attr virtual)
     (fp_text reference V91_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12061,10 +12061,10 @@
     (at 108.787999 126.468571)
     (attr virtual)
     (fp_text reference V92_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12074,10 +12074,10 @@
     (at 111.327999 126.468571)
     (attr virtual)
     (fp_text reference V93_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12087,10 +12087,10 @@
     (at 116.407999 126.468571)
     (attr virtual)
     (fp_text reference V95_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12100,10 +12100,10 @@
     (at 118.947999 126.468571)
     (attr virtual)
     (fp_text reference V96_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12113,10 +12113,10 @@
     (at 124.027999 126.468571)
     (attr virtual)
     (fp_text reference V98_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12126,10 +12126,10 @@
     (at 126.567999 126.468571)
     (attr virtual)
     (fp_text reference V99_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12139,10 +12139,10 @@
     (at 134.187999 126.468571)
     (attr virtual)
     (fp_text reference V102_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12152,10 +12152,10 @@
     (at 136.727999 126.468571)
     (attr virtual)
     (fp_text reference V103_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12165,10 +12165,10 @@
     (at 162.127999 126.468571)
     (attr virtual)
     (fp_text reference V113_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12178,10 +12178,10 @@
     (at 164.667999 126.468571)
     (attr virtual)
     (fp_text reference V114_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12191,10 +12191,10 @@
     (at 179.907999 126.468571)
     (attr virtual)
     (fp_text reference V120_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12204,10 +12204,10 @@
     (at 184.987999 126.468571)
     (attr virtual)
     (fp_text reference V122_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12217,10 +12217,10 @@
     (at 207.847999 126.468571)
     (attr virtual)
     (fp_text reference V131_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12230,10 +12230,10 @@
     (at 212.927999 126.468571)
     (attr virtual)
     (fp_text reference V133_46 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12243,10 +12243,10 @@
     (at 103.707999 129.008571)
     (attr virtual)
     (fp_text reference V90_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12256,10 +12256,10 @@
     (at 106.247999 129.008571)
     (attr virtual)
     (fp_text reference V91_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12269,10 +12269,10 @@
     (at 108.787999 129.008571)
     (attr virtual)
     (fp_text reference V92_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12282,10 +12282,10 @@
     (at 111.327999 129.008571)
     (attr virtual)
     (fp_text reference V93_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12295,10 +12295,10 @@
     (at 116.407999 129.008571)
     (attr virtual)
     (fp_text reference V95_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12308,10 +12308,10 @@
     (at 118.947999 129.008571)
     (attr virtual)
     (fp_text reference V96_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12321,10 +12321,10 @@
     (at 121.487999 129.008571)
     (attr virtual)
     (fp_text reference V97_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12334,10 +12334,10 @@
     (at 124.027999 129.008571)
     (attr virtual)
     (fp_text reference V98_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12347,10 +12347,10 @@
     (at 126.567999 129.008571)
     (attr virtual)
     (fp_text reference V99_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12360,10 +12360,10 @@
     (at 131.647999 129.008571)
     (attr virtual)
     (fp_text reference V101_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12373,10 +12373,10 @@
     (at 134.187999 129.008571)
     (attr virtual)
     (fp_text reference V102_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12386,10 +12386,10 @@
     (at 136.727999 129.008571)
     (attr virtual)
     (fp_text reference V103_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12399,10 +12399,10 @@
     (at 144.347999 129.008571)
     (attr virtual)
     (fp_text reference V106_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12412,10 +12412,10 @@
     (at 157.047999 129.008571)
     (attr virtual)
     (fp_text reference V111_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12425,10 +12425,10 @@
     (at 159.587999 129.008571)
     (attr virtual)
     (fp_text reference V112_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12438,10 +12438,10 @@
     (at 164.667999 129.008571)
     (attr virtual)
     (fp_text reference V114_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12451,10 +12451,10 @@
     (at 167.207999 129.008571)
     (attr virtual)
     (fp_text reference V115_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12464,10 +12464,10 @@
     (at 172.287999 129.008571)
     (attr virtual)
     (fp_text reference V117_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12477,10 +12477,10 @@
     (at 174.827999 129.008571)
     (attr virtual)
     (fp_text reference V118_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12490,10 +12490,10 @@
     (at 177.367999 129.008571)
     (attr virtual)
     (fp_text reference V119_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12503,10 +12503,10 @@
     (at 179.907999 129.008571)
     (attr virtual)
     (fp_text reference V120_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12516,10 +12516,10 @@
     (at 184.987999 129.008571)
     (attr virtual)
     (fp_text reference V122_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12529,10 +12529,10 @@
     (at 187.527999 129.008571)
     (attr virtual)
     (fp_text reference V123_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12542,10 +12542,10 @@
     (at 190.067999 129.008571)
     (attr virtual)
     (fp_text reference V124_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12555,10 +12555,10 @@
     (at 200.227999 129.008571)
     (attr virtual)
     (fp_text reference V128_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12568,10 +12568,10 @@
     (at 202.767999 129.008571)
     (attr virtual)
     (fp_text reference V129_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12581,10 +12581,10 @@
     (at 205.307999 129.008571)
     (attr virtual)
     (fp_text reference V130_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12594,10 +12594,10 @@
     (at 207.847999 129.008571)
     (attr virtual)
     (fp_text reference V131_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12607,10 +12607,10 @@
     (at 212.927999 129.008571)
     (attr virtual)
     (fp_text reference V133_47 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12620,10 +12620,10 @@
     (at 91.007999 131.548571)
     (attr virtual)
     (fp_text reference V85_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12633,10 +12633,10 @@
     (at 103.707999 131.548571)
     (attr virtual)
     (fp_text reference V90_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12646,10 +12646,10 @@
     (at 118.947999 131.548571)
     (attr virtual)
     (fp_text reference V96_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12659,10 +12659,10 @@
     (at 121.487999 131.548571)
     (attr virtual)
     (fp_text reference V97_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12672,10 +12672,10 @@
     (at 124.027999 131.548571)
     (attr virtual)
     (fp_text reference V98_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12685,10 +12685,10 @@
     (at 126.567999 131.548571)
     (attr virtual)
     (fp_text reference V99_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12698,10 +12698,10 @@
     (at 131.647999 131.548571)
     (attr virtual)
     (fp_text reference V101_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12711,10 +12711,10 @@
     (at 144.347999 131.548571)
     (attr virtual)
     (fp_text reference V106_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12724,10 +12724,10 @@
     (at 157.047999 131.548571)
     (attr virtual)
     (fp_text reference V111_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12737,10 +12737,10 @@
     (at 167.207999 131.548571)
     (attr virtual)
     (fp_text reference V115_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12750,10 +12750,10 @@
     (at 169.747999 131.548571)
     (attr virtual)
     (fp_text reference V116_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12763,10 +12763,10 @@
     (at 172.287999 131.548571)
     (attr virtual)
     (fp_text reference V117_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12776,10 +12776,10 @@
     (at 174.827999 131.548571)
     (attr virtual)
     (fp_text reference V118_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12789,10 +12789,10 @@
     (at 177.367999 131.548571)
     (attr virtual)
     (fp_text reference V119_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12802,10 +12802,10 @@
     (at 190.067999 131.548571)
     (attr virtual)
     (fp_text reference V124_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12815,10 +12815,10 @@
     (at 200.227999 131.548571)
     (attr virtual)
     (fp_text reference V128_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12828,10 +12828,10 @@
     (at 202.767999 131.548571)
     (attr virtual)
     (fp_text reference V129_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12841,10 +12841,10 @@
     (at 218.007999 131.548571)
     (attr virtual)
     (fp_text reference V135_48 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12854,10 +12854,10 @@
     (at 212.927999 134.088571)
     (attr virtual)
     (fp_text reference V133_49 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12867,10 +12867,10 @@
     (at 218.007999 134.088571)
     (attr virtual)
     (fp_text reference V135_49 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12880,10 +12880,10 @@
     (at 78.307999 136.628571)
     (attr virtual)
     (fp_text reference V80_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12893,10 +12893,10 @@
     (at 96.087999 136.628571)
     (attr virtual)
     (fp_text reference V87_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12906,10 +12906,10 @@
     (at 98.627999 136.628571)
     (attr virtual)
     (fp_text reference V88_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12919,10 +12919,10 @@
     (at 118.947999 136.628571)
     (attr virtual)
     (fp_text reference V96_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12932,10 +12932,10 @@
     (at 121.487999 136.628571)
     (attr virtual)
     (fp_text reference V97_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12945,10 +12945,10 @@
     (at 124.027999 136.628571)
     (attr virtual)
     (fp_text reference V98_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12958,10 +12958,10 @@
     (at 126.567999 136.628571)
     (attr virtual)
     (fp_text reference V99_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12971,10 +12971,10 @@
     (at 141.807999 136.628571)
     (attr virtual)
     (fp_text reference V105_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12984,10 +12984,10 @@
     (at 146.887999 136.628571)
     (attr virtual)
     (fp_text reference V107_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -12997,10 +12997,10 @@
     (at 164.667999 136.628571)
     (attr virtual)
     (fp_text reference V114_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13010,10 +13010,10 @@
     (at 172.287999 136.628571)
     (attr virtual)
     (fp_text reference V117_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13023,10 +13023,10 @@
     (at 174.827999 136.628571)
     (attr virtual)
     (fp_text reference V118_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13036,10 +13036,10 @@
     (at 177.367999 136.628571)
     (attr virtual)
     (fp_text reference V119_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13049,10 +13049,10 @@
     (at 195.147999 136.628571)
     (attr virtual)
     (fp_text reference V126_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13062,10 +13062,10 @@
     (at 197.687999 136.628571)
     (attr virtual)
     (fp_text reference V127_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13075,10 +13075,10 @@
     (at 200.227999 136.628571)
     (attr virtual)
     (fp_text reference V128_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13088,10 +13088,10 @@
     (at 205.307999 136.628571)
     (attr virtual)
     (fp_text reference V130_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13101,10 +13101,10 @@
     (at 212.927999 136.628571)
     (attr virtual)
     (fp_text reference V133_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13114,10 +13114,10 @@
     (at 215.467999 136.628571)
     (attr virtual)
     (fp_text reference V134_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13127,10 +13127,10 @@
     (at 218.007999 136.628571)
     (attr virtual)
     (fp_text reference V135_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13140,10 +13140,10 @@
     (at 78.307999 139.168571)
     (attr virtual)
     (fp_text reference V80_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13153,10 +13153,10 @@
     (at 96.087999 139.168571)
     (attr virtual)
     (fp_text reference V87_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13166,10 +13166,10 @@
     (at 98.627999 139.168571)
     (attr virtual)
     (fp_text reference V88_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13179,10 +13179,10 @@
     (at 121.487999 139.168571)
     (attr virtual)
     (fp_text reference V97_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13192,10 +13192,10 @@
     (at 124.027999 139.168571)
     (attr virtual)
     (fp_text reference V98_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13205,10 +13205,10 @@
     (at 126.567999 139.168571)
     (attr virtual)
     (fp_text reference V99_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13218,10 +13218,10 @@
     (at 172.287999 139.168571)
     (attr virtual)
     (fp_text reference V117_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13231,10 +13231,10 @@
     (at 174.827999 139.168571)
     (attr virtual)
     (fp_text reference V118_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13244,10 +13244,10 @@
     (at 179.907999 139.168571)
     (attr virtual)
     (fp_text reference V120_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13257,10 +13257,10 @@
     (at 195.147999 139.168571)
     (attr virtual)
     (fp_text reference V126_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13270,10 +13270,10 @@
     (at 197.687999 139.168571)
     (attr virtual)
     (fp_text reference V127_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13283,10 +13283,10 @@
     (at 218.007999 139.168571)
     (attr virtual)
     (fp_text reference V135_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13296,10 +13296,10 @@
     (at 83.387999 141.708571)
     (attr virtual)
     (fp_text reference V82_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13309,10 +13309,10 @@
     (at 93.547999 141.708571)
     (attr virtual)
     (fp_text reference V86_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13322,10 +13322,10 @@
     (at 96.087999 141.708571)
     (attr virtual)
     (fp_text reference V87_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13335,10 +13335,10 @@
     (at 98.627999 141.708571)
     (attr virtual)
     (fp_text reference V88_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13348,10 +13348,10 @@
     (at 210.387999 141.708571)
     (attr virtual)
     (fp_text reference V132_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13361,10 +13361,10 @@
     (at 218.007999 141.708571)
     (attr virtual)
     (fp_text reference V135_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13374,10 +13374,10 @@
     (at 78.307999 144.248571)
     (attr virtual)
     (fp_text reference V80_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13387,10 +13387,10 @@
     (at 83.387999 144.248571)
     (attr virtual)
     (fp_text reference V82_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13400,10 +13400,10 @@
     (at 85.927999 144.248571)
     (attr virtual)
     (fp_text reference V83_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13413,10 +13413,10 @@
     (at 88.467999 144.248571)
     (attr virtual)
     (fp_text reference V84_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13426,10 +13426,10 @@
     (at 91.007999 144.248571)
     (attr virtual)
     (fp_text reference V85_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13439,10 +13439,10 @@
     (at 93.547999 144.248571)
     (attr virtual)
     (fp_text reference V86_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13452,10 +13452,10 @@
     (at 96.087999 144.248571)
     (attr virtual)
     (fp_text reference V87_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13465,10 +13465,10 @@
     (at 98.627999 144.248571)
     (attr virtual)
     (fp_text reference V88_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13478,10 +13478,10 @@
     (at 154.507999 144.248571)
     (attr virtual)
     (fp_text reference V110_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13491,10 +13491,10 @@
     (at 162.127999 144.248571)
     (attr virtual)
     (fp_text reference V113_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13504,10 +13504,10 @@
     (at 164.667999 144.248571)
     (attr virtual)
     (fp_text reference V114_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13517,10 +13517,10 @@
     (at 167.207999 144.248571)
     (attr virtual)
     (fp_text reference V115_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13530,10 +13530,10 @@
     (at 169.747999 144.248571)
     (attr virtual)
     (fp_text reference V116_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13543,10 +13543,10 @@
     (at 172.287999 144.248571)
     (attr virtual)
     (fp_text reference V117_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13556,10 +13556,10 @@
     (at 174.827999 144.248571)
     (attr virtual)
     (fp_text reference V118_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13569,10 +13569,10 @@
     (at 177.367999 144.248571)
     (attr virtual)
     (fp_text reference V119_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13582,10 +13582,10 @@
     (at 184.987999 144.248571)
     (attr virtual)
     (fp_text reference V122_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13595,10 +13595,10 @@
     (at 187.527999 144.248571)
     (attr virtual)
     (fp_text reference V123_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13608,10 +13608,10 @@
     (at 190.067999 144.248571)
     (attr virtual)
     (fp_text reference V124_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13621,10 +13621,10 @@
     (at 192.607999 144.248571)
     (attr virtual)
     (fp_text reference V125_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13634,10 +13634,10 @@
     (at 195.147999 144.248571)
     (attr virtual)
     (fp_text reference V126_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13647,10 +13647,10 @@
     (at 197.687999 144.248571)
     (attr virtual)
     (fp_text reference V127_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13660,10 +13660,10 @@
     (at 200.227999 144.248571)
     (attr virtual)
     (fp_text reference V128_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13673,10 +13673,10 @@
     (at 210.387999 144.248571)
     (attr virtual)
     (fp_text reference V132_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13686,10 +13686,10 @@
     (at 212.927999 144.248571)
     (attr virtual)
     (fp_text reference V133_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13699,10 +13699,10 @@
     (at 215.467999 144.248571)
     (attr virtual)
     (fp_text reference V134_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13712,10 +13712,10 @@
     (at 218.007999 144.248571)
     (attr virtual)
     (fp_text reference V135_53 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13725,10 +13725,10 @@
     (at 131.647999 60.428571)
     (attr virtual)
     (fp_text reference V101_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13738,10 +13738,10 @@
     (at 169.747999 60.428571)
     (attr virtual)
     (fp_text reference V116_20 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13751,10 +13751,10 @@
     (at 167.207999 80.748571)
     (attr virtual)
     (fp_text reference V115_28 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13764,10 +13764,10 @@
     (at 200.227999 80.748571)
     (attr virtual)
     (fp_text reference V128_28 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13777,10 +13777,10 @@
     (at 162.127999 83.288571)
     (attr virtual)
     (fp_text reference V113_29 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13790,10 +13790,10 @@
     (at 164.667999 85.828571)
     (attr virtual)
     (fp_text reference V114_30 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13803,10 +13803,10 @@
     (at 167.207999 85.828571)
     (attr virtual)
     (fp_text reference V115_30 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13816,10 +13816,10 @@
     (at 169.747999 85.828571)
     (attr virtual)
     (fp_text reference V116_30 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13829,10 +13829,10 @@
     (at 172.287999 85.828571)
     (attr virtual)
     (fp_text reference V117_30 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13842,10 +13842,10 @@
     (at 205.307999 88.368571)
     (attr virtual)
     (fp_text reference V130_31 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13855,10 +13855,10 @@
     (at 184.987999 90.908571)
     (attr virtual)
     (fp_text reference V122_32 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13868,10 +13868,10 @@
     (at 187.527999 90.908571)
     (attr virtual)
     (fp_text reference V123_32 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13881,10 +13881,10 @@
     (at 190.067999 90.908571)
     (attr virtual)
     (fp_text reference V124_32 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13894,10 +13894,10 @@
     (at 88.467999 98.528571)
     (attr virtual)
     (fp_text reference V84_35 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13907,10 +13907,10 @@
     (at 121.487999 101.068571)
     (attr virtual)
     (fp_text reference V97_36 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13920,10 +13920,10 @@
     (at 113.867999 103.608571)
     (attr virtual)
     (fp_text reference V94_37 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13933,10 +13933,10 @@
     (at 75.767999 106.148571)
     (attr virtual)
     (fp_text reference V79_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13946,10 +13946,10 @@
     (at 78.307999 106.148571)
     (attr virtual)
     (fp_text reference V80_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13959,10 +13959,10 @@
     (at 80.847999 106.148571)
     (attr virtual)
     (fp_text reference V81_38 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13972,10 +13972,10 @@
     (at 88.467999 111.228571)
     (attr virtual)
     (fp_text reference V84_40 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13985,10 +13985,10 @@
     (at 134.187999 113.768571)
     (attr virtual)
     (fp_text reference V102_41 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -13998,10 +13998,10 @@
     (at 88.467999 136.628571)
     (attr virtual)
     (fp_text reference V84_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14011,10 +14011,10 @@
     (at 101.167999 136.628571)
     (attr virtual)
     (fp_text reference V89_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14024,10 +14024,10 @@
     (at 151.967999 136.628571)
     (attr virtual)
     (fp_text reference V109_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14037,10 +14037,10 @@
     (at 159.587999 136.628571)
     (attr virtual)
     (fp_text reference V112_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14050,10 +14050,10 @@
     (at 169.747999 136.628571)
     (attr virtual)
     (fp_text reference V116_50 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14063,10 +14063,10 @@
     (at 101.167999 139.168571)
     (attr virtual)
     (fp_text reference V89_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14076,10 +14076,10 @@
     (at 103.707999 139.168571)
     (attr virtual)
     (fp_text reference V90_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14089,10 +14089,10 @@
     (at 131.647999 139.168571)
     (attr virtual)
     (fp_text reference V101_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14102,10 +14102,10 @@
     (at 151.967999 139.168571)
     (attr virtual)
     (fp_text reference V109_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14115,10 +14115,10 @@
     (at 159.587999 139.168571)
     (attr virtual)
     (fp_text reference V112_51 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14128,10 +14128,10 @@
     (at 151.967999 141.708571)
     (attr virtual)
     (fp_text reference V109_52 (at 0 0) (layer F.SilkS) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (fp_text value AUTO_VIA (at 0 0) (layer F.Fab) hide
-      (effects (font (size 0 0)))
+      (effects (font (size 0 0) (thickness 0.15)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 0.35 0.35) (drill 0.3) (layers *.Cu)
       (net 1 Earth) (clearance 0.2) (zone_connect 2))
@@ -14146,8 +14146,8 @@
   (gr_text pa2 (at 125.3 58.4 90) (layer B.SilkS) (tstamp 5CA420E1)
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
-  (gr_text "27 approved DRC problems" (at 99.05 37.15) (layer Dwgs.User)
-    (effects (font (size 3 3) (thickness 0.3)))
+  (gr_text "27 approved DRC problems\n0 unconnected" (at 59.2 42.7) (layer Dwgs.User)
+    (effects (font (size 3 3) (thickness 0.3)) (justify left))
   )
   (gr_text 1 (at 139.8 73.3) (layer B.SilkS) (tstamp 5C3CA5D8)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -22831,17 +22831,6 @@
   (segment (start 77.6 54.4) (end 79.15 54.4) (width 0.2) (layer B.Cu) (net 134))
   (segment (start 79.15 54.4) (end 79.65 54.9) (width 0.2) (layer B.Cu) (net 134))
 
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads (clearance 0.508))
-    (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias allowed) (copperpour allowed))
-    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 78.67 21.92) (xy 83.17 21.92) (xy 83.17 27.92) (xy 78.67 27.92)
-      )
-    )
-  )
   (zone (net 114) (net_name /shld-prefilt) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads yes (clearance 0.3))
     (min_thickness 0.254)
