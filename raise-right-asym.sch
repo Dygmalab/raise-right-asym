@@ -68,6 +68,7 @@ F 2 "raise_fp:D_SOD-123" H 9550 2000 50  0001 C CNN
 F 3 "" H 9550 2000 50  0000 C CNN
 F 4 "2454043" H 9550 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    9550 2000
 	0    -1   -1   0   
 $EndComp
@@ -81,7 +82,7 @@ F 2 "raise_fp:D_SOD-123" H 9550 2650 50  0001 C CNN
 F 3 "" H 9550 2650 50  0000 C CNN
 F 4 "2454043" H 9550 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
-F 6 "Value" H 9550 2650 60  0001 C CNN "supplier PN"
+F 6 "" H 9550 2650 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9550 2650 60  0001 C CNN "MOQ"
 F 8 "Value" H 9550 2650 60  0001 C CNN "leadtime"
 	1    9550 2650
@@ -112,7 +113,7 @@ F 2 "raise_fp:D_SOD-123" H 9550 3300 50  0001 C CNN
 F 3 "" H 9550 3300 50  0000 C CNN
 F 4 "2454043" H 9550 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
-F 6 "Value" H 9550 3300 60  0001 C CNN "supplier PN"
+F 6 "" H 9550 3300 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9550 3300 60  0001 C CNN "MOQ"
 F 8 "Value" H 9550 3300 60  0001 C CNN "leadtime"
 	1    9550 3300
@@ -156,6 +157,7 @@ F 2 "raise_fp:D_SOD-123" H 9550 3850 50  0001 C CNN
 F 3 "" H 9550 3850 50  0000 C CNN
 F 4 "2454043" H 9550 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    9550 3850
 	0    -1   -1   0   
 $EndComp
@@ -169,6 +171,7 @@ F 2 "raise_fp:D_SOD-123" H 9550 4500 50  0001 C CNN
 F 3 "" H 9550 4500 50  0000 C CNN
 F 4 "2454043" H 9550 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    9550 4500
 	0    -1   -1   0   
 $EndComp
@@ -208,6 +211,7 @@ F 2 "raise_fp:D_SOD-123" H 10350 2000 50  0001 C CNN
 F 3 "" H 10350 2000 50  0000 C CNN
 F 4 "2454043" H 10350 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    10350 2000
 	0    -1   -1   0   
 $EndComp
@@ -221,6 +225,7 @@ F 2 "raise_fp:D_SOD-123" H 10350 2650 50  0001 C CNN
 F 3 "" H 10350 2650 50  0000 C CNN
 F 4 "2454043" H 10350 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    10350 2650
 	0    -1   -1   0   
 $EndComp
@@ -247,6 +252,7 @@ F 2 "raise_fp:D_SOD-123" H 10350 3300 50  0001 C CNN
 F 3 "" H 10350 3300 50  0000 C CNN
 F 4 "2454043" H 10350 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    10350 3300
 	0    -1   -1   0   
 $EndComp
@@ -286,6 +292,7 @@ F 2 "raise_fp:D_SOD-123" H 10350 3850 50  0001 C CNN
 F 3 "" H 10350 3850 50  0000 C CNN
 F 4 "2454043" H 10350 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    10350 3850
 	0    -1   -1   0   
 $EndComp
@@ -299,6 +306,7 @@ F 2 "raise_fp:D_SOD-123" H 10350 4500 50  0001 C CNN
 F 3 "" H 10350 4500 50  0000 C CNN
 F 4 "2454043" H 10350 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    10350 4500
 	0    -1   -1   0   
 $EndComp
@@ -338,6 +346,7 @@ F 2 "raise_fp:D_SOD-123" H 11150 2000 50  0001 C CNN
 F 3 "" H 11150 2000 50  0000 C CNN
 F 4 "2454043" H 11150 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11150 2000
 	0    -1   -1   0   
 $EndComp
@@ -351,6 +360,7 @@ F 2 "raise_fp:D_SOD-123" H 11150 2650 50  0001 C CNN
 F 3 "" H 11150 2650 50  0000 C CNN
 F 4 "2454043" H 11150 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11150 2650
 	0    -1   -1   0   
 $EndComp
@@ -377,6 +387,7 @@ F 2 "raise_fp:D_SOD-123" H 11150 3300 50  0001 C CNN
 F 3 "" H 11150 3300 50  0000 C CNN
 F 4 "2454043" H 11150 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11150 3300
 	0    -1   -1   0   
 $EndComp
@@ -416,6 +427,7 @@ F 2 "raise_fp:D_SOD-123" H 11150 3850 50  0001 C CNN
 F 3 "" H 11150 3850 50  0000 C CNN
 F 4 "2454043" H 11150 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11150 3850
 	0    -1   -1   0   
 $EndComp
@@ -429,6 +441,7 @@ F 2 "raise_fp:D_SOD-123" H 11150 4500 50  0001 C CNN
 F 3 "" H 11150 4500 50  0000 C CNN
 F 4 "2454043" H 11150 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11150 4500
 	0    -1   -1   0   
 $EndComp
@@ -468,6 +481,7 @@ F 2 "raise_fp:D_SOD-123" H 11950 2000 50  0001 C CNN
 F 3 "" H 11950 2000 50  0000 C CNN
 F 4 "2454043" H 11950 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11950 2000
 	0    -1   -1   0   
 $EndComp
@@ -481,6 +495,7 @@ F 2 "raise_fp:D_SOD-123" H 11950 2650 50  0001 C CNN
 F 3 "" H 11950 2650 50  0000 C CNN
 F 4 "2454043" H 11950 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11950 2650
 	0    -1   -1   0   
 $EndComp
@@ -507,6 +522,7 @@ F 2 "raise_fp:D_SOD-123" H 11950 3300 50  0001 C CNN
 F 3 "" H 11950 3300 50  0000 C CNN
 F 4 "2454043" H 11950 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11950 3300
 	0    -1   -1   0   
 $EndComp
@@ -546,6 +562,7 @@ F 2 "raise_fp:D_SOD-123" H 11950 3850 50  0001 C CNN
 F 3 "" H 11950 3850 50  0000 C CNN
 F 4 "2454043" H 11950 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11950 3850
 	0    -1   -1   0   
 $EndComp
@@ -559,6 +576,7 @@ F 2 "raise_fp:D_SOD-123" H 11950 4500 50  0001 C CNN
 F 3 "" H 11950 4500 50  0000 C CNN
 F 4 "2454043" H 11950 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    11950 4500
 	0    -1   -1   0   
 $EndComp
@@ -598,6 +616,7 @@ F 2 "raise_fp:D_SOD-123" H 12750 2000 50  0001 C CNN
 F 3 "" H 12750 2000 50  0000 C CNN
 F 4 "2454043" H 12750 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    12750 2000
 	0    -1   -1   0   
 $EndComp
@@ -611,6 +630,7 @@ F 2 "raise_fp:D_SOD-123" H 12750 2650 50  0001 C CNN
 F 3 "" H 12750 2650 50  0000 C CNN
 F 4 "2454043" H 12750 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    12750 2650
 	0    -1   -1   0   
 $EndComp
@@ -637,6 +657,7 @@ F 2 "raise_fp:D_SOD-123" H 12750 3300 50  0001 C CNN
 F 3 "" H 12750 3300 50  0000 C CNN
 F 4 "2454043" H 12750 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    12750 3300
 	0    -1   -1   0   
 $EndComp
@@ -676,6 +697,7 @@ F 2 "raise_fp:D_SOD-123" H 12750 3850 50  0001 C CNN
 F 3 "" H 12750 3850 50  0000 C CNN
 F 4 "2454043" H 12750 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    12750 3850
 	0    -1   -1   0   
 $EndComp
@@ -689,6 +711,7 @@ F 2 "raise_fp:D_SOD-123" H 12750 4500 50  0001 C CNN
 F 3 "" H 12750 4500 50  0000 C CNN
 F 4 "2454043" H 12750 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    12750 4500
 	0    -1   -1   0   
 $EndComp
@@ -728,6 +751,7 @@ F 2 "raise_fp:D_SOD-123" H 13550 2000 50  0001 C CNN
 F 3 "" H 13550 2000 50  0000 C CNN
 F 4 "2454043" H 13550 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    13550 2000
 	0    -1   -1   0   
 $EndComp
@@ -741,6 +765,7 @@ F 2 "raise_fp:D_SOD-123" H 13550 2650 50  0001 C CNN
 F 3 "" H 13550 2650 50  0000 C CNN
 F 4 "2454043" H 13550 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    13550 2650
 	0    -1   -1   0   
 $EndComp
@@ -767,6 +792,7 @@ F 2 "raise_fp:D_SOD-123" H 13550 3300 50  0001 C CNN
 F 3 "" H 13550 3300 50  0000 C CNN
 F 4 "2454043" H 13550 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    13550 3300
 	0    -1   -1   0   
 $EndComp
@@ -793,6 +819,7 @@ F 2 "raise_fp:D_SOD-123" H 13550 3850 50  0001 C CNN
 F 3 "" H 13550 3850 50  0000 C CNN
 F 4 "2454043" H 13550 3850 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    13550 3850
 	0    -1   -1   0   
 $EndComp
@@ -819,6 +846,7 @@ F 2 "raise_fp:D_SOD-123" H 14350 2000 50  0001 C CNN
 F 3 "" H 14350 2000 50  0000 C CNN
 F 4 "2454043" H 14350 2000 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    14350 2000
 	0    -1   -1   0   
 $EndComp
@@ -867,9 +895,9 @@ F 0 "P8" H 5300 10450 50  0000 C CNN
 F 1 "CONN_02X03" H 5300 10050 50  0000 C CNN
 F 2 "raise_fp:icsp-2.54-smt" H 5300 9050 60  0001 C CNN
 F 3 "" H 5300 9050 60  0000 C CNN
-F 4 "dnp" H 5300 10250 60  0001 C CNN "farnell #"
+F 4 "" H 5300 10250 60  0001 C CNN "farnell #"
 F 5 "dnp" H 4150 2800 60  0001 C CNN "supplier"
-F 6 "Value" H 5300 10250 60  0001 C CNN "supplier PN"
+F 6 "" H 5300 10250 60  0001 C CNN "supplier PN"
 F 7 "Value" H 5300 10250 60  0001 C CNN "MOQ"
 F 8 "Value" H 5300 10250 60  0001 C CNN "leadtime"
 	1    5300 10250
@@ -905,7 +933,7 @@ F 2 "raise_fp:R_0603" V 2130 6500 50  0001 C CNN
 F 3 "" H 2200 6500 50  0000 C CNN
 F 4 "2447230" H 2200 6500 60  0001 C CNN "farnell #"
 F 5 "any/open" H -3400 1250 60  0001 C CNN "supplier"
-F 6 "Value" H 2200 6500 60  0001 C CNN "supplier PN"
+F 6 "" H 2200 6500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2200 6500 60  0001 C CNN "MOQ"
 F 8 "Value" H 2200 6500 60  0001 C CNN "leadtime"
 	1    2200 6500
@@ -919,9 +947,9 @@ F 0 "P1" H 8178 7041 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 6950 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.2mm_Pad" H 8100 7000 50  0001 C CNN
 F 3 "" H 8100 7000 50  0000 C CNN
-F 4 "dnp" H 8100 7000 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7000 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1800 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 7000 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 7000 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 7000 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 7000 60  0001 C CNN "leadtime"
 	1    8100 7000
@@ -935,9 +963,9 @@ F 0 "P2" H 8178 7191 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7100 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.2mm_Pad" H 8100 7150 50  0001 C CNN
 F 3 "" H 8100 7150 50  0000 C CNN
-F 4 "dnp" H 8100 7150 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7150 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1800 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 7150 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 7150 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 7150 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 7150 60  0001 C CNN "leadtime"
 	1    8100 7150
@@ -951,7 +979,7 @@ F 0 "P3" H 8178 7341 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7250 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.2mm_Pad" H 8100 7300 50  0001 C CNN
 F 3 "" H 8100 7300 50  0000 C CNN
-F 4 "dnp" H 8100 7300 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7300 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1800 60  0001 C CNN "supplier"
 	1    8100 7300
 	1    0    0    -1  
@@ -979,6 +1007,7 @@ F 2 "raise_fp:D_SOD-123" H 14350 2650 50  0001 C CNN
 F 3 "" H 14350 2650 50  0000 C CNN
 F 4 "2454043" H 14350 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    14350 2650
 	0    -1   -1   0   
 $EndComp
@@ -1005,6 +1034,7 @@ F 2 "raise_fp:D_SOD-123" H 14350 3300 50  0001 C CNN
 F 3 "" H 14350 3300 50  0000 C CNN
 F 4 "2454043" H 14350 3300 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    14350 3300
 	0    -1   -1   0   
 $EndComp
@@ -1033,6 +1063,7 @@ F 2 "raise_fp:D_SOD-123" H 15150 2650 50  0001 C CNN
 F 3 "" H 15150 2650 50  0000 C CNN
 F 4 "2454043" H 15150 2650 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4150 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    15150 2650
 	0    -1   -1   0   
 $EndComp
@@ -1059,6 +1090,7 @@ F 2 "raise_fp:D_SOD-123" H 13550 4500 50  0001 C CNN
 F 3 "" H 13550 4500 50  0000 C CNN
 F 4 "2454043" H 13550 4500 60  0001 C CNN "farnell #"
 F 5 "any/open" H 2550 100 60  0001 C CNN "supplier"
+F 6 "" H 0   0   60  0001 C CNN "supplier PN"
 	1    13550 4500
 	0    -1   -1   0   
 $EndComp
@@ -1070,9 +1102,9 @@ F 0 "P4" H 8178 7491 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7400 50  0000 L CNN
 F 2 "raise_fp:MountingHole_2.2mm_Pad" H 8100 7450 50  0001 C CNN
 F 3 "" H 8100 7450 50  0000 C CNN
-F 4 "dnp" H 8100 7450 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7450 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1800 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 7450 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 7450 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 7450 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 7450 60  0001 C CNN "leadtime"
 	1    8100 7450
@@ -1086,9 +1118,9 @@ F 0 "T1" H 8178 7741 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7650 50  0000 L CNN
 F 2 "raise_fp:MountingHole_4.3mm" H 8100 7700 50  0001 C CNN
 F 3 "" H 8100 7700 50  0000 C CNN
-F 4 "dnp" H 8100 7700 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7700 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1900 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 7700 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 7700 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 7700 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 7700 60  0001 C CNN "leadtime"
 	1    8100 7700
@@ -1103,9 +1135,9 @@ F 0 "T2" H 8178 7891 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7800 50  0000 L CNN
 F 2 "raise_fp:MountingHole_4.3mm" H 8100 7850 50  0001 C CNN
 F 3 "" H 8100 7850 50  0000 C CNN
-F 4 "dnp" H 8100 7850 60  0001 C CNN "farnell #"
+F 4 "" H 8100 7850 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1900 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 7850 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 7850 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 7850 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 7850 60  0001 C CNN "leadtime"
 	1    8100 7850
@@ -1119,9 +1151,9 @@ F 0 "T3" H 8178 8041 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 7950 50  0000 L CNN
 F 2 "raise_fp:MountingHole_4.3mm" H 8100 8000 50  0001 C CNN
 F 3 "" H 8100 8000 50  0000 C CNN
-F 4 "dnp" H 8100 8000 60  0001 C CNN "farnell #"
+F 4 "" H 8100 8000 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 1900 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 8000 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 8000 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 8000 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 8000 60  0001 C CNN "leadtime"
 	1    8100 8000
@@ -1210,7 +1242,7 @@ F 1 "TEST" V 6574 7644 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 6450 7550 50  0001 C CNN
 F 3 "" H 6450 7550 50  0001 C CNN
 F 4 "dnp" H 6450 7550 60  0001 C CNN "supplier"
-F 5 "Value" H 6450 7550 60  0001 C CNN "supplier PN"
+F 5 "" H 6450 7550 60  0001 C CNN "supplier PN"
 F 6 "Value" H 6450 7550 60  0001 C CNN "MOQ"
 F 7 "Value" H 6450 7550 60  0001 C CNN "leadtime"
 	1    6450 7550
@@ -1575,9 +1607,9 @@ F 0 "F1" H 8178 8241 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 8150 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 8100 8200 50  0001 C CNN
 F 3 "" H 8100 8200 50  0000 C CNN
-F 4 "dnp" H 8100 8200 60  0001 C CNN "farnell #"
+F 4 "" H 8100 8200 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 2250 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 8200 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 8200 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 8200 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 8200 60  0001 C CNN "leadtime"
 	1    8100 8200
@@ -1591,9 +1623,9 @@ F 0 "F2" H 8178 8391 50  0000 L CNN
 F 1 "CONN_01X01" H 8178 8300 50  0000 L CNN
 F 2 "raise_fp:Fiducial_0.5mm_Dia_1mm_Outer" H 8100 8350 50  0001 C CNN
 F 3 "" H 8100 8350 50  0000 C CNN
-F 4 "dnp" H 8100 8350 60  0001 C CNN "farnell #"
+F 4 "" H 8100 8350 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6950 2250 60  0001 C CNN "supplier"
-F 6 "Value" H 8100 8350 60  0001 C CNN "supplier PN"
+F 6 "" H 8100 8350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8100 8350 60  0001 C CNN "MOQ"
 F 8 "Value" H 8100 8350 60  0001 C CNN "leadtime"
 	1    8100 8350
@@ -1779,10 +1811,10 @@ L C C6
 U 1 1 5BEDF086
 P 3600 7800
 F 0 "C6" H 3350 7800 50  0000 L CNN
-F 1 "1uF, ceramic, 6v, 10%, x5r" H 3450 7350 50  0000 L CNN
+F 1 "0.1uF, ceramic, 10v, 10%, x5r" H 3450 7350 50  0000 L CNN
 F 2 "raise_fp:C_0603" H 3638 7650 50  0001 C CNN
 F 3 "" H 3600 7800 50  0000 C CNN
-F 4 "1865556" H 3600 7800 60  0001 C CNN "farnell #"
+F 4 "2896426" H 3600 7800 60  0001 C CNN "farnell #"
 F 5 "any/open" H 2700 6050 60  0001 C CNN "supplier"
 	1    3600 7800
 	1    0    0    -1  
@@ -1856,9 +1888,9 @@ F 0 "R1" V 6050 2800 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 5850 2400 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 6130 2900 50  0001 C CNN
 F 3 "" H 6200 2900 50  0000 C CNN
-F 4 "dnp" H 6200 2900 60  0001 C CNN "farnell #"
+F 4 "" H 6200 2900 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6200 2900 60  0001 C CNN "supplier"
-F 6 "dnp" H 6200 2900 60  0001 C CNN "supplier PN"
+F 6 "" H 6200 2900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6200 2900 60  0001 C CNN "MOQ"
 F 8 "Value" H 6200 2900 60  0001 C CNN "leadtime"
 	1    6200 2900
@@ -1878,7 +1910,7 @@ F 2 "raise_fp:C_0603" H 6538 2750 50  0001 C CNN
 F 3 "" H 6500 2900 50  0000 C CNN
 F 4 "2896415" H 6500 2900 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6500 2900 60  0001 C CNN "supplier"
-F 6 "Value" H 6500 2900 60  0001 C CNN "supplier PN"
+F 6 "" H 6500 2900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6500 2900 60  0001 C CNN "MOQ"
 F 8 "Value" H 6500 2900 60  0001 C CNN "leadtime"
 	1    6500 2900
@@ -1903,8 +1935,8 @@ F 0 "RN1" V 5683 3800 50  0000 C CNN
 F 1 "0R, 125mW, 5%" V 5774 3800 50  0000 C CNN
 F 2 "raise_fp:R_Array_Convex_4x0402" V 6375 3800 50  0001 C CNN
 F 3 "" H 6100 3800 50  0001 C CNN
-F 4 "Value" H 6100 3800 60  0001 C CNN "supplier"
-F 5 "Value" H 6100 3800 60  0001 C CNN "supplier PN"
+F 4 "any/open" H 6100 3800 60  0001 C CNN "supplier"
+F 5 "" H 6100 3800 60  0001 C CNN "supplier PN"
 F 6 "Value" H 6100 3800 60  0001 C CNN "MOQ"
 F 7 "Value" H 6100 3800 60  0001 C CNN "leadtime"
 F 8 "2060029" H -550 -100 60  0001 C CNN "farnell #"
@@ -1936,7 +1968,7 @@ F 2 "raise_fp:C_0603" H 6388 4000 50  0001 C CNN
 F 3 "" H 6350 4150 50  0000 C CNN
 F 4 "2896415" H 6350 4150 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6350 4150 60  0001 C CNN "supplier"
-F 6 "Value" H 6350 4150 60  0001 C CNN "supplier PN"
+F 6 "" H 6350 4150 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6350 4150 60  0001 C CNN "MOQ"
 F 8 "Value" H 6350 4150 60  0001 C CNN "leadtime"
 	1    6350 4150
@@ -1952,7 +1984,7 @@ F 2 "raise_fp:C_0603" H 6588 4000 50  0001 C CNN
 F 3 "" H 6550 4150 50  0000 C CNN
 F 4 "2896415" H 6550 4150 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6550 4150 60  0001 C CNN "supplier"
-F 6 "Value" H 6550 4150 60  0001 C CNN "supplier PN"
+F 6 "" H 6550 4150 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6550 4150 60  0001 C CNN "MOQ"
 F 8 "Value" H 6550 4150 60  0001 C CNN "leadtime"
 	1    6550 4150
@@ -1968,7 +2000,7 @@ F 2 "raise_fp:C_0603" H 6488 4250 50  0001 C CNN
 F 3 "" H 6450 4400 50  0000 C CNN
 F 4 "2896415" H 6450 4400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6450 4400 60  0001 C CNN "supplier"
-F 6 "Value" H 6450 4400 60  0001 C CNN "supplier PN"
+F 6 "" H 6450 4400 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6450 4400 60  0001 C CNN "MOQ"
 F 8 "Value" H 6450 4400 60  0001 C CNN "leadtime"
 	1    6450 4400
@@ -1984,7 +2016,7 @@ F 2 "raise_fp:C_0603" H 6688 4250 50  0001 C CNN
 F 3 "" H 6650 4400 50  0000 C CNN
 F 4 "2896415" H 6650 4400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 6650 4400 60  0001 C CNN "supplier"
-F 6 "Value" H 6650 4400 60  0001 C CNN "supplier PN"
+F 6 "" H 6650 4400 60  0001 C CNN "supplier PN"
 F 7 "Value" H 6650 4400 60  0001 C CNN "MOQ"
 F 8 "Value" H 6650 4400 60  0001 C CNN "leadtime"
 	1    6650 4400
@@ -2089,7 +2121,7 @@ F 2 "raise_fp:C_0603" H 2138 9450 50  0001 C CNN
 F 3 "" H 2100 9600 50  0000 C CNN
 F 4 "2896415" H 2100 9600 60  0001 C CNN "farnell #"
 F 5 "dnp" H 2100 9600 60  0001 C CNN "supplier"
-F 6 "Value" H 2100 9600 60  0001 C CNN "supplier PN"
+F 6 "" H 2100 9600 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2100 9600 60  0001 C CNN "MOQ"
 F 8 "Value" H 2100 9600 60  0001 C CNN "leadtime"
 	1    2100 9600
@@ -2105,7 +2137,7 @@ F 2 "raise_fp:C_0603" H 1938 9450 50  0001 C CNN
 F 3 "" H 1900 9600 50  0000 C CNN
 F 4 "2896415" H 1900 9600 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1900 9600 60  0001 C CNN "supplier"
-F 6 "Value" H 1900 9600 60  0001 C CNN "supplier PN"
+F 6 "" H 1900 9600 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1900 9600 60  0001 C CNN "MOQ"
 F 8 "Value" H 1900 9600 60  0001 C CNN "leadtime"
 	1    1900 9600
@@ -2121,7 +2153,7 @@ F 2 "raise_fp:C_0603" H 2038 9200 50  0001 C CNN
 F 3 "" H 2000 9350 50  0000 C CNN
 F 4 "2896415" H 2000 9350 60  0001 C CNN "farnell #"
 F 5 "dnp" H 2000 9350 60  0001 C CNN "supplier"
-F 6 "Value" H 2000 9350 60  0001 C CNN "supplier PN"
+F 6 "" H 2000 9350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 2000 9350 60  0001 C CNN "MOQ"
 F 8 "Value" H 2000 9350 60  0001 C CNN "leadtime"
 	1    2000 9350
@@ -2150,9 +2182,9 @@ F 0 "R5" V 1150 8100 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8350 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8300 50  0001 C CNN
 F 3 "" H 1600 8300 50  0000 C CNN
-F 4 "dnp" H 1600 8300 60  0001 C CNN "farnell #"
+F 4 "" H 1600 8300 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1600 8300 60  0001 C CNN "supplier"
-F 6 "dnp" H 1600 8300 60  0001 C CNN "supplier PN"
+F 6 "" H 1600 8300 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1600 8300 60  0001 C CNN "MOQ"
 F 8 "Value" H 1600 8300 60  0001 C CNN "leadtime"
 	1    1600 8300
@@ -2166,9 +2198,9 @@ F 0 "R6" V 1150 8200 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8450 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8400 50  0001 C CNN
 F 3 "" H 1600 8400 50  0000 C CNN
-F 4 "dnp" H 1600 8400 60  0001 C CNN "farnell #"
+F 4 "" H 1600 8400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1600 8400 60  0001 C CNN "supplier"
-F 6 "dnp" H 1600 8400 60  0001 C CNN "supplier PN"
+F 6 "" H 1600 8400 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1600 8400 60  0001 C CNN "MOQ"
 F 8 "Value" H 1600 8400 60  0001 C CNN "leadtime"
 	1    1600 8400
@@ -2182,9 +2214,9 @@ F 0 "R7" V 1150 8300 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8550 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8500 50  0001 C CNN
 F 3 "" H 1600 8500 50  0000 C CNN
-F 4 "dnp" H 1600 8500 60  0001 C CNN "farnell #"
+F 4 "" H 1600 8500 60  0001 C CNN "farnell #"
 F 5 "dnp" H 1600 8500 60  0001 C CNN "supplier"
-F 6 "dnp" H 1600 8500 60  0001 C CNN "supplier PN"
+F 6 "" H 1600 8500 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1600 8500 60  0001 C CNN "MOQ"
 F 8 "Value" H 1600 8500 60  0001 C CNN "leadtime"
 	1    1600 8500
@@ -2211,7 +2243,7 @@ F 2 "raise_fp:C_0603" H 8738 9800 50  0001 C CNN
 F 3 "" H 8700 9950 50  0000 C CNN
 F 4 "2456110" H 8700 9950 60  0001 C CNN "farnell #"
 F 5 "any/open" H 8700 9950 60  0001 C CNN "supplier"
-F 6 "Value" H 8700 9950 60  0001 C CNN "supplier PN"
+F 6 "" H 8700 9950 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8700 9950 60  0001 C CNN "MOQ"
 F 8 "Value" H 8700 9950 60  0001 C CNN "leadtime"
 	1    8700 9950
@@ -2227,7 +2259,7 @@ F 2 "raise_fp:R_0603" V 8630 10350 50  0001 C CNN
 F 3 "" H 8700 10350 50  0000 C CNN
 F 4 "2447404" H 8700 10350 60  0001 C CNN "farnell #"
 F 5 "any/open" H 8700 10350 60  0001 C CNN "supplier"
-F 6 "any/open" H 8700 10350 60  0001 C CNN "supplier PN"
+F 6 "" H 8700 10350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 8700 10350 60  0001 C CNN "MOQ"
 F 8 "Value" H 8700 10350 60  0001 C CNN "leadtime"
 	1    8700 10350
@@ -2314,7 +2346,7 @@ F 0 "TP7" V 9215 10244 50  0000 C CNN
 F 1 "TEST" V 9124 10244 50  0000 C CNN
 F 2 "raise_fp:Measurement_Point_Round-SMD-Pad_Small" H 9000 10150 50  0001 C CNN
 F 3 "" H 9000 10150 50  0001 C CNN
-F 4 "dnp" H 5900 3150 60  0001 C CNN "farnell #"
+F 4 "" H 5900 3150 60  0001 C CNN "farnell #"
 F 5 "dnp" H 5900 3150 60  0001 C CNN "supplier"
 	1    9000 10150
 	0    1    1    0   
@@ -2329,7 +2361,7 @@ F 2 "raise_fp:C_0603" H 10888 9750 50  0001 C CNN
 F 3 "" H 10850 9900 50  0000 C CNN
 F 4 "2456110" H 10850 9900 60  0001 C CNN "farnell #"
 F 5 "any/open" H 10850 9900 60  0001 C CNN "supplier"
-F 6 "Value" H 10850 9900 60  0001 C CNN "supplier PN"
+F 6 "" H 10850 9900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 10850 9900 60  0001 C CNN "MOQ"
 F 8 "Value" H 10850 9900 60  0001 C CNN "leadtime"
 	1    10850 9900
@@ -2343,9 +2375,9 @@ F 0 "R8" V 8900 9250 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 9100 9200 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 8930 9400 50  0001 C CNN
 F 3 "" H 9000 9400 50  0000 C CNN
-F 4 "dnp" H 9000 9400 60  0001 C CNN "farnell #"
+F 4 "" H 9000 9400 60  0001 C CNN "farnell #"
 F 5 "dnp" H 9000 9400 60  0001 C CNN "supplier"
-F 6 "dnp" H 9000 9400 60  0001 C CNN "supplier PN"
+F 6 "" H 9000 9400 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9000 9400 60  0001 C CNN "MOQ"
 F 8 "Value" H 9000 9400 60  0001 C CNN "leadtime"
 	1    9000 9400
@@ -2388,7 +2420,7 @@ F 2 "raise_fp:C_0603" H 9938 9750 50  0001 C CNN
 F 3 "" H 9900 9900 50  0000 C CNN
 F 4 "2896426" H 9900 9900 60  0001 C CNN "farnell #"
 F 5 "any/open" H 9900 9900 60  0001 C CNN "supplier"
-F 6 "Value" H 9900 9900 60  0001 C CNN "supplier PN"
+F 6 "" H 9900 9900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 9900 9900 60  0001 C CNN "MOQ"
 F 8 "Value" H 9900 9900 60  0001 C CNN "leadtime"
 	1    9900 9900
@@ -2404,7 +2436,7 @@ F 2 "raise_fp:C_0603" H 10538 9750 50  0001 C CNN
 F 3 "" H 10500 9900 50  0000 C CNN
 F 4 "2896426" H 10500 9900 60  0001 C CNN "farnell #"
 F 5 "any/open" H 10500 9900 60  0001 C CNN "supplier"
-F 6 "Value" H 10500 9900 60  0001 C CNN "supplier PN"
+F 6 "" H 10500 9900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 10500 9900 60  0001 C CNN "MOQ"
 F 8 "Value" H 10500 9900 60  0001 C CNN "leadtime"
 	1    10500 9900
@@ -2526,7 +2558,7 @@ F 2 "raise_fp:R_0603" V 14480 6900 50  0001 C CNN
 F 3 "" H 14550 6900 50  0000 C CNN
 F 4 "2447404" H 14550 6900 60  0001 C CNN "farnell #"
 F 5 "any/open" H 14550 6900 60  0001 C CNN "supplier"
-F 6 "any/open" H 14550 6900 60  0001 C CNN "supplier PN"
+F 6 "" H 14550 6900 60  0001 C CNN "supplier PN"
 F 7 "Value" H 14550 6900 60  0001 C CNN "MOQ"
 F 8 "Value" H 14550 6900 60  0001 C CNN "leadtime"
 	1    14550 6900
@@ -2697,7 +2729,7 @@ F 2 "raise_fp:R_0603" V 3480 6200 50  0001 C CNN
 F 3 "" H 3550 6200 50  0000 C CNN
 F 4 "2447230" H 3550 6200 60  0001 C CNN "farnell #"
 F 5 "any/open" H 3550 6200 60  0001 C CNN "supplier"
-F 6 "Value" H 3550 6200 60  0001 C CNN "supplier PN"
+F 6 "" H 3550 6200 60  0001 C CNN "supplier PN"
 F 7 "Value" H 3550 6200 60  0001 C CNN "MOQ"
 F 8 "Value" H 3550 6200 60  0001 C CNN "leadtime"
 	1    3550 6200
@@ -2821,7 +2853,7 @@ F 2 "raise_fp:C_0603" H 1738 1600 50  0001 C CNN
 F 3 "" H 1700 1750 50  0000 C CNN
 F 4 "2896426" H 1700 1750 60  0001 C CNN "farnell #"
 F 5 "any/open" H 1700 1750 60  0001 C CNN "supplier"
-F 6 "Value" H 1700 1750 60  0001 C CNN "supplier PN"
+F 6 "" H 1700 1750 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1700 1750 60  0001 C CNN "MOQ"
 F 8 "Value" H 1700 1750 60  0001 C CNN "leadtime"
 	1    1700 1750
@@ -2859,7 +2891,7 @@ F 2 "raise_fp:C_0603" H 1488 2300 50  0001 C CNN
 F 3 "" H 1450 2450 50  0000 C CNN
 F 4 "2896426" H 1450 2450 60  0001 C CNN "farnell #"
 F 5 "any/open" H 1450 2450 60  0001 C CNN "supplier"
-F 6 "Value" H 1450 2450 60  0001 C CNN "supplier PN"
+F 6 "" H 1450 2450 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1450 2450 60  0001 C CNN "MOQ"
 F 8 "Value" H 1450 2450 60  0001 C CNN "leadtime"
 	1    1450 2450
@@ -2886,7 +2918,7 @@ F 2 "raise_fp:C_0603" H 1488 1600 50  0001 C CNN
 F 3 "" H 1450 1750 50  0000 C CNN
 F 4 "2896426" H 1450 1750 60  0001 C CNN "farnell #"
 F 5 "any/open" H 1450 1750 60  0001 C CNN "supplier"
-F 6 "Value" H 1450 1750 60  0001 C CNN "supplier PN"
+F 6 "" H 1450 1750 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1450 1750 60  0001 C CNN "MOQ"
 F 8 "Value" H 1450 1750 60  0001 C CNN "leadtime"
 	1    1450 1750
@@ -2912,8 +2944,8 @@ F 1 "ATTINY48-QFN" H 3100 4667 50  0000 C CNN
 F 2 "raise_fp:QFN-32_5x5mm_Pitch0.5mm" H 3100 4576 50  0000 C CIN
 F 3 "" H 3100 3000 50  0000 C CNN
 F 4 "1748549" H 3100 3000 60  0001 C CNN "farnell #"
-F 5 "Value" H 3100 3000 60  0001 C CNN "supplier"
-F 6 "Value" H 3100 3000 60  0001 C CNN "supplier PN"
+F 5 "Microchip" H 3100 3000 60  0001 C CNN "supplier"
+F 6 "ATTINY88-MU" H 3100 3000 60  0001 C CNN "supplier PN"
 F 7 "Value" H 3100 3000 60  0001 C CNN "MOQ"
 F 8 "Value" H 3100 3000 60  0001 C CNN "leadtime"
 	1    3100 3000
@@ -2998,7 +3030,7 @@ F 2 "raise_fp:R_0603" V 1530 8600 50  0001 C CNN
 F 3 "" H 1600 8600 50  0000 C CNN
 F 4 "2447404" H 1600 8600 60  0001 C CNN "farnell #"
 F 5 "any/open" H 1600 8600 60  0001 C CNN "supplier"
-F 6 "any/open" H 1600 8600 60  0001 C CNN "supplier PN"
+F 6 "" H 1600 8600 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1600 8600 60  0001 C CNN "MOQ"
 F 8 "Value" H 1600 8600 60  0001 C CNN "leadtime"
 	1    1600 8600
@@ -3016,7 +3048,7 @@ F 2 "raise_fp:C_0603" H 1838 9200 50  0001 C CNN
 F 3 "" H 1800 9350 50  0000 C CNN
 F 4 "2456110" H 1800 9350 60  0001 C CNN "farnell #"
 F 5 "any/open" H 1800 9350 60  0001 C CNN "supplier"
-F 6 "Value" H 1800 9350 60  0001 C CNN "supplier PN"
+F 6 "" H 1800 9350 60  0001 C CNN "supplier PN"
 F 7 "Value" H 1800 9350 60  0001 C CNN "MOQ"
 F 8 "Value" H 1800 9350 60  0001 C CNN "leadtime"
 	1    1800 9350
@@ -3044,7 +3076,7 @@ F 2 "raise_fp:C_0603" H 4138 6100 50  0001 C CNN
 F 3 "" H 4100 6250 50  0000 C CNN
 F 4 "2896426" H 4100 6250 60  0001 C CNN "farnell #"
 F 5 "any/open" H 4100 6250 60  0001 C CNN "supplier"
-F 6 "Value" H 4100 6250 60  0001 C CNN "supplier PN"
+F 6 "" H 4100 6250 60  0001 C CNN "supplier PN"
 F 7 "Value" H 4100 6250 60  0001 C CNN "MOQ"
 F 8 "Value" H 4100 6250 60  0001 C CNN "leadtime"
 	1    4100 6250
