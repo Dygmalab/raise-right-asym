@@ -520,7 +520,7 @@
     (fp_text reference TP14 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL4 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7235,7 +7235,7 @@
     (fp_text reference TP1 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value +5VA (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7252,7 +7252,7 @@
     (fp_text reference TP2 (at 0 2 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2 90) (layer B.Fab)
+    (fp_text value SDA (at 0 -2 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7269,7 +7269,7 @@
     (fp_text reference TP3 (at 0 2 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2 90) (layer B.Fab)
+    (fp_text value SCL (at 0 -2 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7286,7 +7286,7 @@
     (fp_text reference TP4 (at 0 2 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2 90) (layer B.Fab)
+    (fp_text value GND (at 0 -2 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7303,7 +7303,7 @@
     (fp_text reference TP5 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value +5V (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7320,7 +7320,7 @@
     (fp_text reference TP6 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value CC (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7337,7 +7337,7 @@
     (fp_text reference TP7 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value GATE (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7354,7 +7354,7 @@
     (fp_text reference TP8 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value HALL (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7371,7 +7371,7 @@
     (fp_text reference TP9 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value PA2 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7711,7 +7711,7 @@
     (fp_text reference C6 (at 0 1.4 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value "1uF, ceramic, 6v, 10%, x5r" (at 0 -1.5 180) (layer B.Fab)
+    (fp_text value "0.1uF, ceramic, 10v, 10%, x5r" (at 0 -1.5 180) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start 1.4 -0.65) (end -1.4 -0.65) (layer B.CrtYd) (width 0.05))
@@ -7819,7 +7819,7 @@
     (fp_text reference TP10 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL0 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7836,7 +7836,7 @@
     (fp_text reference TP11 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL1 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7853,7 +7853,7 @@
     (fp_text reference TP12 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL2 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7870,7 +7870,7 @@
     (fp_text reference TP13 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL3 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7887,7 +7887,7 @@
     (fp_text reference TP15 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL5 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7904,7 +7904,7 @@
     (fp_text reference TP16 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL6 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7921,7 +7921,7 @@
     (fp_text reference TP17 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value COL7 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7938,7 +7938,7 @@
     (fp_text reference TP18 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value ROW0 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7955,7 +7955,7 @@
     (fp_text reference TP19 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value ROW1 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7972,7 +7972,7 @@
     (fp_text reference TP20 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value ROW2 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -7989,7 +7989,7 @@
     (fp_text reference TP21 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value ROW3 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -8006,7 +8006,7 @@
     (fp_text reference TP22 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value ROW7 (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -8023,7 +8023,7 @@
     (fp_text reference TP23 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value SLED_CS (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
@@ -8040,7 +8040,7 @@
     (fp_text reference TP24 (at 0 2) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TEST (at 0 -2) (layer B.Fab)
+    (fp_text value SHUTDOWN (at 0 -2) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 0 0) (end 1 0) (layer B.CrtYd) (width 0.05))
