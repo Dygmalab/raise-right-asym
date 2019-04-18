@@ -1891,11 +1891,9 @@ F 0 "R1" V 6050 2800 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 5850 2400 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 6130 2900 50  0001 C CNN
 F 3 "" H 6200 2900 50  0000 C CNN
-F 4 "" H 6200 2900 60  0001 C CNN "farnell #"
-F 5 "dnp" H 6200 2900 60  0001 C CNN "supplier"
-F 6 "" H 6200 2900 60  0001 C CNN "supplier PN"
-F 7 "Value" H 6200 2900 60  0001 C CNN "MOQ"
-F 8 "Value" H 6200 2900 60  0001 C CNN "leadtime"
+F 4 "any/open" H 6200 2900 60  0001 C CNN "supplier"
+F 5 "Value" H 6200 2900 60  0001 C CNN "MOQ"
+F 6 "Value" H 6200 2900 60  0001 C CNN "leadtime"
 	1    6200 2900
 	0    1    1    0   
 $EndComp
@@ -2185,11 +2183,9 @@ F 0 "R5" V 1150 8100 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8350 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8300 50  0001 C CNN
 F 3 "" H 1600 8300 50  0000 C CNN
-F 4 "" H 1600 8300 60  0001 C CNN "farnell #"
-F 5 "dnp" H 1600 8300 60  0001 C CNN "supplier"
-F 6 "" H 1600 8300 60  0001 C CNN "supplier PN"
-F 7 "Value" H 1600 8300 60  0001 C CNN "MOQ"
-F 8 "Value" H 1600 8300 60  0001 C CNN "leadtime"
+F 4 "any/open" H 1600 8300 60  0001 C CNN "supplier"
+F 5 "Value" H 1600 8300 60  0001 C CNN "MOQ"
+F 6 "Value" H 1600 8300 60  0001 C CNN "leadtime"
 	1    1600 8300
 	0    1    1    0   
 $EndComp
@@ -2201,11 +2197,9 @@ F 0 "R6" V 1150 8200 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8450 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8400 50  0001 C CNN
 F 3 "" H 1600 8400 50  0000 C CNN
-F 4 "" H 1600 8400 60  0001 C CNN "farnell #"
-F 5 "dnp" H 1600 8400 60  0001 C CNN "supplier"
-F 6 "" H 1600 8400 60  0001 C CNN "supplier PN"
-F 7 "Value" H 1600 8400 60  0001 C CNN "MOQ"
-F 8 "Value" H 1600 8400 60  0001 C CNN "leadtime"
+F 4 "any/open" H 1600 8400 60  0001 C CNN "supplier"
+F 5 "Value" H 1600 8400 60  0001 C CNN "MOQ"
+F 6 "Value" H 1600 8400 60  0001 C CNN "leadtime"
 	1    1600 8400
 	0    1    1    0   
 $EndComp
@@ -2217,11 +2211,9 @@ F 0 "R7" V 1150 8300 50  0000 L CNN
 F 1 "0R, 125mW, 5%" V 1150 8550 50  0000 L CNN
 F 2 "raise_fp:R_0603" V 1530 8500 50  0001 C CNN
 F 3 "" H 1600 8500 50  0000 C CNN
-F 4 "" H 1600 8500 60  0001 C CNN "farnell #"
-F 5 "dnp" H 1600 8500 60  0001 C CNN "supplier"
-F 6 "" H 1600 8500 60  0001 C CNN "supplier PN"
-F 7 "Value" H 1600 8500 60  0001 C CNN "MOQ"
-F 8 "Value" H 1600 8500 60  0001 C CNN "leadtime"
+F 4 "any/open" H 1600 8500 60  0001 C CNN "supplier"
+F 5 "Value" H 1600 8500 60  0001 C CNN "MOQ"
+F 6 "Value" H 1600 8500 60  0001 C CNN "leadtime"
 	1    1600 8500
 	0    1    1    0   
 $EndComp
