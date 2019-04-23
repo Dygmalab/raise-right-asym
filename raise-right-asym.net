@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/matt/work/shortcut/raise-v3.1/raise-right-asym/raise-right-asym.sch)
-    (date "Thu 18 Apr 2019 08:22:21 CEST")
+    (date "Thu 18 Apr 2019 08:59:44 CEST")
     (tool "Eeschema (2017-11-06 revision 3045509)-HEAD")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
