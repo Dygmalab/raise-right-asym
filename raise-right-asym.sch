@@ -1210,28 +1210,28 @@ cc-filt
 $Comp
 L R R2
 U 1 1 5ADF8089
-P 1700 6500
-F 0 "R2" H 1770 6546 50  0000 L CNN
-F 1 "10k, 125mW, 5%" V 1550 6200 50  0000 L CNN
-F 2 "raise_fp:R_0603" V 1630 6500 50  0001 C CNN
-F 3 "" H 1700 6500 50  0000 C CNN
-F 4 "2447230" H 1700 6500 60  0001 C CNN "farnell #"
-F 5 "any/open" H -2950 1200 60  0001 C CNN "supplier"
-	1    1700 6500
+P 1550 6500
+F 0 "R2" H 1620 6546 50  0000 L CNN
+F 1 "10k, 125mW, 5%" V 1800 6150 50  0000 L CNN
+F 2 "raise_fp:R_0603" V 1480 6500 50  0001 C CNN
+F 3 "" H 1550 6500 50  0000 C CNN
+F 4 "2447230" H 1550 6500 60  0001 C CNN "farnell #"
+F 5 "any/open" H -3100 1200 60  0001 C CNN "supplier"
+	1    1550 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR08
 U 1 1 5ADF808F
-P 1700 6350
-F 0 "#PWR08" H 1700 6200 50  0001 C CNN
-F 1 "+5V" H 1715 6523 50  0000 C CNN
-F 2 "" H 1700 6350 50  0000 C CNN
-F 3 "" H 1700 6350 50  0000 C CNN
-	1    1700 6350
+P 1550 6350
+F 0 "#PWR08" H 1550 6200 50  0001 C CNN
+F 1 "+5V" H 1565 6523 50  0000 C CNN
+F 2 "" H 1550 6350 50  0000 C CNN
+F 3 "" H 1550 6350 50  0000 C CNN
+	1    1550 6350
 	1    0    0    -1  
 $EndComp
-Text Label 1700 6800 0    60   ~ 0
+Text Label 1550 6800 2    60   ~ 0
 i2c_addr
 $Comp
 L TEST TP1
@@ -1520,7 +1520,7 @@ Connection ~ 14350 2800
 Connection ~ 13750 3150
 Connection ~ 13750 2500
 Wire Wire Line
-	1700 6800 1700 6650
+	1550 6800 1550 6650
 Connection ~ 8950 3050
 Wire Wire Line
 	9550 3050 9550 3150
@@ -2768,8 +2768,6 @@ Wire Notes Line
 	5000 6850 3200 6850
 Wire Notes Line
 	3200 6850 3200 5500
-Text Notes 1100 6000 0    60   ~ 0
-firmware pulls addr lines low. \nRight side uses pullup to set address.\ndo not place on left side\n\nansi/iso selector resistor
 Wire Notes Line
 	1000 5350 3000 5350
 Wire Notes Line
@@ -3087,4 +3085,6 @@ Wire Notes Line
 	11600 8950 9050 8950
 Wire Notes Line
 	9050 8950 9050 6600
+Text Notes 1100 6000 0    60   ~ 0
+firmware pulls addr lines low. \nRight side uses pullup to set address.\ndo not place on left side\n\nansi/iso selector resistor
 $EndSCHEMATC
