@@ -2525,8 +2525,10 @@ F 0 "J1" H 13255 9017 50  0000 C CNN
 F 1 "USB_C_Receptacle_16pin" H 13255 8926 50  0000 C CNN
 F 2 "raise_fp:usb-c-16smt" H 13300 7450 50  0001 C CNN
 F 3 "" H 13300 7450 50  0001 C CNN
-F 4 "contact technology corp" H 7000 1400 60  0001 C CNN "supplier"
-F 5 "sbc-160s-202-s338" H 7000 1400 60  0001 C CNN "supplier PN"
+F 4 "DONGGUAN WEIKAI ELECTRONIC CO.,LTD" H 7000 1400 60  0001 C CNN "supplier"
+F 5 "SB CF 16pin (L=7.35)WITH POST" H 7000 1400 60  0001 C CNN "supplier PN"
+F 6 "Value" H 13150 7450 60  0001 C CNN "MOQ"
+F 7 "Value" H 13150 7450 60  0001 C CNN "leadtime"
 	1    13150 7450
 	1    0    0    -1  
 $EndComp
